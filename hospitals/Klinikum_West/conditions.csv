@@ -1,0 +1,2779 @@
+patient_id,icd10,description,onset_date
+p-0e2ea9b1,I10,Essential (primary) hypertension,1998-11-12
+p-a026e66a,F32.9,"Depressive episode, unspecified",2005-01-19
+p-97c7f8ae,I10,Essential (primary) hypertension,2009-08-06
+p-84d29b26,E66.9,"Obesity, unspecified",2006-12-24
+p-57052f01,E66.9,"Obesity, unspecified",2007-09-30
+p-48084234,I10,Essential (primary) hypertension,2017-10-26
+p-48084234,I50.9,"Heart failure, unspecified",2004-09-01
+p-973c9204,I10,Essential (primary) hypertension,2004-12-28
+p-ed9410ff,F32.9,"Depressive episode, unspecified",2025-10-18
+p-cdf86e4f,I10,Essential (primary) hypertension,2008-07-25
+p-419d929a,I10,Essential (primary) hypertension,2024-04-04
+p-419d929a,F32.9,"Depressive episode, unspecified",1997-10-03
+p-b7789bed,I10,Essential (primary) hypertension,2017-05-14
+p-b7789bed,J44.9,"Chronic obstructive pulmonary disease, unspecified",2019-01-05
+p-234db79d,E66.9,"Obesity, unspecified",2025-02-17
+p-a45cd36f,I10,Essential (primary) hypertension,2005-04-13
+p-efb44d3f,I10,Essential (primary) hypertension,2025-05-04
+p-efb44d3f,I63.9,"Cerebral infarction, unspecified",2001-08-25
+p-71fce0ac,E66.9,"Obesity, unspecified",2012-02-16
+p-410e7328,I10,Essential (primary) hypertension,2000-01-03
+p-ed98e115,E66.9,"Obesity, unspecified",2024-12-14
+p-ed98e115,I10,Essential (primary) hypertension,2014-12-10
+p-f55afa73,E66.9,"Obesity, unspecified",2012-06-04
+p-74551ccd,I10,Essential (primary) hypertension,2016-01-31
+p-c7d2baf6,I10,Essential (primary) hypertension,2021-05-31
+p-c7d2baf6,J44.9,"Chronic obstructive pulmonary disease, unspecified",1997-12-27
+p-c7d2baf6,J45.9,"Asthma, unspecified",2021-04-14
+p-5fb942e3,I10,Essential (primary) hypertension,2002-12-25
+p-5fb942e3,E11.9,Type 2 diabetes mellitus without complications,2006-02-25
+p-5fb942e3,J45.9,"Asthma, unspecified",2024-04-05
+p-4b809868,I10,Essential (primary) hypertension,2003-10-20
+p-14d40b9c,E66.9,"Obesity, unspecified",1997-03-18
+p-b5b859f1,E66.9,"Obesity, unspecified",2020-05-17
+p-730862b0,E66.9,"Obesity, unspecified",2011-05-23
+p-730862b0,I10,Essential (primary) hypertension,2009-10-16
+p-fa2d29b2,E66.9,"Obesity, unspecified",2012-11-27
+p-89031161,E66.9,"Obesity, unspecified",1999-06-23
+p-89031161,I10,Essential (primary) hypertension,2005-01-29
+p-89031161,I48.0,Paroxysmal atrial fibrillation,1996-11-30
+p-89031161,F32.9,"Depressive episode, unspecified",2002-06-15
+p-fa20c6d5,I10,Essential (primary) hypertension,1999-05-04
+p-fa20c6d5,I50.9,"Heart failure, unspecified",2007-02-07
+p-745283ca,I10,Essential (primary) hypertension,2004-09-08
+p-5f0bd865,E66.9,"Obesity, unspecified",2002-11-29
+p-5f0bd865,I10,Essential (primary) hypertension,2017-04-29
+p-ef0dcb3b,I10,Essential (primary) hypertension,1998-11-28
+p-97193921,E66.9,"Obesity, unspecified",2021-07-13
+p-97193921,E11.9,Type 2 diabetes mellitus without complications,1997-11-29
+p-97193921,J44.9,"Chronic obstructive pulmonary disease, unspecified",2020-03-17
+p-97193921,N18.3,"Chronic kidney disease, stage 3",2008-08-12
+p-2520bd35,F32.9,"Depressive episode, unspecified",2024-09-30
+p-a0cef8a7,I10,Essential (primary) hypertension,2009-02-14
+p-8924b525,I48.0,Paroxysmal atrial fibrillation,2002-08-17
+p-4bf4d63b,E66.9,"Obesity, unspecified",2021-11-13
+p-4bf4d63b,J45.9,"Asthma, unspecified",2004-08-06
+p-843ac946,I10,Essential (primary) hypertension,2023-09-13
+p-ddf6fa1e,E66.9,"Obesity, unspecified",2025-05-29
+p-ddf6fa1e,I10,Essential (primary) hypertension,2002-02-23
+p-ddf6fa1e,I50.9,"Heart failure, unspecified",2021-03-18
+p-9b0846f8,I10,Essential (primary) hypertension,2019-01-25
+p-9b0846f8,I48.0,Paroxysmal atrial fibrillation,2001-02-23
+p-b79685ff,E66.9,"Obesity, unspecified",2007-06-05
+p-6f180c01,E66.9,"Obesity, unspecified",2023-10-22
+p-723497c8,I10,Essential (primary) hypertension,2013-06-16
+p-22b50463,F32.9,"Depressive episode, unspecified",2015-08-14
+p-0e980a3a,I10,Essential (primary) hypertension,2018-07-23
+p-0e980a3a,E11.9,Type 2 diabetes mellitus without complications,2020-11-20
+p-0e980a3a,F32.9,"Depressive episode, unspecified",2013-02-13
+p-0e980a3a,J45.9,"Asthma, unspecified",1995-01-19
+p-dbfd87b4,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2017-02-15
+p-71c318c7,I10,Essential (primary) hypertension,2000-08-06
+p-77d05d56,I10,Essential (primary) hypertension,2018-11-25
+p-77d05d56,N18.3,"Chronic kidney disease, stage 3",1998-02-24
+p-a2878557,I10,Essential (primary) hypertension,1996-10-03
+p-a2878557,J45.9,"Asthma, unspecified",2002-06-25
+p-243902af,J45.9,"Asthma, unspecified",2011-10-20
+p-6c91d5ad,E66.9,"Obesity, unspecified",2010-06-30
+p-7ed671bc,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2004-04-04
+p-53f6c3ea,J44.9,"Chronic obstructive pulmonary disease, unspecified",2023-08-17
+p-3c04b87e,I10,Essential (primary) hypertension,2016-07-19
+p-c24a9a5f,I63.9,"Cerebral infarction, unspecified",1996-01-09
+p-c24a9a5f,J44.9,"Chronic obstructive pulmonary disease, unspecified",2023-03-07
+p-c24a9a5f,N18.3,"Chronic kidney disease, stage 3",2019-09-27
+p-b207a5d0,I10,Essential (primary) hypertension,2015-05-17
+p-b207a5d0,N18.3,"Chronic kidney disease, stage 3",2009-12-21
+p-cadb8993,I10,Essential (primary) hypertension,2007-11-03
+p-3b3d8782,I10,Essential (primary) hypertension,1996-07-31
+p-1b684922,E66.9,"Obesity, unspecified",2018-01-19
+p-fc3b3409,I10,Essential (primary) hypertension,2015-12-27
+p-1e152578,J45.9,"Asthma, unspecified",2000-07-18
+p-42700325,I50.9,"Heart failure, unspecified",2010-05-30
+p-51291a6a,J44.9,"Chronic obstructive pulmonary disease, unspecified",2024-07-04
+p-51291a6a,F32.9,"Depressive episode, unspecified",2017-03-14
+p-2a70fafd,F32.9,"Depressive episode, unspecified",2013-07-23
+p-5a6851ff,E66.9,"Obesity, unspecified",2016-12-22
+p-517951eb,E66.9,"Obesity, unspecified",2010-10-25
+p-570ada9b,I10,Essential (primary) hypertension,2011-06-07
+p-72e24ebf,I10,Essential (primary) hypertension,2001-11-01
+p-ff930e43,E66.9,"Obesity, unspecified",2003-07-26
+p-ff930e43,E11.9,Type 2 diabetes mellitus without complications,2025-01-05
+p-0e405d1c,E66.9,"Obesity, unspecified",2015-04-03
+p-0e405d1c,I10,Essential (primary) hypertension,2011-04-12
+p-0e405d1c,I63.9,"Cerebral infarction, unspecified",1996-02-29
+p-b093b0aa,E66.9,"Obesity, unspecified",2008-08-10
+p-9bd01d8e,I10,Essential (primary) hypertension,1995-08-18
+p-9bd01d8e,I63.9,"Cerebral infarction, unspecified",2012-07-25
+p-9bd01d8e,F32.9,"Depressive episode, unspecified",2019-12-14
+p-63d910dd,E66.9,"Obesity, unspecified",2017-12-19
+p-b6d99b01,I10,Essential (primary) hypertension,2017-08-15
+p-7ed80a97,E66.9,"Obesity, unspecified",2014-07-02
+p-7ed80a97,E11.9,Type 2 diabetes mellitus without complications,2008-10-21
+p-7ed80a97,J45.9,"Asthma, unspecified",1995-11-15
+p-1ee41ab9,E66.9,"Obesity, unspecified",2018-07-07
+p-1ee41ab9,F32.9,"Depressive episode, unspecified",2000-12-21
+p-61532877,E66.9,"Obesity, unspecified",1998-04-05
+p-700213d9,J45.9,"Asthma, unspecified",2021-11-29
+p-79531f9d,I10,Essential (primary) hypertension,2011-07-02
+p-79531f9d,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2017-01-17
+p-d788b99d,I10,Essential (primary) hypertension,2006-02-05
+p-d56b7cd8,J45.9,"Asthma, unspecified",2022-03-03
+p-71d7fe41,E66.9,"Obesity, unspecified",2017-03-13
+p-71d7fe41,I10,Essential (primary) hypertension,2025-05-15
+p-7c20b03e,E66.9,"Obesity, unspecified",2022-10-23
+p-ceabb17f,I10,Essential (primary) hypertension,2011-04-21
+p-53d07501,I10,Essential (primary) hypertension,2003-04-12
+p-53d07501,I48.0,Paroxysmal atrial fibrillation,2011-03-15
+p-53d07501,I50.9,"Heart failure, unspecified",1997-07-19
+p-cc702a7c,E66.9,"Obesity, unspecified",2014-12-02
+p-d81341f4,I10,Essential (primary) hypertension,2014-11-09
+p-d81341f4,E11.9,Type 2 diabetes mellitus without complications,2002-01-25
+p-7afaaef7,E66.9,"Obesity, unspecified",2023-06-20
+p-7afaaef7,I10,Essential (primary) hypertension,2013-10-30
+p-70d8f2ce,I48.0,Paroxysmal atrial fibrillation,2013-12-17
+p-3cc8e4f7,E66.9,"Obesity, unspecified",2024-06-28
+p-571a4dd8,I10,Essential (primary) hypertension,1996-09-10
+p-571a4dd8,I50.9,"Heart failure, unspecified",2006-01-28
+p-401d5477,F32.9,"Depressive episode, unspecified",2001-08-29
+p-12864062,E66.9,"Obesity, unspecified",2016-06-16
+p-05501fbc,N18.3,"Chronic kidney disease, stage 3",2012-01-12
+p-c818a8d7,I10,Essential (primary) hypertension,1997-02-28
+p-c818a8d7,C50.9,"Malignant neoplasm of breast, unspecified",2015-03-27
+p-c818a8d7,J45.9,"Asthma, unspecified",2009-05-29
+p-1cce65f9,E66.9,"Obesity, unspecified",2020-11-13
+p-1cce65f9,F32.9,"Depressive episode, unspecified",2003-06-30
+p-98d3c4ed,I10,Essential (primary) hypertension,2011-11-25
+p-bffab9d8,I10,Essential (primary) hypertension,2013-04-18
+p-844aa2d8,E66.9,"Obesity, unspecified",2020-10-25
+p-e30f33b1,E66.9,"Obesity, unspecified",2018-11-22
+p-161ffb7e,E66.9,"Obesity, unspecified",2011-11-18
+p-84228371,E66.9,"Obesity, unspecified",2022-06-23
+p-26bd8b33,I10,Essential (primary) hypertension,2025-04-22
+p-6dbd2239,E11.9,Type 2 diabetes mellitus without complications,2011-08-15
+p-6dbd2239,F32.9,"Depressive episode, unspecified",2007-10-28
+p-1ac238c5,E66.9,"Obesity, unspecified",1995-09-17
+p-1ac238c5,I10,Essential (primary) hypertension,2022-10-15
+p-0cfe3fac,I10,Essential (primary) hypertension,2007-02-05
+p-4d45d513,I10,Essential (primary) hypertension,2006-08-19
+p-4d45d513,N18.3,"Chronic kidney disease, stage 3",2013-09-23
+p-afe7b7c1,J44.9,"Chronic obstructive pulmonary disease, unspecified",2007-03-13
+p-afe7b7c1,F32.9,"Depressive episode, unspecified",2000-11-22
+p-e16789d3,E66.9,"Obesity, unspecified",2023-05-03
+p-055268bf,E66.9,"Obesity, unspecified",2017-10-15
+p-055268bf,E11.9,Type 2 diabetes mellitus without complications,2001-02-06
+p-4814757e,E66.9,"Obesity, unspecified",2001-07-29
+p-4814757e,I10,Essential (primary) hypertension,1995-04-30
+p-4814757e,F32.9,"Depressive episode, unspecified",2017-02-06
+p-3838a668,F32.9,"Depressive episode, unspecified",1997-10-31
+p-5b73b26d,E66.9,"Obesity, unspecified",2007-07-19
+p-182888b8,I10,Essential (primary) hypertension,2009-08-05
+p-182888b8,I48.2,Chronic atrial fibrillation,2004-01-20
+p-182888b8,N18.3,"Chronic kidney disease, stage 3",2015-09-12
+p-314413f9,E66.9,"Obesity, unspecified",2011-08-13
+p-314413f9,I50.9,"Heart failure, unspecified",2007-09-20
+p-12516de9,E66.9,"Obesity, unspecified",2008-04-02
+p-ba43544d,I10,Essential (primary) hypertension,2005-10-16
+p-ba43544d,E11.9,Type 2 diabetes mellitus without complications,2018-03-05
+p-ba43544d,N18.3,"Chronic kidney disease, stage 3",2014-03-08
+p-ae45f147,I10,Essential (primary) hypertension,2017-08-11
+p-0d47cd9d,F32.9,"Depressive episode, unspecified",2024-08-28
+p-4382ca4c,I10,Essential (primary) hypertension,2025-03-24
+p-4382ca4c,F32.9,"Depressive episode, unspecified",2016-12-12
+p-4c81baae,E66.9,"Obesity, unspecified",2006-03-10
+p-d9001cea,E66.9,"Obesity, unspecified",2014-02-15
+p-d9001cea,I10,Essential (primary) hypertension,2012-01-03
+p-979b77aa,E66.9,"Obesity, unspecified",2023-03-17
+p-979b77aa,I10,Essential (primary) hypertension,2017-10-13
+p-2ce3311a,E66.9,"Obesity, unspecified",2009-05-11
+p-527fac72,E66.9,"Obesity, unspecified",2017-07-25
+p-b1b55a64,I10,Essential (primary) hypertension,2018-02-15
+p-dd114996,I10,Essential (primary) hypertension,2013-08-04
+p-dd114996,N18.3,"Chronic kidney disease, stage 3",1996-12-19
+p-1d6b0832,C50.9,"Malignant neoplasm of breast, unspecified",2012-12-08
+p-2b0caf33,F32.9,"Depressive episode, unspecified",2025-01-06
+p-b872e4a9,I10,Essential (primary) hypertension,1996-01-29
+p-b872e4a9,I48.2,Chronic atrial fibrillation,2004-09-04
+p-a483ba62,I10,Essential (primary) hypertension,2013-03-08
+p-a483ba62,N18.3,"Chronic kidney disease, stage 3",1997-11-02
+p-1caab60a,E66.9,"Obesity, unspecified",2012-08-16
+p-1caab60a,I10,Essential (primary) hypertension,1997-05-24
+p-ca2c6ebe,E66.9,"Obesity, unspecified",2017-03-24
+p-28ed6892,E66.9,"Obesity, unspecified",2012-10-10
+p-721cb4f6,F32.9,"Depressive episode, unspecified",2009-05-07
+p-d1320f4c,E66.9,"Obesity, unspecified",2024-08-28
+p-43762013,I10,Essential (primary) hypertension,2011-08-25
+p-c706297a,I10,Essential (primary) hypertension,2008-07-20
+p-c706297a,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2019-10-31
+p-c706297a,N18.3,"Chronic kidney disease, stage 3",2019-03-01
+p-a7ca1598,I10,Essential (primary) hypertension,2017-10-02
+p-edf11e9f,I50.9,"Heart failure, unspecified",2011-02-01
+p-edf11e9f,N18.3,"Chronic kidney disease, stage 3",2007-12-21
+p-8058d31f,J45.9,"Asthma, unspecified",2020-12-18
+p-b8fc9cba,I10,Essential (primary) hypertension,1996-11-16
+p-8ea3b93b,I10,Essential (primary) hypertension,2013-09-14
+p-c7a982f6,I10,Essential (primary) hypertension,2021-01-16
+p-c7a982f6,F32.9,"Depressive episode, unspecified",1998-07-02
+p-ea6058af,E66.9,"Obesity, unspecified",2014-10-17
+p-d08f558b,E66.9,"Obesity, unspecified",2007-10-19
+p-82503ce7,E66.9,"Obesity, unspecified",2001-02-10
+p-82503ce7,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2004-09-21
+p-82503ce7,I63.9,"Cerebral infarction, unspecified",2018-01-31
+p-2aada254,E66.9,"Obesity, unspecified",2017-03-11
+p-2aada254,I10,Essential (primary) hypertension,2023-04-06
+p-2aada254,F32.9,"Depressive episode, unspecified",2006-12-29
+p-d746e215,I10,Essential (primary) hypertension,2015-02-22
+p-d746e215,F32.9,"Depressive episode, unspecified",2010-05-15
+p-7c03a8b4,I10,Essential (primary) hypertension,2010-10-07
+p-8a0f4c4d,E66.9,"Obesity, unspecified",2023-07-14
+p-3702bd5c,I10,Essential (primary) hypertension,2007-06-29
+p-5b6b31ff,I10,Essential (primary) hypertension,2024-01-17
+p-5b6b31ff,I50.9,"Heart failure, unspecified",2018-01-21
+p-208f2d14,I10,Essential (primary) hypertension,2019-05-24
+p-2be9faa6,E66.9,"Obesity, unspecified",2024-06-29
+p-2be9faa6,J45.9,"Asthma, unspecified",2016-11-14
+p-d91640e4,I10,Essential (primary) hypertension,2002-10-05
+p-961af365,I10,Essential (primary) hypertension,2018-11-18
+p-961af365,E11.9,Type 2 diabetes mellitus without complications,1997-06-16
+p-ea684cdc,I10,Essential (primary) hypertension,1997-06-21
+p-ea684cdc,E11.9,Type 2 diabetes mellitus without complications,2007-11-30
+p-ea684cdc,J44.9,"Chronic obstructive pulmonary disease, unspecified",2024-05-30
+p-b3cae1b1,F32.9,"Depressive episode, unspecified",2017-02-15
+p-b81b740a,E66.9,"Obesity, unspecified",2015-02-27
+p-b81b740a,I10,Essential (primary) hypertension,2011-07-22
+p-b81b740a,E11.9,Type 2 diabetes mellitus without complications,2008-09-05
+p-b81b740a,N18.3,"Chronic kidney disease, stage 3",2020-11-06
+p-4875e6e4,J45.9,"Asthma, unspecified",2023-06-28
+p-7658871e,E66.9,"Obesity, unspecified",2022-12-05
+p-43725873,F32.9,"Depressive episode, unspecified",2019-09-07
+p-5fa5494a,E66.9,"Obesity, unspecified",2002-09-30
+p-5fa5494a,I10,Essential (primary) hypertension,2020-11-02
+p-5fa5494a,F32.9,"Depressive episode, unspecified",2018-07-01
+p-0fffd3e3,E66.9,"Obesity, unspecified",1997-01-27
+p-0fffd3e3,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2010-12-20
+p-1a391b9c,I10,Essential (primary) hypertension,1999-07-30
+p-1a391b9c,I48.0,Paroxysmal atrial fibrillation,2020-08-05
+p-1a391b9c,C50.9,"Malignant neoplasm of breast, unspecified",2001-03-11
+p-24c991ef,I48.2,Chronic atrial fibrillation,2018-09-01
+p-24c991ef,F32.9,"Depressive episode, unspecified",2005-05-03
+p-24c991ef,N18.3,"Chronic kidney disease, stage 3",2017-05-02
+p-c42b269e,I10,Essential (primary) hypertension,2017-06-23
+p-14338267,E66.9,"Obesity, unspecified",2000-09-21
+p-14338267,I50.9,"Heart failure, unspecified",2000-12-07
+p-06fa5e5c,I10,Essential (primary) hypertension,2024-09-17
+p-06fa5e5c,E11.9,Type 2 diabetes mellitus without complications,2000-12-21
+p-c04043a2,E66.9,"Obesity, unspecified",2021-03-28
+p-5a663225,I10,Essential (primary) hypertension,2009-05-02
+p-5a663225,J45.9,"Asthma, unspecified",1996-05-12
+p-cf9b76f1,I48.2,Chronic atrial fibrillation,2014-10-06
+p-3914edf1,J45.9,"Asthma, unspecified",2018-05-11
+p-18e3ebb0,I48.2,Chronic atrial fibrillation,2006-09-09
+p-3e838ddb,E66.9,"Obesity, unspecified",2016-11-18
+p-3e838ddb,F32.9,"Depressive episode, unspecified",2014-03-24
+p-88ac044d,E66.9,"Obesity, unspecified",2018-04-25
+p-8204b450,E66.9,"Obesity, unspecified",2020-09-28
+p-94cb4092,I10,Essential (primary) hypertension,2024-12-18
+p-2338e25a,I10,Essential (primary) hypertension,1997-10-15
+p-2338e25a,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1998-03-05
+p-c6fc1c3f,E66.9,"Obesity, unspecified",2009-08-31
+p-ecdfc9f2,I10,Essential (primary) hypertension,2008-04-21
+p-40971015,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2010-10-30
+p-86c893e2,I10,Essential (primary) hypertension,2018-03-03
+p-50075db5,I10,Essential (primary) hypertension,2001-06-24
+p-9fd00431,E66.9,"Obesity, unspecified",2018-04-28
+p-9fd00431,I10,Essential (primary) hypertension,2003-05-02
+p-fef9da78,F32.9,"Depressive episode, unspecified",2020-06-04
+p-0924c35d,E66.9,"Obesity, unspecified",2017-05-02
+p-d9d9e9a9,I10,Essential (primary) hypertension,2024-12-22
+p-90fea619,I10,Essential (primary) hypertension,1997-12-13
+p-90fea619,J45.9,"Asthma, unspecified",1998-07-22
+p-03a7e385,I48.0,Paroxysmal atrial fibrillation,2010-11-19
+p-22b3908f,I10,Essential (primary) hypertension,2009-12-04
+p-e8ee2ca2,E66.9,"Obesity, unspecified",2023-02-14
+p-72b0bc19,I10,Essential (primary) hypertension,2012-08-25
+p-d027a2b9,E66.9,"Obesity, unspecified",2004-02-18
+p-d027a2b9,F32.9,"Depressive episode, unspecified",2016-11-17
+p-2470f28e,I10,Essential (primary) hypertension,1998-01-13
+p-2470f28e,I48.2,Chronic atrial fibrillation,1996-07-31
+p-304a4a69,E66.9,"Obesity, unspecified",2002-08-13
+p-304a4a69,I10,Essential (primary) hypertension,1995-03-05
+p-304a4a69,E11.9,Type 2 diabetes mellitus without complications,2008-04-13
+p-77c7d51f,I10,Essential (primary) hypertension,2011-01-28
+p-77c7d51f,J44.9,"Chronic obstructive pulmonary disease, unspecified",2018-12-24
+p-c86d597a,I10,Essential (primary) hypertension,2014-11-16
+p-c86d597a,F32.9,"Depressive episode, unspecified",2004-02-04
+p-1542ee9c,J45.9,"Asthma, unspecified",2012-12-19
+p-316ced12,E66.9,"Obesity, unspecified",2007-03-26
+p-316ced12,J45.9,"Asthma, unspecified",2009-07-27
+p-235fb4f1,I10,Essential (primary) hypertension,2001-04-08
+p-0daf982a,I10,Essential (primary) hypertension,2003-11-29
+p-0daf982a,I63.9,"Cerebral infarction, unspecified",2004-01-05
+p-55cf2eec,F32.9,"Depressive episode, unspecified",2018-04-23
+p-424dba3f,I10,Essential (primary) hypertension,2011-09-18
+p-424dba3f,N18.3,"Chronic kidney disease, stage 3",1999-01-04
+p-068bb73f,I10,Essential (primary) hypertension,2002-11-29
+p-068bb73f,E11.9,Type 2 diabetes mellitus without complications,2012-01-17
+p-068bb73f,J45.9,"Asthma, unspecified",2019-11-15
+p-8ae77115,E66.9,"Obesity, unspecified",2024-12-04
+p-8ae77115,E11.9,Type 2 diabetes mellitus without complications,2003-03-29
+p-8ae77115,J44.9,"Chronic obstructive pulmonary disease, unspecified",2018-06-06
+p-50f2377d,E11.9,Type 2 diabetes mellitus without complications,1996-12-08
+p-d6b47e43,I10,Essential (primary) hypertension,2021-06-21
+p-99b64dde,F32.9,"Depressive episode, unspecified",2025-05-16
+p-070f1ec4,J45.9,"Asthma, unspecified",2010-01-08
+p-a08f86d6,E66.9,"Obesity, unspecified",2025-09-14
+p-273fab46,I10,Essential (primary) hypertension,2023-01-27
+p-d75807d5,I10,Essential (primary) hypertension,2023-09-26
+p-d75807d5,E11.9,Type 2 diabetes mellitus without complications,2014-11-06
+p-fb15fba5,E66.9,"Obesity, unspecified",2024-09-10
+p-12d42eb8,J45.9,"Asthma, unspecified",2024-06-29
+p-612721fe,I10,Essential (primary) hypertension,2015-08-30
+p-612721fe,C50.9,"Malignant neoplasm of breast, unspecified",2009-09-07
+p-6880252b,J45.9,"Asthma, unspecified",2016-08-08
+p-d3a231cf,I10,Essential (primary) hypertension,1998-02-24
+p-d3a231cf,I48.0,Paroxysmal atrial fibrillation,2013-06-19
+p-4e67cea4,I10,Essential (primary) hypertension,2018-02-03
+p-4e67cea4,F32.9,"Depressive episode, unspecified",2021-02-23
+p-bb98379c,I10,Essential (primary) hypertension,2014-12-30
+p-8f426095,I10,Essential (primary) hypertension,1997-12-02
+p-9850931a,I10,Essential (primary) hypertension,2016-10-02
+p-9850931a,J45.9,"Asthma, unspecified",1998-12-02
+p-466ad93e,I10,Essential (primary) hypertension,2001-05-26
+p-466ad93e,J44.9,"Chronic obstructive pulmonary disease, unspecified",1995-01-18
+p-99907ab7,I10,Essential (primary) hypertension,1995-11-25
+p-3ad537b7,E66.9,"Obesity, unspecified",2005-01-05
+p-2ac22715,I10,Essential (primary) hypertension,2007-06-20
+p-2f7814bd,I10,Essential (primary) hypertension,2017-07-24
+p-2f7814bd,E11.9,Type 2 diabetes mellitus without complications,2016-09-17
+p-2f7814bd,F32.9,"Depressive episode, unspecified",2016-03-31
+p-fb90ebed,J45.9,"Asthma, unspecified",2015-07-03
+p-71cdfe5c,J45.9,"Asthma, unspecified",2017-03-21
+p-b0a11211,E66.9,"Obesity, unspecified",2025-07-18
+p-b0a11211,F32.9,"Depressive episode, unspecified",2024-07-11
+p-01883a1d,I10,Essential (primary) hypertension,2022-04-18
+p-01883a1d,N18.3,"Chronic kidney disease, stage 3",1996-12-19
+p-c48398a4,I48.0,Paroxysmal atrial fibrillation,1996-07-04
+p-6197e6f5,F32.9,"Depressive episode, unspecified",2014-07-06
+p-04f804a0,I10,Essential (primary) hypertension,2003-02-21
+p-04f804a0,E11.9,Type 2 diabetes mellitus without complications,2002-07-26
+p-70d6440f,E66.9,"Obesity, unspecified",2011-03-07
+p-70d6440f,F32.9,"Depressive episode, unspecified",2005-10-04
+p-82e28a26,I10,Essential (primary) hypertension,1998-01-23
+p-82e28a26,I48.0,Paroxysmal atrial fibrillation,2011-05-13
+p-758d6483,F32.9,"Depressive episode, unspecified",2017-10-05
+p-fa5a0276,J45.9,"Asthma, unspecified",2019-05-13
+p-17750c38,I10,Essential (primary) hypertension,2013-07-08
+p-17750c38,I48.2,Chronic atrial fibrillation,2014-11-13
+p-4498e4d8,J45.9,"Asthma, unspecified",2021-06-04
+p-4bce685e,F32.9,"Depressive episode, unspecified",2019-08-11
+p-7948ca5e,I10,Essential (primary) hypertension,2014-02-16
+p-75e97cfd,E66.9,"Obesity, unspecified",2019-07-05
+p-75e97cfd,I10,Essential (primary) hypertension,2025-01-04
+p-6958ba2b,E66.9,"Obesity, unspecified",2025-07-04
+p-78194c96,I10,Essential (primary) hypertension,2024-04-05
+p-81060458,E66.9,"Obesity, unspecified",2022-10-02
+p-24c34abd,E66.9,"Obesity, unspecified",2023-01-23
+p-ac8ecc08,E66.9,"Obesity, unspecified",2021-05-16
+p-ac8ecc08,F32.9,"Depressive episode, unspecified",2025-01-20
+p-8aa8bbe0,C50.9,"Malignant neoplasm of breast, unspecified",2017-11-04
+p-d95020f6,J44.9,"Chronic obstructive pulmonary disease, unspecified",1997-04-11
+p-642b07cc,I10,Essential (primary) hypertension,1997-11-07
+p-62a8ac23,N18.3,"Chronic kidney disease, stage 3",2019-02-05
+p-56e75623,E66.9,"Obesity, unspecified",1999-09-11
+p-56e75623,I10,Essential (primary) hypertension,2002-02-05
+p-56e75623,F32.9,"Depressive episode, unspecified",2001-09-08
+p-18572294,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2019-03-16
+p-021fc0bd,J45.9,"Asthma, unspecified",2004-04-20
+p-28cd521f,I10,Essential (primary) hypertension,2011-05-08
+p-e24fd3c5,E66.9,"Obesity, unspecified",2012-01-08
+p-111db599,J45.9,"Asthma, unspecified",2006-05-11
+p-99609d83,F32.9,"Depressive episode, unspecified",2024-04-03
+p-3bc45487,E66.9,"Obesity, unspecified",2025-09-25
+p-da840a52,I10,Essential (primary) hypertension,2002-03-23
+p-da840a52,N18.3,"Chronic kidney disease, stage 3",2005-01-01
+p-1d986bd5,J45.9,"Asthma, unspecified",2025-08-26
+p-ed1b45d3,E66.9,"Obesity, unspecified",2022-09-08
+p-ed1b45d3,F32.9,"Depressive episode, unspecified",2023-09-27
+p-7d895a6e,E66.9,"Obesity, unspecified",2014-03-24
+p-7d895a6e,J44.9,"Chronic obstructive pulmonary disease, unspecified",2011-11-30
+p-7f490512,I10,Essential (primary) hypertension,2004-04-10
+p-85bc42ab,E11.9,Type 2 diabetes mellitus without complications,1998-10-31
+p-85bc42ab,I50.9,"Heart failure, unspecified",2021-12-05
+p-9d52c306,I10,Essential (primary) hypertension,2001-05-02
+p-9d52c306,I48.2,Chronic atrial fibrillation,1996-08-23
+p-e7f9f444,I10,Essential (primary) hypertension,2012-03-31
+p-1ee44656,F32.9,"Depressive episode, unspecified",2003-03-30
+p-b9cb8fe1,F32.9,"Depressive episode, unspecified",2021-12-26
+p-cfc8f8f1,E66.9,"Obesity, unspecified",2022-03-06
+p-5d982a38,J45.9,"Asthma, unspecified",2022-07-07
+p-c2945d71,E66.9,"Obesity, unspecified",2004-02-05
+p-c2945d71,I10,Essential (primary) hypertension,2003-12-28
+p-2be5cd9f,J45.9,"Asthma, unspecified",2025-07-11
+p-c1f47d7f,I10,Essential (primary) hypertension,2015-12-22
+p-c1f47d7f,I48.0,Paroxysmal atrial fibrillation,1995-08-22
+p-c1f47d7f,J44.9,"Chronic obstructive pulmonary disease, unspecified",2018-02-03
+p-164ddef7,E66.9,"Obesity, unspecified",2022-08-12
+p-c795fbb0,I10,Essential (primary) hypertension,1996-07-09
+p-4e2f2415,I10,Essential (primary) hypertension,2014-04-23
+p-7d9f461a,I10,Essential (primary) hypertension,2017-01-30
+p-26ea3355,J45.9,"Asthma, unspecified",2008-02-28
+p-230a367f,E66.9,"Obesity, unspecified",1995-10-14
+p-230a367f,I10,Essential (primary) hypertension,1996-09-16
+p-230a367f,E11.9,Type 2 diabetes mellitus without complications,2004-05-27
+p-d25a00ab,I10,Essential (primary) hypertension,2016-04-26
+p-e732c0a5,J45.9,"Asthma, unspecified",2006-11-03
+p-57c506bd,F32.9,"Depressive episode, unspecified",2018-08-28
+p-bda439d8,I10,Essential (primary) hypertension,1995-07-04
+p-bda439d8,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2009-09-15
+p-1f7078be,I10,Essential (primary) hypertension,2015-07-10
+p-1f7078be,J45.9,"Asthma, unspecified",2019-07-17
+p-68d5d90e,J45.9,"Asthma, unspecified",1998-08-07
+p-6379df10,E66.9,"Obesity, unspecified",2022-09-21
+p-6379df10,I10,Essential (primary) hypertension,2018-02-28
+p-1ef7c2c1,I10,Essential (primary) hypertension,1996-03-13
+p-656d7c15,E11.9,Type 2 diabetes mellitus without complications,2013-03-21
+p-9f406f66,I10,Essential (primary) hypertension,2010-12-12
+p-26c7e2a1,I10,Essential (primary) hypertension,1996-11-30
+p-aac313b7,I10,Essential (primary) hypertension,2023-01-23
+p-691fcd20,E66.9,"Obesity, unspecified",2011-03-26
+p-691fcd20,I10,Essential (primary) hypertension,2018-06-30
+p-3f52deae,E66.9,"Obesity, unspecified",2002-07-05
+p-3f52deae,N18.3,"Chronic kidney disease, stage 3",2006-07-19
+p-a1814242,F32.9,"Depressive episode, unspecified",2024-09-14
+p-b60df02c,F32.9,"Depressive episode, unspecified",2006-01-29
+p-b60df02c,N18.3,"Chronic kidney disease, stage 3",2001-06-15
+p-cf4c2806,I10,Essential (primary) hypertension,2013-10-02
+p-cf4c2806,J44.9,"Chronic obstructive pulmonary disease, unspecified",2011-03-13
+p-cf4c2806,F32.9,"Depressive episode, unspecified",2012-01-08
+p-23699777,F32.9,"Depressive episode, unspecified",2011-05-07
+p-e98f1173,E66.9,"Obesity, unspecified",2021-05-17
+p-de1def07,E66.9,"Obesity, unspecified",2008-04-24
+p-de1def07,I10,Essential (primary) hypertension,2025-08-30
+p-de1def07,E11.9,Type 2 diabetes mellitus without complications,2010-01-15
+p-de1def07,F32.9,"Depressive episode, unspecified",2016-04-14
+p-851e1961,I10,Essential (primary) hypertension,2001-06-28
+p-ab8d82ae,I10,Essential (primary) hypertension,2008-03-18
+p-21d34b67,I48.0,Paroxysmal atrial fibrillation,2017-02-10
+p-93d85cc9,I10,Essential (primary) hypertension,2012-07-28
+p-72cb11e3,E66.9,"Obesity, unspecified",2012-11-24
+p-065e15b9,I10,Essential (primary) hypertension,2025-09-07
+p-12c7e544,E66.9,"Obesity, unspecified",2015-10-11
+p-12c7e544,I10,Essential (primary) hypertension,1996-04-13
+p-12c7e544,E11.9,Type 2 diabetes mellitus without complications,2015-07-17
+p-cdd9a8bb,I10,Essential (primary) hypertension,2004-08-21
+p-611961b8,I10,Essential (primary) hypertension,2021-08-20
+p-a6e77dac,E66.9,"Obesity, unspecified",2012-09-08
+p-a6e77dac,J45.9,"Asthma, unspecified",2001-11-23
+p-f667ce59,I10,Essential (primary) hypertension,2012-01-05
+p-954a8bde,I10,Essential (primary) hypertension,2000-01-02
+p-954a8bde,I50.9,"Heart failure, unspecified",2020-03-03
+p-7f06eca5,J45.9,"Asthma, unspecified",2010-05-13
+p-d0c587fc,I10,Essential (primary) hypertension,2006-09-11
+p-d0c587fc,I48.0,Paroxysmal atrial fibrillation,2014-03-02
+p-896a322b,I63.9,"Cerebral infarction, unspecified",2014-08-08
+p-d9b69d6c,I10,Essential (primary) hypertension,2016-12-11
+p-45d00b40,I10,Essential (primary) hypertension,2006-09-14
+p-45d00b40,E11.9,Type 2 diabetes mellitus without complications,2025-04-09
+p-964a5cc2,E11.9,Type 2 diabetes mellitus without complications,2021-10-29
+p-0afc95e7,E66.9,"Obesity, unspecified",1997-09-08
+p-0afc95e7,I10,Essential (primary) hypertension,1998-11-05
+p-0afc95e7,E11.9,Type 2 diabetes mellitus without complications,2014-07-12
+p-1ed4ecb3,E66.9,"Obesity, unspecified",2023-04-19
+p-f32e01ed,I10,Essential (primary) hypertension,2003-05-12
+p-f32e01ed,E11.9,Type 2 diabetes mellitus without complications,2003-07-02
+p-f32e01ed,J44.9,"Chronic obstructive pulmonary disease, unspecified",2005-05-08
+p-ddf62750,I10,Essential (primary) hypertension,2012-11-12
+p-bf2e3409,E66.9,"Obesity, unspecified",2008-09-30
+p-81cc1470,F32.9,"Depressive episode, unspecified",2011-12-01
+p-22d72010,I10,Essential (primary) hypertension,2011-06-04
+p-22d72010,E11.9,Type 2 diabetes mellitus without complications,2007-05-02
+p-22d72010,I48.2,Chronic atrial fibrillation,2006-09-17
+p-22d72010,N18.3,"Chronic kidney disease, stage 3",2001-11-20
+p-172085bd,E11.9,Type 2 diabetes mellitus without complications,2021-03-26
+p-172085bd,I50.9,"Heart failure, unspecified",2000-11-21
+p-69d84d4b,F32.9,"Depressive episode, unspecified",2021-11-08
+p-10edeb81,J45.9,"Asthma, unspecified",2011-04-14
+p-5dd251a3,J45.9,"Asthma, unspecified",2024-02-04
+p-d1359b16,E66.9,"Obesity, unspecified",2025-08-25
+p-152fd24a,E66.9,"Obesity, unspecified",2021-03-27
+p-94f0f43f,E66.9,"Obesity, unspecified",2012-03-07
+p-4aaf354e,E66.9,"Obesity, unspecified",2016-07-07
+p-2db3e7c3,I10,Essential (primary) hypertension,1995-10-31
+p-2db3e7c3,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1999-12-22
+p-40d4daa8,F32.9,"Depressive episode, unspecified",2013-09-08
+p-f5d570b1,J45.9,"Asthma, unspecified",2015-08-12
+p-1332b8cc,F32.9,"Depressive episode, unspecified",2006-12-31
+p-05948762,E66.9,"Obesity, unspecified",2001-01-18
+p-05948762,I10,Essential (primary) hypertension,2015-01-30
+p-05948762,E11.9,Type 2 diabetes mellitus without complications,2001-12-01
+p-f0d3fd97,I10,Essential (primary) hypertension,2020-05-23
+p-2f884627,N18.3,"Chronic kidney disease, stage 3",2012-07-27
+p-f13c066e,E66.9,"Obesity, unspecified",2010-06-11
+p-4f8ac3f4,I10,Essential (primary) hypertension,2005-01-06
+p-4f8ac3f4,I48.2,Chronic atrial fibrillation,2009-06-02
+p-4f8ac3f4,I50.9,"Heart failure, unspecified",1997-02-25
+p-b68b05c2,I10,Essential (primary) hypertension,2023-05-29
+p-b68b05c2,J44.9,"Chronic obstructive pulmonary disease, unspecified",2003-08-01
+p-b68b05c2,N18.3,"Chronic kidney disease, stage 3",2013-01-20
+p-1555c0a3,E66.9,"Obesity, unspecified",2025-03-01
+p-1555c0a3,F32.9,"Depressive episode, unspecified",2001-06-12
+p-9c980421,I10,Essential (primary) hypertension,2009-03-16
+p-4081b8b2,J44.9,"Chronic obstructive pulmonary disease, unspecified",2011-04-15
+p-4081b8b2,F32.9,"Depressive episode, unspecified",2001-01-14
+p-86d210e3,I10,Essential (primary) hypertension,2005-08-21
+p-625e23a5,I10,Essential (primary) hypertension,2013-02-27
+p-30133c35,I10,Essential (primary) hypertension,2023-02-20
+p-490bdf54,I10,Essential (primary) hypertension,2011-02-24
+p-bef2f457,E66.9,"Obesity, unspecified",2009-05-20
+p-bef2f457,E11.9,Type 2 diabetes mellitus without complications,2019-04-27
+p-6f0583e4,I10,Essential (primary) hypertension,2011-08-01
+p-e23bd8d7,E66.9,"Obesity, unspecified",2013-02-26
+p-e23bd8d7,I10,Essential (primary) hypertension,2005-10-07
+p-e23bd8d7,E11.9,Type 2 diabetes mellitus without complications,2017-12-27
+p-6c367a22,E66.9,"Obesity, unspecified",2021-01-09
+p-6e2d8a73,I10,Essential (primary) hypertension,2003-04-22
+p-6e2d8a73,I50.9,"Heart failure, unspecified",2005-03-04
+p-62e8355f,E11.9,Type 2 diabetes mellitus without complications,2015-04-04
+p-62e8355f,J45.9,"Asthma, unspecified",2016-09-13
+p-6c22f798,E66.9,"Obesity, unspecified",2024-10-02
+p-991a3b31,I10,Essential (primary) hypertension,2020-08-30
+p-991a3b31,I50.9,"Heart failure, unspecified",2022-12-20
+p-991a3b31,F32.9,"Depressive episode, unspecified",1998-04-30
+p-991a3b31,N18.3,"Chronic kidney disease, stage 3",2010-01-06
+p-b9e30f75,I10,Essential (primary) hypertension,2018-05-06
+p-b9e30f75,J44.9,"Chronic obstructive pulmonary disease, unspecified",2007-07-17
+p-a56f7940,I10,Essential (primary) hypertension,2024-11-11
+p-7658e112,I10,Essential (primary) hypertension,2012-11-09
+p-7658e112,I50.9,"Heart failure, unspecified",2019-02-08
+p-51981486,E66.9,"Obesity, unspecified",2006-02-18
+p-51981486,I10,Essential (primary) hypertension,1995-08-05
+p-ceb04954,E66.9,"Obesity, unspecified",2004-02-14
+p-ceb04954,J44.9,"Chronic obstructive pulmonary disease, unspecified",2022-05-02
+p-00549cb2,E11.9,Type 2 diabetes mellitus without complications,2016-04-19
+p-b003ef3b,I10,Essential (primary) hypertension,2013-01-21
+p-b003ef3b,I48.2,Chronic atrial fibrillation,2010-12-21
+p-4dd54bb3,I10,Essential (primary) hypertension,2023-06-22
+p-50ddb3f2,J45.9,"Asthma, unspecified",2025-03-23
+p-ab8f24f7,E66.9,"Obesity, unspecified",2008-11-22
+p-ab8f24f7,I10,Essential (primary) hypertension,1995-04-20
+p-3f5832d9,F32.9,"Depressive episode, unspecified",2015-05-21
+p-d14d5c48,I10,Essential (primary) hypertension,2016-03-09
+p-7bb1c230,E66.9,"Obesity, unspecified",2005-05-18
+p-faf088bb,F32.9,"Depressive episode, unspecified",2009-09-27
+p-c6c3d291,E66.9,"Obesity, unspecified",2012-07-21
+p-39fe4707,E66.9,"Obesity, unspecified",2014-06-06
+p-39fe4707,F32.9,"Depressive episode, unspecified",2018-05-27
+p-7ba426c8,E66.9,"Obesity, unspecified",2024-04-24
+p-89bca1e2,I10,Essential (primary) hypertension,2020-08-30
+p-43027a07,F32.9,"Depressive episode, unspecified",2023-11-05
+p-4a86a710,E66.9,"Obesity, unspecified",2004-07-28
+p-4a86a710,I10,Essential (primary) hypertension,1999-04-13
+p-4a86a710,J44.9,"Chronic obstructive pulmonary disease, unspecified",2001-06-23
+p-1905d235,I10,Essential (primary) hypertension,1999-12-18
+p-d4a502d9,I63.9,"Cerebral infarction, unspecified",1999-12-03
+p-d4a502d9,J45.9,"Asthma, unspecified",2008-12-12
+p-84da3e36,E66.9,"Obesity, unspecified",2024-03-23
+p-9255d345,E66.9,"Obesity, unspecified",2014-05-17
+p-9255d345,I10,Essential (primary) hypertension,1997-02-15
+p-a316a2b5,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2014-03-06
+p-a316a2b5,N18.3,"Chronic kidney disease, stage 3",2020-01-13
+p-2173dd71,E66.9,"Obesity, unspecified",2004-05-17
+p-5ceb8c9c,J45.9,"Asthma, unspecified",2020-01-04
+p-f95f08b6,E66.9,"Obesity, unspecified",2004-11-10
+p-f95f08b6,I10,Essential (primary) hypertension,2003-07-15
+p-be62aabc,I10,Essential (primary) hypertension,2020-05-27
+p-b8e0e23c,E66.9,"Obesity, unspecified",2022-12-12
+p-64214638,I10,Essential (primary) hypertension,1996-04-11
+p-2dde5daf,I10,Essential (primary) hypertension,2005-04-14
+p-2dde5daf,I50.9,"Heart failure, unspecified",2018-04-19
+p-c32a0f93,E11.9,Type 2 diabetes mellitus without complications,1998-03-28
+p-c32a0f93,F32.9,"Depressive episode, unspecified",1999-05-03
+p-cfacb1c4,I10,Essential (primary) hypertension,2008-06-22
+p-1bd13fb0,E66.9,"Obesity, unspecified",1997-08-10
+p-1bd13fb0,F32.9,"Depressive episode, unspecified",2012-05-28
+p-41d217f8,I10,Essential (primary) hypertension,2002-09-08
+p-b0a8b81a,E11.9,Type 2 diabetes mellitus without complications,2003-09-13
+p-a119c586,I10,Essential (primary) hypertension,2018-03-27
+p-3219922a,E66.9,"Obesity, unspecified",2006-02-11
+p-f8def60b,I10,Essential (primary) hypertension,2018-04-08
+p-f8def60b,E11.9,Type 2 diabetes mellitus without complications,2017-11-08
+p-f8def60b,I50.9,"Heart failure, unspecified",2007-10-25
+p-b172ce94,I48.0,Paroxysmal atrial fibrillation,2023-02-03
+p-0b193d7e,E66.9,"Obesity, unspecified",2022-02-07
+p-0b193d7e,F32.9,"Depressive episode, unspecified",2012-01-18
+p-8b03291d,J45.9,"Asthma, unspecified",2022-10-08
+p-5e87731c,F32.9,"Depressive episode, unspecified",2014-07-23
+p-b65778a2,E66.9,"Obesity, unspecified",2014-04-17
+p-b65778a2,I10,Essential (primary) hypertension,2014-05-21
+p-b65778a2,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1997-01-30
+p-4e1e90ad,F32.9,"Depressive episode, unspecified",2009-01-30
+p-5d3b83f4,I10,Essential (primary) hypertension,1996-10-12
+p-5d3b83f4,I50.9,"Heart failure, unspecified",2004-11-17
+p-62496375,J45.9,"Asthma, unspecified",2003-04-01
+p-cbdd6e3c,I10,Essential (primary) hypertension,2010-02-13
+p-cbdd6e3c,E11.9,Type 2 diabetes mellitus without complications,1995-06-09
+p-19f99814,E11.9,Type 2 diabetes mellitus without complications,2019-02-26
+p-eaf3e05a,J45.9,"Asthma, unspecified",1998-09-02
+p-a04dc7ac,I10,Essential (primary) hypertension,2008-06-26
+p-98944a9a,I10,Essential (primary) hypertension,2021-05-23
+p-9938ce48,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2023-08-20
+p-6d32f97d,E66.9,"Obesity, unspecified",2018-06-10
+p-61104393,F32.9,"Depressive episode, unspecified",2000-03-31
+p-77e9dfe1,N18.3,"Chronic kidney disease, stage 3",2005-02-15
+p-13b28750,I10,Essential (primary) hypertension,1996-11-03
+p-7f12ffb1,E66.9,"Obesity, unspecified",2015-03-31
+p-7f12ffb1,I10,Essential (primary) hypertension,2004-10-23
+p-7f12ffb1,J45.9,"Asthma, unspecified",2003-06-28
+p-e01f3eaf,I10,Essential (primary) hypertension,2004-12-06
+p-e01f3eaf,J45.9,"Asthma, unspecified",2006-01-18
+p-a56474f9,I48.0,Paroxysmal atrial fibrillation,2003-11-06
+p-a56474f9,F32.9,"Depressive episode, unspecified",1996-12-10
+p-2e90a830,J45.9,"Asthma, unspecified",2023-11-17
+p-3231f48a,I10,Essential (primary) hypertension,2001-07-23
+p-3231f48a,E11.9,Type 2 diabetes mellitus without complications,1998-08-10
+p-8b8157e7,I10,Essential (primary) hypertension,2016-05-17
+p-d11633fb,I10,Essential (primary) hypertension,2024-11-24
+p-cf554615,J45.9,"Asthma, unspecified",2025-04-16
+p-a9f01e05,I10,Essential (primary) hypertension,2012-06-27
+p-a20e470e,E66.9,"Obesity, unspecified",2000-01-13
+p-a20e470e,I10,Essential (primary) hypertension,2024-02-17
+p-6c86dedd,E66.9,"Obesity, unspecified",2021-10-02
+p-6c86dedd,J45.9,"Asthma, unspecified",2011-02-06
+p-2dabd46e,I10,Essential (primary) hypertension,2012-01-17
+p-2dabd46e,F32.9,"Depressive episode, unspecified",2018-11-23
+p-1927a2a9,E66.9,"Obesity, unspecified",2002-12-07
+p-1927a2a9,F32.9,"Depressive episode, unspecified",2015-09-11
+p-45d62400,E11.9,Type 2 diabetes mellitus without complications,2014-09-14
+p-e86a532e,E66.9,"Obesity, unspecified",2011-10-21
+p-e86a532e,J45.9,"Asthma, unspecified",2002-08-16
+p-601b2163,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2010-04-02
+p-601b2163,N18.3,"Chronic kidney disease, stage 3",2009-04-07
+p-07ca3bb2,I10,Essential (primary) hypertension,2025-02-25
+p-07ca3bb2,I50.9,"Heart failure, unspecified",2021-07-19
+p-07ca3bb2,N18.3,"Chronic kidney disease, stage 3",1995-03-04
+p-d7248fab,I10,Essential (primary) hypertension,2011-07-10
+p-af823afb,E66.9,"Obesity, unspecified",2025-03-09
+p-60ebe9d8,E66.9,"Obesity, unspecified",1999-10-18
+p-60ebe9d8,I48.0,Paroxysmal atrial fibrillation,2009-04-23
+p-de0aaa2d,I10,Essential (primary) hypertension,2000-09-02
+p-6ff0ba78,I10,Essential (primary) hypertension,2004-09-20
+p-d70ad4da,I10,Essential (primary) hypertension,1998-10-12
+p-1615f8b2,E11.9,Type 2 diabetes mellitus without complications,2006-10-04
+p-a0b564dd,J44.9,"Chronic obstructive pulmonary disease, unspecified",2009-08-31
+p-a0b564dd,J45.9,"Asthma, unspecified",2012-02-09
+p-c8f705ac,E11.9,Type 2 diabetes mellitus without complications,2000-02-13
+p-c8f705ac,I48.2,Chronic atrial fibrillation,2000-03-04
+p-c8f705ac,J44.9,"Chronic obstructive pulmonary disease, unspecified",2022-07-11
+p-42ed0bfd,I10,Essential (primary) hypertension,1997-09-22
+p-b46ac63f,I10,Essential (primary) hypertension,2017-05-27
+p-3648cb44,J45.9,"Asthma, unspecified",1996-04-01
+p-054d5e93,I10,Essential (primary) hypertension,2008-11-03
+p-527d8b68,I10,Essential (primary) hypertension,2007-10-22
+p-6af4e89f,I10,Essential (primary) hypertension,2005-02-17
+p-c2276a7e,N18.3,"Chronic kidney disease, stage 3",2011-08-10
+p-e506af3f,E66.9,"Obesity, unspecified",1998-09-27
+p-0724a88a,I10,Essential (primary) hypertension,2020-01-12
+p-9cc80462,J45.9,"Asthma, unspecified",2014-05-25
+p-87505436,E66.9,"Obesity, unspecified",2002-07-17
+p-87505436,I63.9,"Cerebral infarction, unspecified",2022-05-04
+p-1ee11622,I10,Essential (primary) hypertension,2013-04-20
+p-1ee11622,E11.9,Type 2 diabetes mellitus without complications,2020-12-19
+p-1ee11622,I48.2,Chronic atrial fibrillation,2013-01-25
+p-c52da4e5,I10,Essential (primary) hypertension,2025-07-25
+p-b8f39428,I10,Essential (primary) hypertension,2013-08-10
+p-b8f39428,N18.3,"Chronic kidney disease, stage 3",2007-09-12
+p-ec95e7d5,E66.9,"Obesity, unspecified",2015-05-27
+p-5178ba95,I10,Essential (primary) hypertension,2013-02-01
+p-7687f3fb,I10,Essential (primary) hypertension,2001-03-03
+p-7687f3fb,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1998-04-20
+p-7687f3fb,F32.9,"Depressive episode, unspecified",1996-04-03
+p-4fc5aad5,E11.9,Type 2 diabetes mellitus without complications,2018-12-08
+p-4fc5aad5,N18.3,"Chronic kidney disease, stage 3",2024-10-26
+p-6a300ca7,I10,Essential (primary) hypertension,2002-09-02
+p-6a300ca7,N18.3,"Chronic kidney disease, stage 3",2021-02-16
+p-19eaf749,I50.9,"Heart failure, unspecified",2012-02-10
+p-19eaf749,F32.9,"Depressive episode, unspecified",2001-02-12
+p-b2f98341,I10,Essential (primary) hypertension,2017-09-24
+p-087ed4f9,E66.9,"Obesity, unspecified",2014-04-14
+p-087ed4f9,E11.9,Type 2 diabetes mellitus without complications,2017-04-07
+p-26d6f5a8,I10,Essential (primary) hypertension,2000-01-02
+p-ae030143,F32.9,"Depressive episode, unspecified",2018-03-10
+p-ae030143,J45.9,"Asthma, unspecified",2022-09-18
+p-d86951ec,I10,Essential (primary) hypertension,2021-05-21
+p-d86951ec,N18.3,"Chronic kidney disease, stage 3",1998-09-16
+p-56e66526,E66.9,"Obesity, unspecified",2017-06-09
+p-56e66526,I10,Essential (primary) hypertension,1997-10-08
+p-171af1a8,I10,Essential (primary) hypertension,2008-10-13
+p-171af1a8,E11.9,Type 2 diabetes mellitus without complications,2011-06-19
+p-08102481,E66.9,"Obesity, unspecified",2013-02-06
+p-9aa841bc,E66.9,"Obesity, unspecified",2020-10-19
+p-5e80eefa,E66.9,"Obesity, unspecified",2022-03-26
+p-5e80eefa,F32.9,"Depressive episode, unspecified",2012-02-28
+p-f4270c7a,E66.9,"Obesity, unspecified",2006-02-12
+p-36b4747c,E66.9,"Obesity, unspecified",1995-06-07
+p-36b4747c,I10,Essential (primary) hypertension,2024-12-15
+p-36b4747c,I50.9,"Heart failure, unspecified",2018-05-23
+p-577b8c14,I10,Essential (primary) hypertension,2019-11-18
+p-de267f8e,I10,Essential (primary) hypertension,2001-10-26
+p-de267f8e,E11.9,Type 2 diabetes mellitus without complications,2022-10-22
+p-ce329ced,E66.9,"Obesity, unspecified",2005-09-14
+p-ce329ced,J45.9,"Asthma, unspecified",1998-04-25
+p-8c4a67df,E66.9,"Obesity, unspecified",2015-01-29
+p-02165ea8,I10,Essential (primary) hypertension,2019-06-13
+p-b84da3f3,I10,Essential (primary) hypertension,2005-11-04
+p-b84da3f3,F32.9,"Depressive episode, unspecified",2021-06-21
+p-84bb7b4d,I10,Essential (primary) hypertension,2021-01-02
+p-84bb7b4d,F32.9,"Depressive episode, unspecified",2025-06-24
+p-2f582107,I10,Essential (primary) hypertension,2003-01-27
+p-34d04244,F32.9,"Depressive episode, unspecified",2013-12-09
+p-8b62fb1c,I10,Essential (primary) hypertension,2021-03-23
+p-bc0ffb19,I10,Essential (primary) hypertension,2021-05-22
+p-0df4c546,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1997-08-07
+p-0df4c546,J45.9,"Asthma, unspecified",2005-01-25
+p-bb0253d1,J45.9,"Asthma, unspecified",2011-09-25
+p-fbf35fa5,I10,Essential (primary) hypertension,1998-09-07
+p-46665c7f,I10,Essential (primary) hypertension,2013-07-28
+p-46665c7f,I48.0,Paroxysmal atrial fibrillation,2025-03-14
+p-2f009b65,E66.9,"Obesity, unspecified",2014-03-30
+p-af6d27f2,J45.9,"Asthma, unspecified",2011-08-03
+p-8c935927,I10,Essential (primary) hypertension,2018-02-22
+p-8c935927,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1999-04-13
+p-8c935927,I48.0,Paroxysmal atrial fibrillation,2014-01-10
+p-af2939dc,F32.9,"Depressive episode, unspecified",2010-11-04
+p-dfab9dd7,E66.9,"Obesity, unspecified",2012-12-26
+p-c96c4a0e,I10,Essential (primary) hypertension,2019-09-30
+p-4cfef32a,I10,Essential (primary) hypertension,2015-06-30
+p-ad46240a,E66.9,"Obesity, unspecified",2013-12-22
+p-ffcb6652,E66.9,"Obesity, unspecified",2012-07-30
+p-e8a018af,F32.9,"Depressive episode, unspecified",2023-10-20
+p-6ed12cf9,E66.9,"Obesity, unspecified",2013-08-26
+p-6ed12cf9,I10,Essential (primary) hypertension,1997-11-07
+p-6ed12cf9,E11.9,Type 2 diabetes mellitus without complications,2004-09-30
+p-8da1b9fd,J45.9,"Asthma, unspecified",2005-04-02
+p-57077037,I10,Essential (primary) hypertension,2017-01-10
+p-57077037,F32.9,"Depressive episode, unspecified",2012-01-06
+p-65ce23f0,I10,Essential (primary) hypertension,2024-10-21
+p-6ff40c73,I10,Essential (primary) hypertension,2016-01-26
+p-71eab11b,I10,Essential (primary) hypertension,2017-07-14
+p-91465641,J45.9,"Asthma, unspecified",2019-03-14
+p-d2758389,J45.9,"Asthma, unspecified",2007-07-03
+p-56420524,E66.9,"Obesity, unspecified",2024-05-02
+p-248949f2,N18.3,"Chronic kidney disease, stage 3",2013-07-29
+p-4bc264fe,J44.9,"Chronic obstructive pulmonary disease, unspecified",2005-07-02
+p-9c2d9fa4,I10,Essential (primary) hypertension,2005-04-19
+p-9c2d9fa4,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2005-08-13
+p-9c2d9fa4,I48.0,Paroxysmal atrial fibrillation,1997-09-03
+p-9c2d9fa4,J44.9,"Chronic obstructive pulmonary disease, unspecified",2021-12-12
+p-e7abc497,E66.9,"Obesity, unspecified",2025-06-14
+p-7b9a964b,E66.9,"Obesity, unspecified",2020-03-19
+p-a2ef937c,I10,Essential (primary) hypertension,2015-05-10
+p-a9766fa2,F32.9,"Depressive episode, unspecified",2008-09-11
+p-6a317b87,J45.9,"Asthma, unspecified",1997-11-14
+p-64948e10,E66.9,"Obesity, unspecified",2022-02-11
+p-4e7ebc44,I10,Essential (primary) hypertension,2021-07-13
+p-0116dbf7,J44.9,"Chronic obstructive pulmonary disease, unspecified",2004-02-09
+p-53c1e5ed,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2015-09-16
+p-45e903c6,E66.9,"Obesity, unspecified",2000-05-22
+p-45e903c6,I10,Essential (primary) hypertension,2025-03-25
+p-45e903c6,E11.9,Type 2 diabetes mellitus without complications,2007-06-03
+p-0eda933c,J45.9,"Asthma, unspecified",2016-05-10
+p-1e79667a,I10,Essential (primary) hypertension,2001-04-13
+p-1e79667a,I48.0,Paroxysmal atrial fibrillation,2003-09-22
+p-1e79667a,I63.9,"Cerebral infarction, unspecified",2012-01-30
+p-1e79667a,N18.3,"Chronic kidney disease, stage 3",2015-01-06
+p-1e79667a,J45.9,"Asthma, unspecified",2017-08-17
+p-75449666,E66.9,"Obesity, unspecified",2025-06-29
+p-f871e968,E66.9,"Obesity, unspecified",2003-12-05
+p-9dc2bb16,J45.9,"Asthma, unspecified",2001-12-12
+p-570b9e57,I10,Essential (primary) hypertension,2021-05-08
+p-e7896610,J44.9,"Chronic obstructive pulmonary disease, unspecified",2022-01-14
+p-23c49dca,E66.9,"Obesity, unspecified",1996-02-07
+p-23c49dca,I10,Essential (primary) hypertension,2001-10-05
+p-bb5bf6bb,I48.2,Chronic atrial fibrillation,2015-11-24
+p-bb5bf6bb,J44.9,"Chronic obstructive pulmonary disease, unspecified",2017-01-31
+p-5788d9af,E66.9,"Obesity, unspecified",2001-02-28
+p-9094e33a,E66.9,"Obesity, unspecified",2018-11-12
+p-9094e33a,I10,Essential (primary) hypertension,2014-05-29
+p-9094e33a,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2002-12-20
+p-76c3a532,E66.9,"Obesity, unspecified",2023-12-01
+p-b377adbb,I10,Essential (primary) hypertension,2018-07-18
+p-cc3d2c86,E66.9,"Obesity, unspecified",2008-05-27
+p-9adadfa4,E66.9,"Obesity, unspecified",2017-12-31
+p-1908ca5c,I10,Essential (primary) hypertension,2012-08-14
+p-1908ca5c,E11.9,Type 2 diabetes mellitus without complications,2018-05-12
+p-3525d2e1,E66.9,"Obesity, unspecified",2016-09-10
+p-26767bf7,I48.2,Chronic atrial fibrillation,2005-02-28
+p-4727d8cd,I10,Essential (primary) hypertension,1996-06-28
+p-4727d8cd,E11.9,Type 2 diabetes mellitus without complications,2023-05-16
+p-df64df95,I10,Essential (primary) hypertension,2006-05-05
+p-5a0f1ca3,E66.9,"Obesity, unspecified",2023-02-11
+p-38600f62,I10,Essential (primary) hypertension,2012-10-28
+p-69914a5c,J45.9,"Asthma, unspecified",2021-04-04
+p-583223d3,E66.9,"Obesity, unspecified",2006-07-15
+p-1857fb47,J45.9,"Asthma, unspecified",2011-10-25
+p-510bc933,E66.9,"Obesity, unspecified",1999-09-04
+p-510bc933,E11.9,Type 2 diabetes mellitus without complications,2022-05-23
+p-3b26693d,E66.9,"Obesity, unspecified",1997-04-20
+p-3b26693d,I63.9,"Cerebral infarction, unspecified",2007-12-12
+p-ba737fdd,I10,Essential (primary) hypertension,2002-03-19
+p-20264099,J44.9,"Chronic obstructive pulmonary disease, unspecified",1999-11-29
+p-3909e421,E66.9,"Obesity, unspecified",2025-11-23
+p-2c91cc5d,I10,Essential (primary) hypertension,1995-08-15
+p-2c91cc5d,F32.9,"Depressive episode, unspecified",2020-01-26
+p-b715c050,I10,Essential (primary) hypertension,1998-06-16
+p-b715c050,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2006-05-21
+p-5ac994c1,E66.9,"Obesity, unspecified",2025-11-08
+p-d57c6ee2,F32.9,"Depressive episode, unspecified",2025-07-06
+p-89d4a910,J44.9,"Chronic obstructive pulmonary disease, unspecified",1995-10-02
+p-42bdc3b0,F32.9,"Depressive episode, unspecified",2016-07-30
+p-7303a772,E66.9,"Obesity, unspecified",2013-08-19
+p-4e488517,E66.9,"Obesity, unspecified",2023-08-01
+p-22a521b3,J45.9,"Asthma, unspecified",2012-03-16
+p-d185b205,E66.9,"Obesity, unspecified",2006-05-08
+p-f402e418,F32.9,"Depressive episode, unspecified",2024-08-14
+p-ca6975bc,F32.9,"Depressive episode, unspecified",2003-09-02
+p-a0f80638,I10,Essential (primary) hypertension,1995-12-11
+p-47d5139c,E66.9,"Obesity, unspecified",2015-12-14
+p-f7555b19,E66.9,"Obesity, unspecified",2022-04-30
+p-1d46db54,I10,Essential (primary) hypertension,2010-02-24
+p-afcb7f6b,I10,Essential (primary) hypertension,2019-04-20
+p-afcb7f6b,F32.9,"Depressive episode, unspecified",2009-03-23
+p-6c600239,E66.9,"Obesity, unspecified",2015-08-12
+p-7238a28f,E66.9,"Obesity, unspecified",2023-02-02
+p-7238a28f,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2021-11-21
+p-6bfe8e41,E11.9,Type 2 diabetes mellitus without complications,2019-06-14
+p-966c3396,F32.9,"Depressive episode, unspecified",2024-11-29
+p-1a556c66,E66.9,"Obesity, unspecified",2003-12-26
+p-1a556c66,E11.9,Type 2 diabetes mellitus without complications,2023-12-17
+p-394df331,I10,Essential (primary) hypertension,2006-01-15
+p-394df331,E11.9,Type 2 diabetes mellitus without complications,2011-01-10
+p-f6406a4d,F32.9,"Depressive episode, unspecified",2025-05-05
+p-ac01fb81,J45.9,"Asthma, unspecified",2008-09-15
+p-5ee75660,E11.9,Type 2 diabetes mellitus without complications,2005-09-16
+p-5ee75660,I50.9,"Heart failure, unspecified",2024-03-17
+p-b39bd7a4,J45.9,"Asthma, unspecified",2023-03-26
+p-2d179a83,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2019-12-27
+p-8022ee6e,E66.9,"Obesity, unspecified",2023-03-11
+p-6aff7d94,F32.9,"Depressive episode, unspecified",2005-10-17
+p-5e846437,E66.9,"Obesity, unspecified",2010-12-20
+p-5e846437,E11.9,Type 2 diabetes mellitus without complications,2008-11-01
+p-3109d98c,E66.9,"Obesity, unspecified",2024-02-17
+p-2fb6e0c4,F32.9,"Depressive episode, unspecified",2004-06-05
+p-125879c2,E66.9,"Obesity, unspecified",1999-08-30
+p-125879c2,E11.9,Type 2 diabetes mellitus without complications,2013-12-30
+p-80545eeb,I10,Essential (primary) hypertension,2007-02-14
+p-ab5b965d,I10,Essential (primary) hypertension,1996-05-27
+p-ab5b965d,E11.9,Type 2 diabetes mellitus without complications,2022-09-02
+p-7ae7194b,E66.9,"Obesity, unspecified",2007-06-18
+p-7ae7194b,F32.9,"Depressive episode, unspecified",2019-04-07
+p-df53ed6f,I10,Essential (primary) hypertension,1996-01-11
+p-e490e66e,E66.9,"Obesity, unspecified",1997-01-17
+p-5acd0b38,J45.9,"Asthma, unspecified",2011-02-21
+p-ab3f69ca,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2023-05-16
+p-ab3f69ca,J45.9,"Asthma, unspecified",2020-10-22
+p-56d4c11b,J45.9,"Asthma, unspecified",2025-06-15
+p-5f4276ad,I10,Essential (primary) hypertension,2006-09-07
+p-1bdf1aa9,I10,Essential (primary) hypertension,2015-07-04
+p-4bc7aa1f,I10,Essential (primary) hypertension,2001-07-07
+p-0929bc0b,E66.9,"Obesity, unspecified",2024-01-26
+p-35a96441,J45.9,"Asthma, unspecified",2005-09-01
+p-918db4cf,I10,Essential (primary) hypertension,2008-01-29
+p-71707c66,I50.9,"Heart failure, unspecified",2011-01-16
+p-71707c66,F32.9,"Depressive episode, unspecified",2015-04-10
+p-54073d57,E66.9,"Obesity, unspecified",2018-07-11
+p-54073d57,I10,Essential (primary) hypertension,1997-08-08
+p-54073d57,J44.9,"Chronic obstructive pulmonary disease, unspecified",1998-12-12
+p-b0338f60,F32.9,"Depressive episode, unspecified",2023-11-24
+p-e7b24292,E66.9,"Obesity, unspecified",2024-07-25
+p-e7b24292,I10,Essential (primary) hypertension,2019-07-30
+p-2b338119,N18.3,"Chronic kidney disease, stage 3",2018-01-20
+p-6bbcb618,J45.9,"Asthma, unspecified",2016-08-28
+p-e0692017,I10,Essential (primary) hypertension,1995-02-11
+p-e1c14cfa,I10,Essential (primary) hypertension,2018-01-22
+p-9ce4a2c9,I10,Essential (primary) hypertension,1999-03-31
+p-9ce4a2c9,J45.9,"Asthma, unspecified",1998-02-12
+p-3c9f3367,I10,Essential (primary) hypertension,2016-09-07
+p-3c9f3367,E11.9,Type 2 diabetes mellitus without complications,1999-10-31
+p-e46faa9b,I10,Essential (primary) hypertension,2018-03-08
+p-e46faa9b,I63.9,"Cerebral infarction, unspecified",1998-02-13
+p-96ab655e,I10,Essential (primary) hypertension,2014-11-25
+p-4cfd3cf1,I10,Essential (primary) hypertension,2007-10-23
+p-4cfd3cf1,I48.2,Chronic atrial fibrillation,1995-06-03
+p-4cfd3cf1,I63.9,"Cerebral infarction, unspecified",2022-07-05
+p-b00ea8cb,I10,Essential (primary) hypertension,2002-03-31
+p-b00ea8cb,J44.9,"Chronic obstructive pulmonary disease, unspecified",2015-04-16
+p-4af026ff,I10,Essential (primary) hypertension,2003-08-15
+p-2fd964d5,I10,Essential (primary) hypertension,2023-07-28
+p-2fd964d5,I48.0,Paroxysmal atrial fibrillation,2007-08-27
+p-2fd964d5,J44.9,"Chronic obstructive pulmonary disease, unspecified",2006-03-23
+p-1bfb05f6,I10,Essential (primary) hypertension,2008-12-01
+p-1bfb05f6,I48.2,Chronic atrial fibrillation,2021-02-16
+p-f1e7320e,I10,Essential (primary) hypertension,1997-11-18
+p-b90a707e,I10,Essential (primary) hypertension,2004-03-25
+p-9f00b43e,E66.9,"Obesity, unspecified",2018-06-26
+p-988d724f,E11.9,Type 2 diabetes mellitus without complications,2013-11-14
+p-d73f503a,J45.9,"Asthma, unspecified",2024-02-01
+p-fea5ee31,J45.9,"Asthma, unspecified",2022-10-21
+p-9b082c25,N18.3,"Chronic kidney disease, stage 3",2015-05-28
+p-a54711fb,J45.9,"Asthma, unspecified",2016-03-01
+p-27810817,E66.9,"Obesity, unspecified",2020-04-20
+p-8523a2c0,I10,Essential (primary) hypertension,2016-05-28
+p-f126fdfb,J45.9,"Asthma, unspecified",2025-04-04
+p-39af344b,E66.9,"Obesity, unspecified",1999-09-10
+p-74568ff5,I10,Essential (primary) hypertension,2024-07-23
+p-55bd0559,I10,Essential (primary) hypertension,2025-11-27
+p-86c54b4f,I10,Essential (primary) hypertension,2020-01-06
+p-7aed37ec,F32.9,"Depressive episode, unspecified",2024-10-22
+p-956cfc86,I10,Essential (primary) hypertension,2004-02-27
+p-956cfc86,E11.9,Type 2 diabetes mellitus without complications,2004-12-10
+p-956cfc86,N18.3,"Chronic kidney disease, stage 3",2025-11-12
+p-956cfc86,J45.9,"Asthma, unspecified",1997-04-08
+p-211a2d2f,I10,Essential (primary) hypertension,2005-05-29
+p-ae92ba06,E66.9,"Obesity, unspecified",2021-02-02
+p-ae92ba06,J44.9,"Chronic obstructive pulmonary disease, unspecified",1996-04-10
+p-4953f2bd,I10,Essential (primary) hypertension,2020-05-13
+p-ed65afce,E66.9,"Obesity, unspecified",2007-09-09
+p-7249a618,E11.9,Type 2 diabetes mellitus without complications,1996-04-17
+p-7249a618,J45.9,"Asthma, unspecified",2000-10-08
+p-b32230c6,E66.9,"Obesity, unspecified",2012-03-06
+p-dcbbd6fb,I10,Essential (primary) hypertension,2013-11-18
+p-881a480e,I10,Essential (primary) hypertension,2010-06-01
+p-ceeb085b,J45.9,"Asthma, unspecified",2016-03-01
+p-5ba6dfb9,E11.9,Type 2 diabetes mellitus without complications,2008-12-19
+p-1a24f3a0,I10,Essential (primary) hypertension,2010-01-14
+p-1a24f3a0,N18.3,"Chronic kidney disease, stage 3",2011-07-10
+p-5f0382f0,J45.9,"Asthma, unspecified",2015-08-19
+p-8711438d,C50.9,"Malignant neoplasm of breast, unspecified",2021-11-15
+p-0a5ef676,I10,Essential (primary) hypertension,2006-03-05
+p-09667e90,I48.2,Chronic atrial fibrillation,1996-06-24
+p-06f58fcc,E66.9,"Obesity, unspecified",2018-05-01
+p-787fe67d,J45.9,"Asthma, unspecified",2025-08-16
+p-71c3834c,I48.2,Chronic atrial fibrillation,1997-08-09
+p-71c3834c,I50.9,"Heart failure, unspecified",2020-10-01
+p-71c3834c,I63.9,"Cerebral infarction, unspecified",2005-02-12
+p-71c3834c,N18.3,"Chronic kidney disease, stage 3",2000-11-01
+p-33319cae,E66.9,"Obesity, unspecified",2019-06-22
+p-d64eeaac,I10,Essential (primary) hypertension,1997-08-03
+p-f6d6b459,J45.9,"Asthma, unspecified",2024-10-22
+p-0e9c0221,E11.9,Type 2 diabetes mellitus without complications,2005-03-10
+p-0e9c0221,J44.9,"Chronic obstructive pulmonary disease, unspecified",2021-05-16
+p-84775adf,I10,Essential (primary) hypertension,2005-11-03
+p-ff1b90fb,E66.9,"Obesity, unspecified",2024-08-03
+p-6e97473d,I48.2,Chronic atrial fibrillation,1996-02-20
+p-24e2fb1c,I10,Essential (primary) hypertension,2022-02-12
+p-24e2fb1c,F32.9,"Depressive episode, unspecified",2020-05-29
+p-ef1aa715,E66.9,"Obesity, unspecified",2022-12-01
+p-eb724765,E66.9,"Obesity, unspecified",2019-10-09
+p-eb724765,I10,Essential (primary) hypertension,2018-08-28
+p-eb724765,E11.9,Type 2 diabetes mellitus without complications,2020-05-24
+p-eb724765,I48.0,Paroxysmal atrial fibrillation,2000-11-03
+p-eb724765,J44.9,"Chronic obstructive pulmonary disease, unspecified",2006-05-09
+p-92ea410b,F32.9,"Depressive episode, unspecified",1998-11-02
+p-74be4c3a,J45.9,"Asthma, unspecified",2013-05-19
+p-2ebbb687,I10,Essential (primary) hypertension,2021-12-08
+p-0921fc5e,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2010-01-13
+p-5198d996,E66.9,"Obesity, unspecified",2016-09-14
+p-05ebaf12,N18.3,"Chronic kidney disease, stage 3",2019-02-27
+p-3d37ab89,I10,Essential (primary) hypertension,2002-02-10
+p-431116f3,E66.9,"Obesity, unspecified",2019-06-15
+p-87a34d31,I10,Essential (primary) hypertension,2008-07-06
+p-46b1b017,I10,Essential (primary) hypertension,2001-08-11
+p-59689692,I10,Essential (primary) hypertension,1998-07-23
+p-59689692,E11.9,Type 2 diabetes mellitus without complications,2005-10-21
+p-530f9bea,F32.9,"Depressive episode, unspecified",2018-12-02
+p-4ce11c03,I10,Essential (primary) hypertension,2000-09-04
+p-8696ea79,I10,Essential (primary) hypertension,1998-09-22
+p-dafe602f,I48.2,Chronic atrial fibrillation,2021-08-27
+p-90786439,E66.9,"Obesity, unspecified",2022-08-30
+p-90786439,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1997-02-25
+p-90786439,I48.0,Paroxysmal atrial fibrillation,1999-10-03
+p-638ca8c7,F32.9,"Depressive episode, unspecified",2005-10-26
+p-ae0da896,J45.9,"Asthma, unspecified",2000-12-27
+p-db14f8d2,I10,Essential (primary) hypertension,2012-04-30
+p-073a22fd,I10,Essential (primary) hypertension,2001-03-30
+p-073a22fd,I48.2,Chronic atrial fibrillation,2007-07-22
+p-e72f42b6,F32.9,"Depressive episode, unspecified",2020-05-04
+p-8b121bd4,I10,Essential (primary) hypertension,1997-09-01
+p-8b121bd4,J45.9,"Asthma, unspecified",2004-02-29
+p-b2c8beac,I10,Essential (primary) hypertension,2007-07-10
+p-428671c5,F32.9,"Depressive episode, unspecified",2017-08-22
+p-0622ca65,I10,Essential (primary) hypertension,2016-02-24
+p-0622ca65,I63.9,"Cerebral infarction, unspecified",2022-01-21
+p-0622ca65,J44.9,"Chronic obstructive pulmonary disease, unspecified",1996-03-23
+p-22281c9f,E66.9,"Obesity, unspecified",2010-08-20
+p-22281c9f,F32.9,"Depressive episode, unspecified",2023-12-16
+p-ef27befe,E66.9,"Obesity, unspecified",2016-03-13
+p-ef27befe,I10,Essential (primary) hypertension,2017-04-09
+p-ef27befe,N18.3,"Chronic kidney disease, stage 3",2011-09-07
+p-f09a9856,I10,Essential (primary) hypertension,2001-02-18
+p-f09a9856,J45.9,"Asthma, unspecified",2014-08-24
+p-2ff1844c,I48.0,Paroxysmal atrial fibrillation,2025-09-22
+p-2ff1844c,F32.9,"Depressive episode, unspecified",2022-03-21
+p-b851b2e6,I10,Essential (primary) hypertension,2019-11-18
+p-b851b2e6,F32.9,"Depressive episode, unspecified",2000-03-24
+p-4315ea06,I10,Essential (primary) hypertension,2015-04-04
+p-a7f0bff5,E66.9,"Obesity, unspecified",2018-07-18
+p-a7f0bff5,J45.9,"Asthma, unspecified",2002-08-18
+p-1c790a2e,J45.9,"Asthma, unspecified",2016-08-23
+p-0bb6f81e,I10,Essential (primary) hypertension,2019-10-14
+p-0bb6f81e,I48.2,Chronic atrial fibrillation,2018-01-27
+p-310762dc,E66.9,"Obesity, unspecified",2009-07-05
+p-310762dc,I10,Essential (primary) hypertension,2007-01-07
+p-0b03754b,I10,Essential (primary) hypertension,1995-04-29
+p-0b03754b,F32.9,"Depressive episode, unspecified",2019-04-25
+p-78e23e72,N18.3,"Chronic kidney disease, stage 3",2024-02-13
+p-3183a630,I10,Essential (primary) hypertension,2018-02-11
+p-9d9c903b,I10,Essential (primary) hypertension,2000-05-08
+p-9d9c903b,J44.9,"Chronic obstructive pulmonary disease, unspecified",2025-08-04
+p-dca8fce3,I10,Essential (primary) hypertension,2023-09-25
+p-98a88bae,E66.9,"Obesity, unspecified",2002-12-15
+p-b0345620,I63.9,"Cerebral infarction, unspecified",2004-09-16
+p-744be740,J45.9,"Asthma, unspecified",2007-07-18
+p-293f8765,E66.9,"Obesity, unspecified",2018-09-23
+p-53415090,I63.9,"Cerebral infarction, unspecified",2015-03-05
+p-5e22f87e,I10,Essential (primary) hypertension,2020-09-17
+p-5e22f87e,E11.9,Type 2 diabetes mellitus without complications,1998-03-08
+p-ec46be70,I10,Essential (primary) hypertension,2007-01-21
+p-a234dc9a,I10,Essential (primary) hypertension,2013-02-28
+p-a234dc9a,J45.9,"Asthma, unspecified",2011-12-26
+p-62ae5b70,J45.9,"Asthma, unspecified",2015-06-03
+p-a576a751,E66.9,"Obesity, unspecified",2006-05-27
+p-a576a751,I10,Essential (primary) hypertension,2024-07-27
+p-3cb74c67,I10,Essential (primary) hypertension,2024-09-23
+p-c2df5e0a,I10,Essential (primary) hypertension,2009-10-17
+p-2d57918e,I10,Essential (primary) hypertension,2013-08-03
+p-7c1f639f,I10,Essential (primary) hypertension,2001-08-12
+p-7c1f639f,E11.9,Type 2 diabetes mellitus without complications,1999-02-14
+p-f04af440,E11.9,Type 2 diabetes mellitus without complications,2010-12-17
+p-a7d0ae18,I10,Essential (primary) hypertension,2009-01-18
+p-d6527fb0,I10,Essential (primary) hypertension,2011-02-17
+p-0cabd052,N18.3,"Chronic kidney disease, stage 3",2024-10-06
+p-aaa1a387,E66.9,"Obesity, unspecified",2015-07-19
+p-aaa1a387,F32.9,"Depressive episode, unspecified",2012-03-19
+p-ff03a380,I10,Essential (primary) hypertension,2018-05-02
+p-33e0269f,F32.9,"Depressive episode, unspecified",2023-05-18
+p-ae06af20,F32.9,"Depressive episode, unspecified",2008-12-10
+p-db6badf5,E66.9,"Obesity, unspecified",2014-05-11
+p-e84838f3,E11.9,Type 2 diabetes mellitus without complications,2025-08-04
+p-264641ab,I10,Essential (primary) hypertension,1998-12-20
+p-b835ee98,I10,Essential (primary) hypertension,2020-11-15
+p-4227b30a,I10,Essential (primary) hypertension,2013-12-28
+p-0e961178,E66.9,"Obesity, unspecified",2018-10-07
+p-727bd962,E66.9,"Obesity, unspecified",2021-07-30
+p-727bd962,J45.9,"Asthma, unspecified",1996-10-27
+p-8ca357b7,I10,Essential (primary) hypertension,2006-05-30
+p-672e24cd,I10,Essential (primary) hypertension,1996-03-03
+p-672e24cd,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2013-08-31
+p-672e24cd,N18.3,"Chronic kidney disease, stage 3",1998-12-16
+p-672e24cd,J45.9,"Asthma, unspecified",2010-03-15
+p-ae9c9fde,J45.9,"Asthma, unspecified",1998-02-05
+p-d1840b99,J45.9,"Asthma, unspecified",2023-11-23
+p-1be6426d,I10,Essential (primary) hypertension,2006-01-07
+p-1be6426d,I63.9,"Cerebral infarction, unspecified",1999-02-27
+p-e2e729a2,E66.9,"Obesity, unspecified",2018-03-12
+p-e2e729a2,I10,Essential (primary) hypertension,2021-02-04
+p-1601e3e9,E66.9,"Obesity, unspecified",2022-05-24
+p-1601e3e9,F32.9,"Depressive episode, unspecified",2019-10-01
+p-f5e1cb92,I10,Essential (primary) hypertension,2024-07-12
+p-4ab8d5af,I10,Essential (primary) hypertension,2003-02-18
+p-4faca9e2,I10,Essential (primary) hypertension,1997-02-18
+p-595fb992,I10,Essential (primary) hypertension,2001-06-04
+p-595fb992,E11.9,Type 2 diabetes mellitus without complications,2015-09-21
+p-21dccc97,N18.3,"Chronic kidney disease, stage 3",1998-12-01
+p-dfb2b2a2,E66.9,"Obesity, unspecified",2018-12-11
+p-dfb2b2a2,I10,Essential (primary) hypertension,2022-12-03
+p-fe7eaddd,E11.9,Type 2 diabetes mellitus without complications,1998-06-04
+p-9ef2b663,J45.9,"Asthma, unspecified",1995-12-07
+p-45489473,F32.9,"Depressive episode, unspecified",2009-08-04
+p-45489473,J45.9,"Asthma, unspecified",2020-03-01
+p-870db635,I10,Essential (primary) hypertension,2018-08-28
+p-6551a15b,E11.9,Type 2 diabetes mellitus without complications,1997-08-31
+p-2a1cb6b4,F32.9,"Depressive episode, unspecified",2006-07-01
+p-a29ecf45,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1999-10-29
+p-a29ecf45,I63.9,"Cerebral infarction, unspecified",2014-12-27
+p-05384cdd,I10,Essential (primary) hypertension,2021-03-02
+p-b266beee,I10,Essential (primary) hypertension,2003-11-02
+p-b266beee,C50.9,"Malignant neoplasm of breast, unspecified",2018-05-28
+p-b266beee,N18.3,"Chronic kidney disease, stage 3",2004-11-25
+p-fdabe344,E66.9,"Obesity, unspecified",2021-09-17
+p-3174ff0a,E66.9,"Obesity, unspecified",2019-10-22
+p-0e2d28b3,J45.9,"Asthma, unspecified",2008-08-13
+p-b96fcf85,I10,Essential (primary) hypertension,2005-02-26
+p-e5d1ffb4,I10,Essential (primary) hypertension,1996-10-20
+p-4f693b67,I10,Essential (primary) hypertension,2023-09-06
+p-e4303fbd,J45.9,"Asthma, unspecified",2025-04-05
+p-5ff87192,I63.9,"Cerebral infarction, unspecified",2015-02-06
+p-eeeb71f3,E66.9,"Obesity, unspecified",2020-09-12
+p-dfec83b9,I10,Essential (primary) hypertension,2003-09-28
+p-09905923,I10,Essential (primary) hypertension,2000-11-21
+p-09905923,F32.9,"Depressive episode, unspecified",2000-01-30
+p-65b22518,E66.9,"Obesity, unspecified",2017-09-07
+p-1d6367a6,E66.9,"Obesity, unspecified",2022-01-19
+p-2de7dd82,E66.9,"Obesity, unspecified",2025-08-25
+p-973404f7,I63.9,"Cerebral infarction, unspecified",2009-03-30
+p-2874ed2c,E66.9,"Obesity, unspecified",2003-04-20
+p-5797c4fb,J44.9,"Chronic obstructive pulmonary disease, unspecified",2002-02-28
+p-c0426d7c,E66.9,"Obesity, unspecified",1998-05-29
+p-c0426d7c,E11.9,Type 2 diabetes mellitus without complications,1998-10-20
+p-c0426d7c,N18.3,"Chronic kidney disease, stage 3",2003-06-14
+p-db0d5aaa,I10,Essential (primary) hypertension,2018-10-05
+p-db0d5aaa,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2001-11-08
+p-708f99c5,J44.9,"Chronic obstructive pulmonary disease, unspecified",2013-12-01
+p-6f7f2d83,I10,Essential (primary) hypertension,1995-08-21
+p-5533689d,F32.9,"Depressive episode, unspecified",2014-08-19
+p-283faa19,I48.0,Paroxysmal atrial fibrillation,2007-03-03
+p-05baf243,I10,Essential (primary) hypertension,2004-07-26
+p-05baf243,J45.9,"Asthma, unspecified",2002-08-30
+p-1f9e2c92,E66.9,"Obesity, unspecified",2014-09-20
+p-7c07eacc,F32.9,"Depressive episode, unspecified",2019-07-13
+p-aa492749,E66.9,"Obesity, unspecified",2025-10-29
+p-f63a6e70,I10,Essential (primary) hypertension,2025-05-29
+p-0b905f6a,E66.9,"Obesity, unspecified",2001-08-27
+p-0b905f6a,I10,Essential (primary) hypertension,2024-11-30
+p-8190f3bf,E66.9,"Obesity, unspecified",2000-04-29
+p-8190f3bf,I10,Essential (primary) hypertension,2014-05-27
+p-a121845e,I10,Essential (primary) hypertension,1995-06-14
+p-a121845e,C50.9,"Malignant neoplasm of breast, unspecified",2005-01-27
+p-302e0ef6,E66.9,"Obesity, unspecified",2016-11-26
+p-302e0ef6,I10,Essential (primary) hypertension,2018-10-20
+p-302e0ef6,E11.9,Type 2 diabetes mellitus without complications,2004-09-21
+p-e7b8b215,I10,Essential (primary) hypertension,2023-07-24
+p-e7b8b215,I50.9,"Heart failure, unspecified",2018-12-25
+p-e7b8b215,F32.9,"Depressive episode, unspecified",2009-03-07
+p-107921ce,F32.9,"Depressive episode, unspecified",2025-02-15
+p-e4de9d3f,E66.9,"Obesity, unspecified",2022-01-29
+p-e4de9d3f,F32.9,"Depressive episode, unspecified",2011-02-02
+p-e4de9d3f,J45.9,"Asthma, unspecified",2022-04-09
+p-f26ee154,E66.9,"Obesity, unspecified",2004-08-03
+p-f26ee154,I10,Essential (primary) hypertension,2001-07-09
+p-895c89b4,E66.9,"Obesity, unspecified",2008-07-19
+p-1855674a,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2023-09-28
+p-1855674a,J45.9,"Asthma, unspecified",2021-05-12
+p-347f6a91,I10,Essential (primary) hypertension,2011-07-31
+p-bac5e8cb,F32.9,"Depressive episode, unspecified",2018-01-11
+p-fcf05f55,I10,Essential (primary) hypertension,2006-05-25
+p-fcf05f55,I48.2,Chronic atrial fibrillation,2006-03-05
+p-e5365f9d,I10,Essential (primary) hypertension,2010-03-25
+p-e5365f9d,I50.9,"Heart failure, unspecified",2001-07-16
+p-ffee501b,I10,Essential (primary) hypertension,2013-09-13
+p-ffee501b,I63.9,"Cerebral infarction, unspecified",2007-01-31
+p-ffee501b,J44.9,"Chronic obstructive pulmonary disease, unspecified",1997-10-24
+p-e24d611c,E66.9,"Obesity, unspecified",2015-01-29
+p-210d4f67,I48.2,Chronic atrial fibrillation,2017-05-27
+p-8c648b74,E66.9,"Obesity, unspecified",2010-01-11
+p-0cf52b1b,E66.9,"Obesity, unspecified",2017-10-30
+p-0cf52b1b,I10,Essential (primary) hypertension,2013-01-10
+p-1fe9716f,E66.9,"Obesity, unspecified",2009-11-02
+p-1fe9716f,I10,Essential (primary) hypertension,2023-08-19
+p-1fe9716f,F32.9,"Depressive episode, unspecified",2002-11-20
+p-cf649db1,E66.9,"Obesity, unspecified",2023-09-10
+p-74a14879,J45.9,"Asthma, unspecified",2025-02-19
+p-e84968c4,E66.9,"Obesity, unspecified",2024-04-11
+p-f204ad2b,E66.9,"Obesity, unspecified",2025-02-25
+p-59fc8b46,N18.3,"Chronic kidney disease, stage 3",2018-06-28
+p-59fc8b46,J45.9,"Asthma, unspecified",2009-04-24
+p-47e2d7f4,I10,Essential (primary) hypertension,2000-11-13
+p-47e2d7f4,E11.9,Type 2 diabetes mellitus without complications,2025-10-13
+p-47e2d7f4,N18.3,"Chronic kidney disease, stage 3",2001-05-02
+p-22efdf4a,E66.9,"Obesity, unspecified",2025-03-09
+p-1acc4974,E66.9,"Obesity, unspecified",2016-11-21
+p-597dfae0,I10,Essential (primary) hypertension,2024-05-08
+p-597dfae0,E11.9,Type 2 diabetes mellitus without complications,2016-03-04
+p-597dfae0,J45.9,"Asthma, unspecified",2013-09-13
+p-a19d6122,I10,Essential (primary) hypertension,2003-09-12
+p-a19d6122,E11.9,Type 2 diabetes mellitus without complications,1999-06-01
+p-a19d6122,F32.9,"Depressive episode, unspecified",2021-03-30
+p-82b11d92,E66.9,"Obesity, unspecified",2008-11-21
+p-9d89b2fe,E66.9,"Obesity, unspecified",1998-06-06
+p-9d89b2fe,I10,Essential (primary) hypertension,2018-12-09
+p-9d89b2fe,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2010-07-21
+p-c3a96bfe,J44.9,"Chronic obstructive pulmonary disease, unspecified",2002-11-13
+p-25d5c3cf,I10,Essential (primary) hypertension,1998-04-01
+p-c155d691,I10,Essential (primary) hypertension,2019-10-14
+p-a097cf06,E66.9,"Obesity, unspecified",2015-08-17
+p-a097cf06,I10,Essential (primary) hypertension,2021-05-27
+p-15abe35c,I10,Essential (primary) hypertension,2014-10-06
+p-9985c8cd,J45.9,"Asthma, unspecified",2005-08-11
+p-1c2662e3,E66.9,"Obesity, unspecified",2007-06-02
+p-09495cfc,I10,Essential (primary) hypertension,2013-03-12
+p-09495cfc,I48.0,Paroxysmal atrial fibrillation,2019-10-24
+p-d0566040,J45.9,"Asthma, unspecified",2016-12-24
+p-5c9630fa,J45.9,"Asthma, unspecified",2025-07-05
+p-41b6e42e,I10,Essential (primary) hypertension,2008-06-04
+p-41b6e42e,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2006-03-16
+p-61b940ea,E66.9,"Obesity, unspecified",2015-05-05
+p-7947dfb1,I10,Essential (primary) hypertension,2022-12-28
+p-e20c1f8d,I10,Essential (primary) hypertension,2025-09-30
+p-add6f915,I10,Essential (primary) hypertension,2015-03-11
+p-add6f915,J44.9,"Chronic obstructive pulmonary disease, unspecified",2010-12-29
+p-5361faec,I10,Essential (primary) hypertension,1996-08-27
+p-5361faec,I50.9,"Heart failure, unspecified",1998-07-22
+p-ac62b34d,I10,Essential (primary) hypertension,2002-02-18
+p-ac62b34d,I48.2,Chronic atrial fibrillation,2001-11-03
+p-d4a78c66,I10,Essential (primary) hypertension,2017-11-30
+p-d4a78c66,I48.2,Chronic atrial fibrillation,2016-06-08
+p-d4a78c66,J45.9,"Asthma, unspecified",2017-08-03
+p-103f16be,I10,Essential (primary) hypertension,2002-12-29
+p-4dfe2d7f,E66.9,"Obesity, unspecified",2010-10-27
+p-e9de0975,I10,Essential (primary) hypertension,1998-08-02
+p-4bce1982,F32.9,"Depressive episode, unspecified",2006-02-05
+p-01211b75,J45.9,"Asthma, unspecified",1999-03-21
+p-a63e4bc9,I10,Essential (primary) hypertension,2018-10-19
+p-56426b69,I10,Essential (primary) hypertension,2006-02-15
+p-56426b69,F32.9,"Depressive episode, unspecified",1997-01-29
+p-d1edce06,E11.9,Type 2 diabetes mellitus without complications,2019-10-22
+p-7077d0ee,I10,Essential (primary) hypertension,2014-12-22
+p-8ce55356,E66.9,"Obesity, unspecified",2010-06-15
+p-d1a74f20,E66.9,"Obesity, unspecified",2019-09-07
+p-d1a74f20,I10,Essential (primary) hypertension,2021-09-21
+p-d1a74f20,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2002-11-06
+p-c4825618,E66.9,"Obesity, unspecified",1998-06-11
+p-c4825618,E11.9,Type 2 diabetes mellitus without complications,2004-02-02
+p-7a2584d4,I10,Essential (primary) hypertension,1995-08-13
+p-e1c5480a,E11.9,Type 2 diabetes mellitus without complications,2009-11-22
+p-16b4fa65,J45.9,"Asthma, unspecified",2025-08-25
+p-e25a08e7,E11.9,Type 2 diabetes mellitus without complications,2007-01-23
+p-80620b93,E66.9,"Obesity, unspecified",2023-07-31
+p-8c464c5d,I10,Essential (primary) hypertension,2021-09-03
+p-ecdc1161,E66.9,"Obesity, unspecified",2022-06-22
+p-ecdc1161,J45.9,"Asthma, unspecified",2012-11-19
+p-214109da,I50.9,"Heart failure, unspecified",2004-10-04
+p-214109da,F32.9,"Depressive episode, unspecified",2008-03-31
+p-f04d5cc9,E66.9,"Obesity, unspecified",2021-03-27
+p-f04d5cc9,I10,Essential (primary) hypertension,2012-07-31
+p-d622ab3f,J44.9,"Chronic obstructive pulmonary disease, unspecified",1997-10-30
+p-7e88cfb6,J45.9,"Asthma, unspecified",2013-07-10
+p-6a7ceca7,F32.9,"Depressive episode, unspecified",2025-08-04
+p-34f6c6b4,E11.9,Type 2 diabetes mellitus without complications,2025-02-02
+p-01fdeabe,I10,Essential (primary) hypertension,1996-12-20
+p-01fdeabe,F32.9,"Depressive episode, unspecified",2020-04-22
+p-cd7a7c6d,I10,Essential (primary) hypertension,2017-12-03
+p-bd5d3126,I10,Essential (primary) hypertension,2008-12-17
+p-bd5d3126,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2022-07-30
+p-bd5d3126,F32.9,"Depressive episode, unspecified",2007-12-03
+p-7e6ba31f,E11.9,Type 2 diabetes mellitus without complications,2003-02-21
+p-cc6e8408,I10,Essential (primary) hypertension,2001-11-04
+p-c9b8f66e,E11.9,Type 2 diabetes mellitus without complications,1997-06-04
+p-7f87534b,I10,Essential (primary) hypertension,2005-08-31
+p-7f87534b,E11.9,Type 2 diabetes mellitus without complications,1998-05-25
+p-7f87534b,I48.0,Paroxysmal atrial fibrillation,2009-07-12
+p-9c6a4a4f,N18.3,"Chronic kidney disease, stage 3",2008-02-04
+p-023838ed,I10,Essential (primary) hypertension,1995-04-01
+p-dd11cef4,E66.9,"Obesity, unspecified",2024-05-16
+p-348af7d7,E66.9,"Obesity, unspecified",2022-09-17
+p-62a8348c,I10,Essential (primary) hypertension,1999-05-02
+p-62a8348c,E11.9,Type 2 diabetes mellitus without complications,2017-05-14
+p-d22ce733,J45.9,"Asthma, unspecified",2010-10-16
+p-a96417fa,I10,Essential (primary) hypertension,1998-08-12
+p-884fcb41,J45.9,"Asthma, unspecified",2007-11-15
+p-e7ec79cd,F32.9,"Depressive episode, unspecified",2021-05-20
+p-e7b0af31,E66.9,"Obesity, unspecified",2017-01-04
+p-616214ef,I10,Essential (primary) hypertension,2013-10-04
+p-616214ef,E11.9,Type 2 diabetes mellitus without complications,2012-04-11
+p-1dc9d164,I10,Essential (primary) hypertension,2013-06-16
+p-1dc9d164,N18.3,"Chronic kidney disease, stage 3",2001-07-31
+p-a280daeb,I48.0,Paroxysmal atrial fibrillation,2011-06-30
+p-a280daeb,N18.3,"Chronic kidney disease, stage 3",2024-10-15
+p-48c08583,I10,Essential (primary) hypertension,2016-03-15
+p-f4b46f76,I10,Essential (primary) hypertension,2005-09-06
+p-aec2e8bc,I10,Essential (primary) hypertension,2021-03-18
+p-aec2e8bc,F32.9,"Depressive episode, unspecified",2022-10-22
+p-eb57732e,I10,Essential (primary) hypertension,2014-09-30
+p-f153319a,I10,Essential (primary) hypertension,2021-08-01
+p-206ec21c,F32.9,"Depressive episode, unspecified",2019-03-02
+p-a6fdcb85,E66.9,"Obesity, unspecified",2023-08-21
+p-c1a1e009,E66.9,"Obesity, unspecified",2022-03-08
+p-5fe63098,I10,Essential (primary) hypertension,1996-11-06
+p-b2aed342,E66.9,"Obesity, unspecified",2004-04-12
+p-b2aed342,E11.9,Type 2 diabetes mellitus without complications,1996-01-06
+p-b2aed342,F32.9,"Depressive episode, unspecified",1996-06-19
+p-e3edd048,I10,Essential (primary) hypertension,2007-05-28
+p-318f8209,J45.9,"Asthma, unspecified",2018-09-12
+p-ca8a3ebe,I10,Essential (primary) hypertension,2003-05-05
+p-d1809d9a,I10,Essential (primary) hypertension,2015-03-31
+p-eba2aab4,I10,Essential (primary) hypertension,2013-06-08
+p-eba2aab4,I50.9,"Heart failure, unspecified",2019-10-14
+p-eba2aab4,N18.3,"Chronic kidney disease, stage 3",2025-04-30
+p-cfd26964,F32.9,"Depressive episode, unspecified",2016-09-24
+p-68fd308c,E66.9,"Obesity, unspecified",2003-11-04
+p-a7d108f2,I10,Essential (primary) hypertension,2024-08-10
+p-37243617,E66.9,"Obesity, unspecified",2021-11-04
+p-a8676394,E66.9,"Obesity, unspecified",2009-08-02
+p-cea81587,E66.9,"Obesity, unspecified",2011-07-08
+p-d9700cf8,J44.9,"Chronic obstructive pulmonary disease, unspecified",2009-05-26
+p-887dbbbd,F32.9,"Depressive episode, unspecified",2025-10-07
+p-626b8632,E66.9,"Obesity, unspecified",2001-02-26
+p-626b8632,I63.9,"Cerebral infarction, unspecified",2013-02-08
+p-626b8632,J45.9,"Asthma, unspecified",2013-08-08
+p-6248cc6e,I10,Essential (primary) hypertension,2015-06-04
+p-6248cc6e,E11.9,Type 2 diabetes mellitus without complications,2001-08-18
+p-e9d12cb7,I10,Essential (primary) hypertension,2019-11-19
+p-e91dfa47,F32.9,"Depressive episode, unspecified",2002-02-09
+p-b751a950,F32.9,"Depressive episode, unspecified",2023-03-15
+p-0f042acf,J45.9,"Asthma, unspecified",2021-02-27
+p-065a91ba,E66.9,"Obesity, unspecified",2012-12-04
+p-065a91ba,I10,Essential (primary) hypertension,2014-11-19
+p-280f4d42,F32.9,"Depressive episode, unspecified",2006-05-09
+p-1399754b,I10,Essential (primary) hypertension,2002-09-19
+p-1399754b,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2011-08-01
+p-5ce500b0,I10,Essential (primary) hypertension,2023-01-08
+p-fd165279,J45.9,"Asthma, unspecified",2025-11-25
+p-cfa3c00c,E66.9,"Obesity, unspecified",2019-01-04
+p-26d4d755,E66.9,"Obesity, unspecified",2016-08-09
+p-17d3f8cf,I10,Essential (primary) hypertension,1997-05-13
+p-d3945f5b,I48.2,Chronic atrial fibrillation,2025-09-29
+p-842bdcaa,I10,Essential (primary) hypertension,2024-02-28
+p-e21232f9,J45.9,"Asthma, unspecified",1997-05-04
+p-c73dd9a1,I10,Essential (primary) hypertension,2015-02-13
+p-89a2d690,I10,Essential (primary) hypertension,2021-07-09
+p-480d0c0f,I10,Essential (primary) hypertension,2011-06-20
+p-fbf99ac3,E66.9,"Obesity, unspecified",2012-08-22
+p-fbf99ac3,I10,Essential (primary) hypertension,2007-10-01
+p-b208afd7,E66.9,"Obesity, unspecified",2024-04-08
+p-8e15ff3f,I10,Essential (primary) hypertension,2012-08-12
+p-8e15ff3f,N18.3,"Chronic kidney disease, stage 3",2011-09-05
+p-6a373b5f,I10,Essential (primary) hypertension,2001-11-24
+p-6a373b5f,I48.0,Paroxysmal atrial fibrillation,1996-11-04
+p-b5a48d70,J45.9,"Asthma, unspecified",2025-04-12
+p-864557eb,I10,Essential (primary) hypertension,2009-08-02
+p-2d23769e,E66.9,"Obesity, unspecified",2003-10-22
+p-86a5665c,I10,Essential (primary) hypertension,2005-02-06
+p-86a5665c,F32.9,"Depressive episode, unspecified",2004-02-11
+p-75559ab4,I10,Essential (primary) hypertension,2007-03-31
+p-3f66cded,E66.9,"Obesity, unspecified",2011-07-05
+p-3f66cded,E11.9,Type 2 diabetes mellitus without complications,2007-02-12
+p-27747b5f,I10,Essential (primary) hypertension,1998-08-16
+p-e3b9bfb7,J45.9,"Asthma, unspecified",2025-04-02
+p-84313c67,I10,Essential (primary) hypertension,1999-02-08
+p-d29ce087,E11.9,Type 2 diabetes mellitus without complications,1995-10-25
+p-7037d825,F32.9,"Depressive episode, unspecified",2015-07-08
+p-44eea97a,E66.9,"Obesity, unspecified",2019-08-01
+p-d08e0862,E66.9,"Obesity, unspecified",2012-11-02
+p-d08e0862,I10,Essential (primary) hypertension,2001-06-19
+p-3ba0729b,I10,Essential (primary) hypertension,2020-05-14
+p-3ba0729b,J45.9,"Asthma, unspecified",2023-08-14
+p-45a604b9,I10,Essential (primary) hypertension,2020-10-19
+p-af0ae3ea,E66.9,"Obesity, unspecified",2004-01-06
+p-af0ae3ea,I10,Essential (primary) hypertension,2020-05-08
+p-c41c3ca8,I10,Essential (primary) hypertension,2016-08-19
+p-f06f1622,I10,Essential (primary) hypertension,2014-11-02
+p-32311fae,E66.9,"Obesity, unspecified",2011-07-21
+p-32311fae,I10,Essential (primary) hypertension,2017-08-17
+p-32311fae,E11.9,Type 2 diabetes mellitus without complications,2009-12-25
+p-a78cd452,I10,Essential (primary) hypertension,2000-01-16
+p-a78cd452,J44.9,"Chronic obstructive pulmonary disease, unspecified",2022-08-05
+p-a8f40bfc,I10,Essential (primary) hypertension,2019-03-15
+p-b6bda37a,E66.9,"Obesity, unspecified",2008-04-12
+p-b6bda37a,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2024-08-05
+p-907efbb8,I50.9,"Heart failure, unspecified",2020-02-20
+p-dabefb87,E66.9,"Obesity, unspecified",2012-12-26
+p-dabefb87,I10,Essential (primary) hypertension,2018-05-20
+p-73cab683,I10,Essential (primary) hypertension,1996-09-09
+p-73cab683,J44.9,"Chronic obstructive pulmonary disease, unspecified",2013-03-11
+p-965c00e1,E66.9,"Obesity, unspecified",2014-02-17
+p-98278980,J45.9,"Asthma, unspecified",2021-03-31
+p-b8b2edd6,E66.9,"Obesity, unspecified",2017-07-06
+p-b8b2edd6,E11.9,Type 2 diabetes mellitus without complications,2016-02-20
+p-f5161724,E66.9,"Obesity, unspecified",2008-04-06
+p-f5161724,I50.9,"Heart failure, unspecified",2000-10-31
+p-fb205647,F32.9,"Depressive episode, unspecified",2024-03-20
+p-de6ad2e0,J45.9,"Asthma, unspecified",2006-06-18
+p-c2f4d812,I48.2,Chronic atrial fibrillation,2018-09-21
+p-c2f4d812,N18.3,"Chronic kidney disease, stage 3",2011-03-19
+p-7fc9cb86,I10,Essential (primary) hypertension,2018-11-26
+p-a55622c1,F32.9,"Depressive episode, unspecified",2011-07-06
+p-69cd65f8,I10,Essential (primary) hypertension,2011-04-23
+p-69c6ea58,I10,Essential (primary) hypertension,2004-01-28
+p-3f254158,I10,Essential (primary) hypertension,2005-09-19
+p-0a4ffec4,I48.2,Chronic atrial fibrillation,2007-07-28
+p-0a4ffec4,N18.3,"Chronic kidney disease, stage 3",2005-11-23
+p-240d9bac,I10,Essential (primary) hypertension,2006-12-26
+p-2bfbbda2,I10,Essential (primary) hypertension,2007-11-11
+p-2bfbbda2,J44.9,"Chronic obstructive pulmonary disease, unspecified",2015-10-10
+p-2bfbbda2,J45.9,"Asthma, unspecified",2024-07-06
+p-5a16e21c,E66.9,"Obesity, unspecified",2023-06-01
+p-fb4a0e7d,E11.9,Type 2 diabetes mellitus without complications,1998-08-23
+p-dc78eeff,E66.9,"Obesity, unspecified",2025-06-15
+p-bfa65d44,J45.9,"Asthma, unspecified",2022-09-05
+p-e5e2f603,E66.9,"Obesity, unspecified",2015-11-15
+p-e5e2f603,I10,Essential (primary) hypertension,2008-11-02
+p-e5e2f603,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2014-02-23
+p-5f7428e1,E66.9,"Obesity, unspecified",2007-10-10
+p-b6c7d4a1,F32.9,"Depressive episode, unspecified",2024-03-18
+p-e6aab19d,I10,Essential (primary) hypertension,2024-05-14
+p-e6aab19d,J44.9,"Chronic obstructive pulmonary disease, unspecified",1998-08-16
+p-94f944b7,I10,Essential (primary) hypertension,1997-04-02
+p-94f944b7,E11.9,Type 2 diabetes mellitus without complications,2009-08-22
+p-36801bcf,C50.9,"Malignant neoplasm of breast, unspecified",2019-11-28
+p-a3b18de9,I10,Essential (primary) hypertension,2013-01-03
+p-856f5cfa,I10,Essential (primary) hypertension,2008-10-19
+p-00b31031,F32.9,"Depressive episode, unspecified",2007-09-19
+p-85746945,F32.9,"Depressive episode, unspecified",2025-11-17
+p-aea30008,I10,Essential (primary) hypertension,2001-11-22
+p-aea30008,E11.9,Type 2 diabetes mellitus without complications,2018-10-04
+p-aea30008,J44.9,"Chronic obstructive pulmonary disease, unspecified",2005-02-03
+p-aea30008,N18.3,"Chronic kidney disease, stage 3",2001-10-06
+p-4934f4f4,I10,Essential (primary) hypertension,1998-10-04
+p-32f941af,I63.9,"Cerebral infarction, unspecified",2006-09-14
+p-01ff4654,I10,Essential (primary) hypertension,2000-11-27
+p-9bc62268,E66.9,"Obesity, unspecified",2019-10-07
+p-9eb2627d,E66.9,"Obesity, unspecified",2016-02-24
+p-7262640c,I10,Essential (primary) hypertension,1996-05-10
+p-586b60f2,E66.9,"Obesity, unspecified",2013-09-27
+p-92a7eb6a,E11.9,Type 2 diabetes mellitus without complications,1996-09-20
+p-92a7eb6a,J44.9,"Chronic obstructive pulmonary disease, unspecified",2002-01-30
+p-df4a0e9a,E66.9,"Obesity, unspecified",2003-11-23
+p-7184a71f,I10,Essential (primary) hypertension,2013-05-03
+p-7184a71f,I63.9,"Cerebral infarction, unspecified",2001-05-02
+p-7184a71f,J44.9,"Chronic obstructive pulmonary disease, unspecified",2013-11-30
+p-8410dafd,E66.9,"Obesity, unspecified",2007-11-01
+p-8410dafd,I10,Essential (primary) hypertension,2025-01-06
+p-b0c6e23b,I10,Essential (primary) hypertension,2002-03-16
+p-975ab286,E66.9,"Obesity, unspecified",2012-03-16
+p-975ab286,I10,Essential (primary) hypertension,2007-03-21
+p-ac1028c4,E11.9,Type 2 diabetes mellitus without complications,2022-06-23
+p-ac1028c4,N18.3,"Chronic kidney disease, stage 3",2013-09-17
+p-21c3159f,J45.9,"Asthma, unspecified",2020-09-17
+p-bc6a6678,E66.9,"Obesity, unspecified",2010-03-07
+p-7f1e7349,I10,Essential (primary) hypertension,2017-07-10
+p-577f074c,I10,Essential (primary) hypertension,2021-10-12
+p-577f074c,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2002-10-20
+p-32e41025,J45.9,"Asthma, unspecified",2016-12-07
+p-d215daf1,J45.9,"Asthma, unspecified",2009-09-11
+p-bd9aa85b,I10,Essential (primary) hypertension,2018-07-26
+p-d8e9a978,E66.9,"Obesity, unspecified",2007-10-05
+p-e4a72afb,I10,Essential (primary) hypertension,2000-11-12
+p-e4a72afb,J44.9,"Chronic obstructive pulmonary disease, unspecified",2023-05-10
+p-ff38268e,E66.9,"Obesity, unspecified",2019-09-10
+p-ff38268e,I10,Essential (primary) hypertension,1999-03-09
+p-ff38268e,E11.9,Type 2 diabetes mellitus without complications,2008-04-21
+p-18585b50,E11.9,Type 2 diabetes mellitus without complications,2024-03-22
+p-b5dc0a78,E66.9,"Obesity, unspecified",2012-02-18
+p-b65d227f,I10,Essential (primary) hypertension,2023-12-17
+p-7a074245,I10,Essential (primary) hypertension,1999-09-28
+p-f35fb8e6,I48.0,Paroxysmal atrial fibrillation,1997-06-01
+p-f00fa0e1,E66.9,"Obesity, unspecified",2014-09-18
+p-930e626e,E66.9,"Obesity, unspecified",2010-10-13
+p-7f29c929,I10,Essential (primary) hypertension,2025-04-15
+p-e900a23f,I10,Essential (primary) hypertension,2010-07-02
+p-bb35d4a4,I10,Essential (primary) hypertension,2019-10-20
+p-a37ba5cf,E66.9,"Obesity, unspecified",2021-07-16
+p-955fcb08,J45.9,"Asthma, unspecified",2007-09-30
+p-eb6bfeb6,I10,Essential (primary) hypertension,1996-08-27
+p-fbb0f399,E11.9,Type 2 diabetes mellitus without complications,2004-05-21
+p-e8427aca,N18.3,"Chronic kidney disease, stage 3",2010-03-23
+p-39f5dfd7,I10,Essential (primary) hypertension,2015-05-10
+p-69b3740f,I10,Essential (primary) hypertension,2014-01-03
+p-04468635,I10,Essential (primary) hypertension,2015-02-11
+p-04468635,I48.2,Chronic atrial fibrillation,2015-05-01
+p-34744ce1,I10,Essential (primary) hypertension,2025-06-29
+p-547a67be,I10,Essential (primary) hypertension,2006-10-17
+p-547a67be,J45.9,"Asthma, unspecified",2024-05-10
+p-c90e4637,I10,Essential (primary) hypertension,1999-08-28
+p-c90e4637,E11.9,Type 2 diabetes mellitus without complications,2006-02-20
+p-26df58d1,I10,Essential (primary) hypertension,2015-12-09
+p-26df58d1,J45.9,"Asthma, unspecified",2001-05-19
+p-7eed6b5d,E66.9,"Obesity, unspecified",2005-11-07
+p-7eed6b5d,I10,Essential (primary) hypertension,1998-07-20
+p-7eed6b5d,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2001-11-09
+p-8f6c9b37,I10,Essential (primary) hypertension,2013-09-17
+p-4a69b740,I10,Essential (primary) hypertension,2006-06-12
+p-52d6ae87,I48.0,Paroxysmal atrial fibrillation,1997-04-09
+p-52d6ae87,N18.3,"Chronic kidney disease, stage 3",2023-02-19
+p-e32cef24,I10,Essential (primary) hypertension,2024-06-30
+p-c21c1b9d,I10,Essential (primary) hypertension,2000-11-18
+p-6cbe5406,I10,Essential (primary) hypertension,2013-12-20
+p-6cbe5406,N18.3,"Chronic kidney disease, stage 3",2004-08-08
+p-d90da38d,E66.9,"Obesity, unspecified",2020-12-26
+p-eb914f35,I10,Essential (primary) hypertension,2010-01-25
+p-eb914f35,F32.9,"Depressive episode, unspecified",2009-08-10
+p-e7cb05a2,I10,Essential (primary) hypertension,2008-10-14
+p-debb3833,F32.9,"Depressive episode, unspecified",2025-10-02
+p-d973b583,E66.9,"Obesity, unspecified",2024-12-19
+p-d973b583,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2018-11-04
+p-9be7de01,N18.3,"Chronic kidney disease, stage 3",1998-07-26
+p-05e869e7,F32.9,"Depressive episode, unspecified",2002-07-01
+p-660a5bd7,E66.9,"Obesity, unspecified",2023-05-15
+p-660a5bd7,E11.9,Type 2 diabetes mellitus without complications,2002-12-06
+p-01288ed2,F32.9,"Depressive episode, unspecified",2020-04-18
+p-908e7f0f,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1999-07-07
+p-908e7f0f,N18.3,"Chronic kidney disease, stage 3",2019-02-03
+p-c96a78fa,E11.9,Type 2 diabetes mellitus without complications,2007-12-25
+p-a295e9ae,F32.9,"Depressive episode, unspecified",2021-12-16
+p-7a876359,F32.9,"Depressive episode, unspecified",2024-06-01
+p-5feb136e,E66.9,"Obesity, unspecified",2009-06-13
+p-24bac70f,I10,Essential (primary) hypertension,2022-08-03
+p-6027ac47,E66.9,"Obesity, unspecified",2005-04-20
+p-6027ac47,I10,Essential (primary) hypertension,2015-07-31
+p-6027ac47,E11.9,Type 2 diabetes mellitus without complications,2015-09-28
+p-6027ac47,J44.9,"Chronic obstructive pulmonary disease, unspecified",2009-03-25
+p-aa839706,I10,Essential (primary) hypertension,2013-02-28
+p-e9e83ab6,I10,Essential (primary) hypertension,2018-03-21
+p-bf394133,F32.9,"Depressive episode, unspecified",2018-07-04
+p-dcd2a5e1,E66.9,"Obesity, unspecified",2000-11-15
+p-dcd2a5e1,I10,Essential (primary) hypertension,2000-08-11
+p-dcd2a5e1,E11.9,Type 2 diabetes mellitus without complications,2016-01-22
+p-60d9833f,E66.9,"Obesity, unspecified",2024-06-20
+p-4bf16a2d,E66.9,"Obesity, unspecified",2018-05-06
+p-6ace757a,E11.9,Type 2 diabetes mellitus without complications,1995-01-16
+p-f940fbd5,E11.9,Type 2 diabetes mellitus without complications,2018-12-04
+p-b96f8caa,I10,Essential (primary) hypertension,2010-07-13
+p-85d344cc,E66.9,"Obesity, unspecified",2005-08-16
+p-85d344cc,I10,Essential (primary) hypertension,2014-03-05
+p-85d344cc,I63.9,"Cerebral infarction, unspecified",2020-04-09
+p-85d344cc,J45.9,"Asthma, unspecified",2024-09-12
+p-72c962b7,E66.9,"Obesity, unspecified",2005-05-29
+p-72c962b7,I10,Essential (primary) hypertension,2023-10-24
+p-20a89c92,I10,Essential (primary) hypertension,2002-09-06
+p-20a89c92,F32.9,"Depressive episode, unspecified",2000-02-08
+p-88aaa1b3,I10,Essential (primary) hypertension,1999-09-02
+p-7526646e,I10,Essential (primary) hypertension,2013-10-07
+p-223d5dd3,F32.9,"Depressive episode, unspecified",2021-10-25
+p-9a31ad80,E66.9,"Obesity, unspecified",2003-09-18
+p-9a31ad80,I10,Essential (primary) hypertension,2000-10-21
+p-62c627b2,E66.9,"Obesity, unspecified",2017-09-06
+p-b345a11b,I10,Essential (primary) hypertension,2016-08-29
+p-4c0cd56c,E66.9,"Obesity, unspecified",2006-03-10
+p-4c0cd56c,I10,Essential (primary) hypertension,2008-01-22
+p-e4874cfb,I10,Essential (primary) hypertension,1997-03-01
+p-d69d7d2d,I10,Essential (primary) hypertension,1998-01-10
+p-a917ab67,E66.9,"Obesity, unspecified",2020-04-14
+p-944901cf,I10,Essential (primary) hypertension,2009-03-11
+p-944901cf,I50.9,"Heart failure, unspecified",2014-03-18
+p-9d5a507a,J45.9,"Asthma, unspecified",2007-03-12
+p-6431678a,N18.3,"Chronic kidney disease, stage 3",2007-04-06
+p-956cce78,I10,Essential (primary) hypertension,2024-01-08
+p-956cce78,F32.9,"Depressive episode, unspecified",2019-03-11
+p-557b03e9,F32.9,"Depressive episode, unspecified",2017-11-26
+p-a6a8b9bd,E66.9,"Obesity, unspecified",2019-12-20
+p-a6a8b9bd,J45.9,"Asthma, unspecified",2019-10-07
+p-8a19f1d6,J44.9,"Chronic obstructive pulmonary disease, unspecified",2015-12-27
+p-8a19f1d6,F32.9,"Depressive episode, unspecified",2005-10-20
+p-356ed466,I10,Essential (primary) hypertension,2011-08-28
+p-356ed466,I50.9,"Heart failure, unspecified",1997-10-28
+p-06c01b49,I10,Essential (primary) hypertension,2007-05-15
+p-06c01b49,E11.9,Type 2 diabetes mellitus without complications,2007-04-17
+p-a2fe9d08,I10,Essential (primary) hypertension,2011-06-12
+p-3d9be84a,E11.9,Type 2 diabetes mellitus without complications,2008-09-26
+p-3d9be84a,J44.9,"Chronic obstructive pulmonary disease, unspecified",2008-07-28
+p-60350bf0,I10,Essential (primary) hypertension,2003-01-30
+p-0d13e105,I10,Essential (primary) hypertension,2008-01-20
+p-389526f7,E66.9,"Obesity, unspecified",2025-04-02
+p-389526f7,I10,Essential (primary) hypertension,2010-09-15
+p-389526f7,I50.9,"Heart failure, unspecified",2016-01-14
+p-c49970ae,J45.9,"Asthma, unspecified",2019-03-19
+p-62315bcf,I10,Essential (primary) hypertension,1997-07-29
+p-41c04813,E66.9,"Obesity, unspecified",2019-11-11
+p-41c04813,I10,Essential (primary) hypertension,2015-09-14
+p-41c04813,E11.9,Type 2 diabetes mellitus without complications,1997-04-16
+p-3d1b6cea,E66.9,"Obesity, unspecified",2024-05-20
+p-9c18ee8b,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2008-06-30
+p-f2ef20a9,E66.9,"Obesity, unspecified",2010-10-23
+p-f2ef20a9,J45.9,"Asthma, unspecified",2005-11-24
+p-fa1c3bc5,I10,Essential (primary) hypertension,1996-11-23
+p-fa1c3bc5,I48.0,Paroxysmal atrial fibrillation,2011-09-16
+p-64d37300,I10,Essential (primary) hypertension,2012-11-14
+p-548cbb09,E66.9,"Obesity, unspecified",2025-11-30
+p-548cbb09,E11.9,Type 2 diabetes mellitus without complications,1995-01-13
+p-5e0d981c,E11.9,Type 2 diabetes mellitus without complications,2013-09-22
+p-235bfbd2,I10,Essential (primary) hypertension,2010-12-17
+p-06b2e081,I10,Essential (primary) hypertension,2021-04-12
+p-22a4510a,E11.9,Type 2 diabetes mellitus without complications,1995-09-18
+p-45948a73,E66.9,"Obesity, unspecified",2019-07-31
+p-45948a73,I10,Essential (primary) hypertension,2007-10-07
+p-45948a73,E11.9,Type 2 diabetes mellitus without complications,2014-09-03
+p-45948a73,F32.9,"Depressive episode, unspecified",2025-08-04
+p-b1535f4c,I10,Essential (primary) hypertension,2017-04-27
+p-7ae04768,J45.9,"Asthma, unspecified",1997-03-29
+p-f22c93f7,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2001-06-02
+p-f22c93f7,N18.3,"Chronic kidney disease, stage 3",2001-08-28
+p-5d6bdd44,I10,Essential (primary) hypertension,2008-08-28
+p-e4fc56db,E66.9,"Obesity, unspecified",2017-03-24
+p-e4fc56db,J44.9,"Chronic obstructive pulmonary disease, unspecified",2015-02-20
+p-76d8abc1,E66.9,"Obesity, unspecified",2006-02-13
+p-76d8abc1,I10,Essential (primary) hypertension,2023-07-16
+p-000e0057,E66.9,"Obesity, unspecified",2023-11-09
+p-000e0057,I10,Essential (primary) hypertension,2025-05-28
+p-fb5d1e69,J45.9,"Asthma, unspecified",2010-01-30
+p-9fef7451,E66.9,"Obesity, unspecified",2002-12-22
+p-ceb6a18b,I10,Essential (primary) hypertension,2002-09-14
+p-ceb6a18b,I48.0,Paroxysmal atrial fibrillation,2024-08-02
+p-077a1142,I10,Essential (primary) hypertension,2009-10-27
+p-077a1142,I48.2,Chronic atrial fibrillation,2023-11-20
+p-5e5b868f,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2014-02-04
+p-b2adde70,I10,Essential (primary) hypertension,2022-08-11
+p-b2adde70,C50.9,"Malignant neoplasm of breast, unspecified",2009-05-12
+p-b2adde70,F32.9,"Depressive episode, unspecified",1999-08-07
+p-60d6d3d9,I10,Essential (primary) hypertension,2018-07-04
+p-f2699456,I10,Essential (primary) hypertension,2011-11-16
+p-ca713a30,I10,Essential (primary) hypertension,2006-03-02
+p-5cf71742,F32.9,"Depressive episode, unspecified",2025-01-06
+p-5cf71742,N18.3,"Chronic kidney disease, stage 3",2002-07-22
+p-f2ffdfff,I10,Essential (primary) hypertension,2021-09-25
+p-c80748e5,I10,Essential (primary) hypertension,1997-07-18
+p-c80748e5,J45.9,"Asthma, unspecified",2003-07-09
+p-8cd5b505,E66.9,"Obesity, unspecified",2018-02-12
+p-8cd5b505,I10,Essential (primary) hypertension,2010-05-20
+p-53159341,E66.9,"Obesity, unspecified",1997-10-01
+p-2dd35783,I10,Essential (primary) hypertension,2007-10-24
+p-2dd35783,N18.3,"Chronic kidney disease, stage 3",1995-07-18
+p-c4089f27,E66.9,"Obesity, unspecified",2025-02-03
+p-5646ac16,I10,Essential (primary) hypertension,2010-09-19
+p-9a5468b9,I10,Essential (primary) hypertension,2024-01-29
+p-77f20d7e,I10,Essential (primary) hypertension,2014-12-10
+p-5618023d,I10,Essential (primary) hypertension,2004-01-02
+p-e0a7ffeb,F32.9,"Depressive episode, unspecified",2013-10-22
+p-1050750b,E66.9,"Obesity, unspecified",2006-07-29
+p-1050750b,I10,Essential (primary) hypertension,1999-07-21
+p-1050750b,E11.9,Type 2 diabetes mellitus without complications,2010-05-02
+p-ce63af8e,I10,Essential (primary) hypertension,2007-04-28
+p-f4b15f44,F32.9,"Depressive episode, unspecified",2011-10-18
+p-6e6b30e8,E11.9,Type 2 diabetes mellitus without complications,2025-08-02
+p-6e6b30e8,J44.9,"Chronic obstructive pulmonary disease, unspecified",2007-10-04
+p-b6f7a8ed,I10,Essential (primary) hypertension,2023-09-11
+p-b6f7a8ed,F32.9,"Depressive episode, unspecified",2020-03-11
+p-d997652e,I10,Essential (primary) hypertension,2016-02-25
+p-884d8cda,F32.9,"Depressive episode, unspecified",2022-06-11
+p-2b9595be,I48.2,Chronic atrial fibrillation,2009-04-27
+p-a290abaa,E66.9,"Obesity, unspecified",2005-09-26
+p-a290abaa,I10,Essential (primary) hypertension,2011-12-09
+p-1e71ac7c,I10,Essential (primary) hypertension,2006-03-19
+p-1e71ac7c,I50.9,"Heart failure, unspecified",2018-06-25
+p-b93a64ee,E66.9,"Obesity, unspecified",2000-08-02
+p-d441acbf,F32.9,"Depressive episode, unspecified",2007-05-24
+p-432842a2,E66.9,"Obesity, unspecified",2022-01-26
+p-3b1d4d15,I10,Essential (primary) hypertension,2023-11-16
+p-3b1d4d15,I48.0,Paroxysmal atrial fibrillation,1999-04-14
+p-c761d628,E66.9,"Obesity, unspecified",2010-08-17
+p-c761d628,I10,Essential (primary) hypertension,1997-04-22
+p-1d302f73,J45.9,"Asthma, unspecified",2024-01-12
+p-1b67e17c,E66.9,"Obesity, unspecified",1995-07-29
+p-1b67e17c,I10,Essential (primary) hypertension,1998-06-11
+p-3bb74eea,E66.9,"Obesity, unspecified",2010-03-15
+p-a6a974ba,I10,Essential (primary) hypertension,1996-02-15
+p-cea63953,E66.9,"Obesity, unspecified",2017-08-29
+p-cea63953,F32.9,"Depressive episode, unspecified",2022-08-26
+p-f8db9f6c,I10,Essential (primary) hypertension,1997-10-22
+p-a943bbcc,I10,Essential (primary) hypertension,2003-11-16
+p-a943bbcc,I63.9,"Cerebral infarction, unspecified",2012-08-02
+p-8a591ae9,F32.9,"Depressive episode, unspecified",2022-07-08
+p-f3e6405a,I10,Essential (primary) hypertension,2017-07-01
+p-98a25cd3,I10,Essential (primary) hypertension,2023-08-30
+p-2bdf6b93,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2023-12-09
+p-fbd557ee,E66.9,"Obesity, unspecified",2024-11-26
+p-c5424e83,J45.9,"Asthma, unspecified",2020-01-02
+p-602a9936,E66.9,"Obesity, unspecified",2019-09-02
+p-d178fad2,J44.9,"Chronic obstructive pulmonary disease, unspecified",2005-10-08
+p-5283569d,I10,Essential (primary) hypertension,2014-06-08
+p-49d2cb74,E66.9,"Obesity, unspecified",2020-08-13
+p-7000507c,I10,Essential (primary) hypertension,2011-02-11
+p-de376947,E66.9,"Obesity, unspecified",2016-06-22
+p-de376947,I10,Essential (primary) hypertension,1999-08-08
+p-de376947,I50.9,"Heart failure, unspecified",2022-10-29
+p-0c901665,I50.9,"Heart failure, unspecified",2017-04-11
+p-0c901665,I63.9,"Cerebral infarction, unspecified",2006-03-26
+p-0c901665,N18.3,"Chronic kidney disease, stage 3",2008-06-24
+p-45c9aede,E66.9,"Obesity, unspecified",2023-06-10
+p-45c9aede,I10,Essential (primary) hypertension,2010-09-06
+p-ba137326,E66.9,"Obesity, unspecified",2023-01-17
+p-ba137326,J45.9,"Asthma, unspecified",2008-09-16
+p-16027ea2,I10,Essential (primary) hypertension,2019-02-05
+p-16027ea2,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2015-01-05
+p-45475aa1,I10,Essential (primary) hypertension,1998-08-21
+p-dab6c958,I63.9,"Cerebral infarction, unspecified",1999-08-06
+p-66d9cb33,E11.9,Type 2 diabetes mellitus without complications,2009-01-19
+p-1faed442,F32.9,"Depressive episode, unspecified",2001-09-23
+p-3175beb9,I10,Essential (primary) hypertension,1998-08-06
+p-0561953f,I48.2,Chronic atrial fibrillation,2001-01-24
+p-0561953f,I50.9,"Heart failure, unspecified",2013-05-28
+p-43cf8442,E66.9,"Obesity, unspecified",2010-02-24
+p-e8b23f6f,E66.9,"Obesity, unspecified",1999-04-25
+p-e8b23f6f,I10,Essential (primary) hypertension,2005-06-15
+p-e8b23f6f,E11.9,Type 2 diabetes mellitus without complications,2019-08-05
+p-e8b23f6f,I63.9,"Cerebral infarction, unspecified",2009-07-27
+p-6eca083b,E11.9,Type 2 diabetes mellitus without complications,2007-04-01
+p-6eca083b,F32.9,"Depressive episode, unspecified",2009-12-10
+p-42c43448,E66.9,"Obesity, unspecified",2022-10-17
+p-1e77d655,E66.9,"Obesity, unspecified",2014-01-18
+p-00d53092,F32.9,"Depressive episode, unspecified",2016-11-19
+p-ac59a11f,F32.9,"Depressive episode, unspecified",2020-12-01
+p-1a7c461e,I50.9,"Heart failure, unspecified",2023-06-29
+p-2cec675a,E66.9,"Obesity, unspecified",2025-06-06
+p-126fcf55,E66.9,"Obesity, unspecified",2010-03-09
+p-479e43b7,I10,Essential (primary) hypertension,2013-05-13
+p-479e43b7,N18.3,"Chronic kidney disease, stage 3",2022-08-16
+p-130f9f1a,I10,Essential (primary) hypertension,2018-03-31
+p-130f9f1a,E11.9,Type 2 diabetes mellitus without complications,2010-08-11
+p-130f9f1a,I48.0,Paroxysmal atrial fibrillation,2024-03-07
+p-130f9f1a,I50.9,"Heart failure, unspecified",2006-05-21
+p-5275bea3,I48.2,Chronic atrial fibrillation,2001-05-01
+p-5275bea3,J44.9,"Chronic obstructive pulmonary disease, unspecified",2009-11-10
+p-a2901111,I10,Essential (primary) hypertension,2014-03-28
+p-bf9e43a1,I10,Essential (primary) hypertension,2001-07-02
+p-c94fd7ba,F32.9,"Depressive episode, unspecified",2015-01-05
+p-c94fd7ba,J45.9,"Asthma, unspecified",2020-05-19
+p-f4c8fed8,F32.9,"Depressive episode, unspecified",2013-04-01
+p-96989f35,I10,Essential (primary) hypertension,2012-09-27
+p-0d696986,F32.9,"Depressive episode, unspecified",2000-11-05
+p-cd055d55,I10,Essential (primary) hypertension,2015-12-05
+p-895396c0,J45.9,"Asthma, unspecified",2010-12-15
+p-fc586443,E66.9,"Obesity, unspecified",2010-04-19
+p-ca48d129,I10,Essential (primary) hypertension,2001-06-11
+p-acb76428,I10,Essential (primary) hypertension,2023-05-07
+p-acb76428,E11.9,Type 2 diabetes mellitus without complications,2002-05-08
+p-acb76428,J44.9,"Chronic obstructive pulmonary disease, unspecified",2007-10-24
+p-b3fa62f7,E66.9,"Obesity, unspecified",2011-12-20
+p-b3fa62f7,F32.9,"Depressive episode, unspecified",2003-07-24
+p-a66aea0a,I10,Essential (primary) hypertension,2008-07-23
+p-d070d8e9,F32.9,"Depressive episode, unspecified",2022-05-01
+p-72c0986a,E11.9,Type 2 diabetes mellitus without complications,2022-02-20
+p-0b76e409,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2005-07-07
+p-b25622f2,E11.9,Type 2 diabetes mellitus without complications,2014-06-17
+p-b25622f2,J44.9,"Chronic obstructive pulmonary disease, unspecified",2019-03-05
+p-201a0eda,J45.9,"Asthma, unspecified",2009-11-18
+p-4b4adaa2,I10,Essential (primary) hypertension,2024-04-22
+p-9507115c,I10,Essential (primary) hypertension,2021-02-06
+p-c699a4f4,I10,Essential (primary) hypertension,2017-01-02
+p-c699a4f4,J44.9,"Chronic obstructive pulmonary disease, unspecified",2025-02-27
+p-6318e301,E66.9,"Obesity, unspecified",2012-09-24
+p-eee156fd,J45.9,"Asthma, unspecified",2007-02-25
+p-f0943188,E66.9,"Obesity, unspecified",2016-05-15
+p-2829a7ea,I10,Essential (primary) hypertension,2002-10-08
+p-df3ecbdb,I10,Essential (primary) hypertension,2013-08-25
+p-df3ecbdb,F32.9,"Depressive episode, unspecified",2025-11-05
+p-fa610b26,I10,Essential (primary) hypertension,2005-02-27
+p-fa610b26,E11.9,Type 2 diabetes mellitus without complications,2006-08-29
+p-fa610b26,N18.3,"Chronic kidney disease, stage 3",2003-08-14
+p-0a0e4a91,I10,Essential (primary) hypertension,2025-12-01
+p-1827a129,E11.9,Type 2 diabetes mellitus without complications,2016-05-30
+p-e923d6aa,E66.9,"Obesity, unspecified",2025-02-28
+p-e923d6aa,I10,Essential (primary) hypertension,2020-08-03
+p-e923d6aa,E11.9,Type 2 diabetes mellitus without complications,2008-09-28
+p-e923d6aa,F32.9,"Depressive episode, unspecified",2021-03-26
+p-daaae5d3,E66.9,"Obesity, unspecified",2011-07-08
+p-bac7a39e,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2005-11-14
+p-f3766347,E66.9,"Obesity, unspecified",2020-12-17
+p-f3766347,I10,Essential (primary) hypertension,2007-10-16
+p-f3766347,E11.9,Type 2 diabetes mellitus without complications,2017-04-28
+p-f3766347,I48.0,Paroxysmal atrial fibrillation,2015-10-28
+p-f3766347,I63.9,"Cerebral infarction, unspecified",2011-12-24
+p-6bda0647,E66.9,"Obesity, unspecified",2014-01-08
+p-6bda0647,I10,Essential (primary) hypertension,2003-08-23
+p-1f9eae47,E66.9,"Obesity, unspecified",1998-10-01
+p-1f9eae47,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2019-11-23
+p-f8d4e01d,E66.9,"Obesity, unspecified",2019-03-16
+p-f8d4e01d,I10,Essential (primary) hypertension,2025-09-26
+p-f8d4e01d,J45.9,"Asthma, unspecified",2019-06-08
+p-02d55ac1,F32.9,"Depressive episode, unspecified",2008-03-18
+p-2edeef8a,E66.9,"Obesity, unspecified",2025-06-04
+p-2edeef8a,J45.9,"Asthma, unspecified",1999-09-28
+p-4c1d8f61,I10,Essential (primary) hypertension,2011-09-16
+p-caa4f29f,I10,Essential (primary) hypertension,2013-09-29
+p-328c9812,I10,Essential (primary) hypertension,2008-01-10
+p-4ac66a17,I10,Essential (primary) hypertension,2007-03-19
+p-2959702d,J45.9,"Asthma, unspecified",2021-06-23
+p-d332e3d8,F32.9,"Depressive episode, unspecified",2021-08-15
+p-58617eca,J45.9,"Asthma, unspecified",2008-07-05
+p-62525681,E66.9,"Obesity, unspecified",2011-03-27
+p-62525681,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2008-10-02
+p-7a8ced48,I10,Essential (primary) hypertension,2005-09-28
+p-4df54cdd,E66.9,"Obesity, unspecified",2025-11-10
+p-69b3d4f0,E66.9,"Obesity, unspecified",2004-10-20
+p-95d469db,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1996-01-27
+p-fb134a20,F32.9,"Depressive episode, unspecified",2017-02-20
+p-fb7ffc67,I10,Essential (primary) hypertension,2006-07-31
+p-dd45c2f2,E66.9,"Obesity, unspecified",2024-09-05
+p-08c566cb,E66.9,"Obesity, unspecified",2020-12-11
+p-08c566cb,I10,Essential (primary) hypertension,1999-06-12
+p-8a1ea6c5,E66.9,"Obesity, unspecified",2014-04-20
+p-8a1ea6c5,I10,Essential (primary) hypertension,1998-05-24
+p-8a1ea6c5,I63.9,"Cerebral infarction, unspecified",2017-07-16
+p-7f0f632d,E66.9,"Obesity, unspecified",2023-10-22
+p-e89a9f01,E66.9,"Obesity, unspecified",2022-07-10
+p-596bbbc7,E66.9,"Obesity, unspecified",2025-07-12
+p-596bbbc7,J45.9,"Asthma, unspecified",2018-08-05
+p-28821f61,I10,Essential (primary) hypertension,2013-10-09
+p-6b364850,J45.9,"Asthma, unspecified",2002-05-22
+p-b8e33864,N18.3,"Chronic kidney disease, stage 3",2005-04-20
+p-b8e33864,J45.9,"Asthma, unspecified",2003-10-23
+p-41842516,I10,Essential (primary) hypertension,2013-01-23
+p-41842516,J44.9,"Chronic obstructive pulmonary disease, unspecified",2006-12-22
+p-cfa4d155,J45.9,"Asthma, unspecified",2010-07-08
+p-521e3788,I10,Essential (primary) hypertension,2025-05-18
+p-b9b4ce73,I10,Essential (primary) hypertension,2010-07-12
+p-b9b4ce73,N18.3,"Chronic kidney disease, stage 3",2001-02-23
+p-c6c2a7cd,I10,Essential (primary) hypertension,2002-11-02
+p-c09ff801,I10,Essential (primary) hypertension,2018-04-03
+p-a1e61a33,E66.9,"Obesity, unspecified",2015-06-29
+p-a1e61a33,F32.9,"Depressive episode, unspecified",2016-07-25
+p-4a88843f,E66.9,"Obesity, unspecified",2024-02-09
+p-1f920632,F32.9,"Depressive episode, unspecified",2018-11-21
+p-c7e0acd9,I10,Essential (primary) hypertension,2024-10-17
+p-a61a8ac2,J45.9,"Asthma, unspecified",2020-03-27
+p-92d38a78,F32.9,"Depressive episode, unspecified",2012-01-16
+p-0b585581,F32.9,"Depressive episode, unspecified",2016-02-23
+p-1a2e0352,I10,Essential (primary) hypertension,2012-02-21
+p-e65802d8,I10,Essential (primary) hypertension,2009-11-25
+p-6e82b893,I10,Essential (primary) hypertension,2006-03-20
+p-840e89e7,J45.9,"Asthma, unspecified",2024-08-21
+p-ce58ea8e,I10,Essential (primary) hypertension,2017-04-27
+p-a0d340a6,E66.9,"Obesity, unspecified",2014-02-28
+p-78d9f8ab,I10,Essential (primary) hypertension,2006-12-10
+p-78d9f8ab,J45.9,"Asthma, unspecified",2006-01-10
+p-92fcad8c,E66.9,"Obesity, unspecified",2021-06-25
+p-92fcad8c,E11.9,Type 2 diabetes mellitus without complications,2012-07-08
+p-a4e7ae84,E66.9,"Obesity, unspecified",2022-03-16
+p-40c5ba47,I10,Essential (primary) hypertension,2021-02-24
+p-bf659f37,E66.9,"Obesity, unspecified",2011-08-25
+p-40f18fa8,E66.9,"Obesity, unspecified",1995-12-26
+p-7d55a9f8,I10,Essential (primary) hypertension,2018-10-05
+p-a3f4837d,I10,Essential (primary) hypertension,2025-10-05
+p-f0d3557c,E11.9,Type 2 diabetes mellitus without complications,2023-01-09
+p-4f2747f9,I10,Essential (primary) hypertension,2017-05-10
+p-4f2747f9,I48.0,Paroxysmal atrial fibrillation,2008-04-10
+p-4f2747f9,I63.9,"Cerebral infarction, unspecified",1998-10-26
+p-b2a55bf1,E66.9,"Obesity, unspecified",2010-07-09
+p-30dabbdc,J45.9,"Asthma, unspecified",2025-11-17
+p-8e0024f3,J45.9,"Asthma, unspecified",2025-04-03
+p-45e0b90e,I10,Essential (primary) hypertension,2012-01-31
+p-45e0b90e,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2014-02-09
+p-b274f957,I10,Essential (primary) hypertension,1998-11-04
+p-b274f957,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2015-07-15
+p-b274f957,J44.9,"Chronic obstructive pulmonary disease, unspecified",2001-12-19
+p-91959aa0,E66.9,"Obesity, unspecified",2011-08-22
+p-a437f9bc,E66.9,"Obesity, unspecified",2015-07-08
+p-a437f9bc,I10,Essential (primary) hypertension,2001-04-06
+p-a437f9bc,F32.9,"Depressive episode, unspecified",2020-08-26
+p-130754ae,J45.9,"Asthma, unspecified",2025-07-13
+p-7de15504,E11.9,Type 2 diabetes mellitus without complications,2017-01-29
+p-42feaa72,F32.9,"Depressive episode, unspecified",2023-08-17
+p-a5f42b2d,C50.9,"Malignant neoplasm of breast, unspecified",2006-07-22
+p-fa5eb02f,I10,Essential (primary) hypertension,2016-07-17
+p-1f022742,I10,Essential (primary) hypertension,2024-12-29
+p-8f0577e8,I10,Essential (primary) hypertension,2025-05-02
+p-3eb06d6a,E66.9,"Obesity, unspecified",2025-10-07
+p-3eb06d6a,F32.9,"Depressive episode, unspecified",2007-10-01
+p-3eb06d6a,J45.9,"Asthma, unspecified",1996-05-08
+p-cdf3e3f0,J45.9,"Asthma, unspecified",1996-09-14
+p-57bc2ee4,F32.9,"Depressive episode, unspecified",2013-09-29
+p-ffa0e99b,E66.9,"Obesity, unspecified",2000-02-11
+p-ffa0e99b,E11.9,Type 2 diabetes mellitus without complications,2013-03-21
+p-b3bbfc1d,E66.9,"Obesity, unspecified",2006-03-19
+p-b3bbfc1d,I10,Essential (primary) hypertension,2021-12-30
+p-b3bbfc1d,E11.9,Type 2 diabetes mellitus without complications,2007-08-31
+p-b3bbfc1d,I50.9,"Heart failure, unspecified",1995-07-09
+p-52ecb90c,I10,Essential (primary) hypertension,2009-01-30
+p-14e4b77e,I10,Essential (primary) hypertension,2021-07-12
+p-135a08e4,E66.9,"Obesity, unspecified",2021-03-14
+p-2393a345,I10,Essential (primary) hypertension,2016-02-24
+p-2393a345,J44.9,"Chronic obstructive pulmonary disease, unspecified",2021-11-24
+p-df16b1c6,E66.9,"Obesity, unspecified",2010-05-26
+p-df16b1c6,I10,Essential (primary) hypertension,1997-03-30
+p-df16b1c6,E11.9,Type 2 diabetes mellitus without complications,2014-09-09
+p-df16b1c6,C50.9,"Malignant neoplasm of breast, unspecified",2018-11-22
+p-9e05432d,I10,Essential (primary) hypertension,2009-06-06
+p-a12be4f5,E66.9,"Obesity, unspecified",2023-12-23
+p-a12be4f5,F32.9,"Depressive episode, unspecified",2025-06-09
+p-3697e525,E66.9,"Obesity, unspecified",2010-04-18
+p-9b413e9c,E66.9,"Obesity, unspecified",2022-05-14
+p-917ca861,F32.9,"Depressive episode, unspecified",2012-09-25
+p-917ca861,J45.9,"Asthma, unspecified",1997-05-10
+p-af998641,J45.9,"Asthma, unspecified",2023-07-06
+p-789db2ea,J45.9,"Asthma, unspecified",2017-07-26
+p-8df57138,C50.9,"Malignant neoplasm of breast, unspecified",1998-01-31
+p-a4fe1d86,I10,Essential (primary) hypertension,2006-01-05
+p-a4fe1d86,I50.9,"Heart failure, unspecified",2010-08-13
+p-f3b12bc4,J45.9,"Asthma, unspecified",2021-07-27
+p-42a78861,I10,Essential (primary) hypertension,2007-03-10
+p-df245493,I10,Essential (primary) hypertension,2005-11-02
+p-df245493,I50.9,"Heart failure, unspecified",2022-10-27
+p-6b799ee7,E11.9,Type 2 diabetes mellitus without complications,2023-02-17
+p-bbdeea5c,F32.9,"Depressive episode, unspecified",2007-06-12
+p-ca786c2d,F32.9,"Depressive episode, unspecified",1996-07-13
+p-f36aac70,E66.9,"Obesity, unspecified",2023-08-30
+p-b6b37ace,E11.9,Type 2 diabetes mellitus without complications,2004-10-03
+p-94d29d11,I48.0,Paroxysmal atrial fibrillation,2011-03-05
+p-cd8d0026,J44.9,"Chronic obstructive pulmonary disease, unspecified",2018-02-24
+p-48500620,I10,Essential (primary) hypertension,2014-05-15
+p-219aad2c,E11.9,Type 2 diabetes mellitus without complications,2019-09-06
+p-8b692258,E66.9,"Obesity, unspecified",2025-07-14
+p-39e9951e,F32.9,"Depressive episode, unspecified",2019-09-14
+p-f072061b,F32.9,"Depressive episode, unspecified",2015-05-20
+p-2e923ea2,E11.9,Type 2 diabetes mellitus without complications,1995-11-12
+p-affacd07,I10,Essential (primary) hypertension,1996-12-20
+p-b6bf999f,E66.9,"Obesity, unspecified",2008-12-30
+p-b6bf999f,E11.9,Type 2 diabetes mellitus without complications,2001-02-03
+p-b6bf999f,F32.9,"Depressive episode, unspecified",2016-05-07
+p-b6bf999f,J45.9,"Asthma, unspecified",2017-09-09
+p-36f2eef0,E66.9,"Obesity, unspecified",2005-03-26
+p-36f2eef0,J45.9,"Asthma, unspecified",1995-08-08
+p-589345a8,I10,Essential (primary) hypertension,2024-01-23
+p-6162233a,E66.9,"Obesity, unspecified",2005-09-13
+p-6162233a,I10,Essential (primary) hypertension,2001-07-29
+p-e439a73b,E11.9,Type 2 diabetes mellitus without complications,2015-04-03
+p-0a9ff6dc,E66.9,"Obesity, unspecified",2024-05-08
+p-0a9ff6dc,I10,Essential (primary) hypertension,2003-02-06
+p-b247f77a,E66.9,"Obesity, unspecified",2019-04-19
+p-b247f77a,I10,Essential (primary) hypertension,2004-10-05
+p-b247f77a,E11.9,Type 2 diabetes mellitus without complications,2008-09-06
+p-d4b18ac5,I10,Essential (primary) hypertension,2005-10-28
+p-98b77467,I10,Essential (primary) hypertension,2009-10-13
+p-c4a5a65c,I48.0,Paroxysmal atrial fibrillation,2021-04-03
+p-bd69cf24,J45.9,"Asthma, unspecified",2020-12-10
+p-4e7de405,N18.3,"Chronic kidney disease, stage 3",2000-07-24
+p-4e7de405,J45.9,"Asthma, unspecified",2000-10-22
+p-d486f64e,E66.9,"Obesity, unspecified",2017-10-05
+p-d486f64e,J45.9,"Asthma, unspecified",2005-04-11
+p-34289db8,E66.9,"Obesity, unspecified",2008-08-14
+p-d4335105,E66.9,"Obesity, unspecified",2017-05-26
+p-9e554a19,I10,Essential (primary) hypertension,2022-07-14
+p-b4751389,E66.9,"Obesity, unspecified",1996-01-27
+p-f962718d,I10,Essential (primary) hypertension,2008-08-25
+p-4e7b44e3,E66.9,"Obesity, unspecified",2024-04-10
+p-981d6254,J45.9,"Asthma, unspecified",1996-07-18
+p-5f1135ef,I10,Essential (primary) hypertension,2009-12-01
+p-87770164,F32.9,"Depressive episode, unspecified",2017-11-10
+p-74450ce5,J45.9,"Asthma, unspecified",1995-07-16
+p-94033f12,I10,Essential (primary) hypertension,2003-01-22
+p-30958b86,J45.9,"Asthma, unspecified",2018-02-21
+p-772bc9ef,I10,Essential (primary) hypertension,2008-10-26
+p-9968968a,I10,Essential (primary) hypertension,2008-12-04
+p-53685836,F32.9,"Depressive episode, unspecified",2016-12-22
+p-33928448,E11.9,Type 2 diabetes mellitus without complications,2013-12-05
+p-82f83203,E66.9,"Obesity, unspecified",2007-04-22
+p-82f83203,E11.9,Type 2 diabetes mellitus without complications,2025-07-13
+p-edb59c8c,I10,Essential (primary) hypertension,2017-04-12
+p-7d153270,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2019-07-13
+p-2d967542,E66.9,"Obesity, unspecified",2019-09-11
+p-8514f03b,F32.9,"Depressive episode, unspecified",2025-04-03
+p-ee06033c,J44.9,"Chronic obstructive pulmonary disease, unspecified",1999-11-25
+p-b737de61,E66.9,"Obesity, unspecified",2017-07-30
+p-b737de61,I10,Essential (primary) hypertension,2021-01-05
+p-b737de61,E11.9,Type 2 diabetes mellitus without complications,2014-04-22
+p-b737de61,N18.3,"Chronic kidney disease, stage 3",2010-05-14
+p-e431e8c9,E66.9,"Obesity, unspecified",2000-05-17
+p-e431e8c9,F32.9,"Depressive episode, unspecified",2007-10-13
+p-7b3fc1be,E66.9,"Obesity, unspecified",2012-03-19
+p-7b3fc1be,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2004-06-21
+p-a6a57dda,E66.9,"Obesity, unspecified",2007-03-10
+p-c083a267,F32.9,"Depressive episode, unspecified",2025-06-23
+p-cadd182d,E66.9,"Obesity, unspecified",2025-07-06
+p-cadd182d,I10,Essential (primary) hypertension,2020-06-22
+p-cadd182d,I50.9,"Heart failure, unspecified",2024-12-15
+p-be3f7f96,E66.9,"Obesity, unspecified",2013-11-07
+p-4d615da0,E66.9,"Obesity, unspecified",2012-10-26
+p-fb13c2b5,E66.9,"Obesity, unspecified",2014-03-08
+p-a0b5a711,E66.9,"Obesity, unspecified",2015-05-01
+p-ea3dca6f,J45.9,"Asthma, unspecified",2018-02-10
+p-2b477a7f,E66.9,"Obesity, unspecified",2021-08-10
+p-52bdf5f5,E66.9,"Obesity, unspecified",2001-01-25
+p-52bdf5f5,I10,Essential (primary) hypertension,2004-04-16
+p-52bdf5f5,J44.9,"Chronic obstructive pulmonary disease, unspecified",2006-06-23
+p-b00acf33,E66.9,"Obesity, unspecified",1995-10-25
+p-b00acf33,E11.9,Type 2 diabetes mellitus without complications,2018-04-15
+p-4397b386,E66.9,"Obesity, unspecified",2007-10-08
+p-4397b386,I10,Essential (primary) hypertension,2016-04-07
+p-38f50ba9,J44.9,"Chronic obstructive pulmonary disease, unspecified",2020-07-06
+p-c61b5b50,E66.9,"Obesity, unspecified",2020-07-16
+p-9b67034a,E66.9,"Obesity, unspecified",2020-08-10
+p-9b67034a,I10,Essential (primary) hypertension,2014-01-17
+p-bb6dc5bb,J45.9,"Asthma, unspecified",2014-09-11
+p-ed094614,I10,Essential (primary) hypertension,2013-11-13
+p-e4392f0b,J45.9,"Asthma, unspecified",2016-07-15
+p-bc1cdf85,I48.0,Paroxysmal atrial fibrillation,2024-07-30
+p-1dcb0600,E66.9,"Obesity, unspecified",2008-08-25
+p-1dcb0600,I10,Essential (primary) hypertension,2019-05-11
+p-1dcb0600,I48.0,Paroxysmal atrial fibrillation,2001-05-21
+p-1763cdbe,E66.9,"Obesity, unspecified",2024-03-31
+p-93622c8b,I10,Essential (primary) hypertension,2008-08-19
+p-f16db481,I10,Essential (primary) hypertension,2019-09-22
+p-fe376bc4,J44.9,"Chronic obstructive pulmonary disease, unspecified",2017-11-10
+p-fe376bc4,F32.9,"Depressive episode, unspecified",1995-04-02
+p-fe376bc4,N18.3,"Chronic kidney disease, stage 3",2017-04-13
+p-59e60589,J45.9,"Asthma, unspecified",2015-04-02
+p-5467a411,J45.9,"Asthma, unspecified",2018-06-04
+p-71acdcaa,I10,Essential (primary) hypertension,2016-01-16
+p-dff4a567,E66.9,"Obesity, unspecified",2004-08-31
+p-dff4a567,F32.9,"Depressive episode, unspecified",2000-04-03
+p-dff4a567,J45.9,"Asthma, unspecified",2018-04-13
+p-28b6a2b1,I10,Essential (primary) hypertension,2008-08-29
+p-49a9c922,E66.9,"Obesity, unspecified",2015-12-09
+p-49a9c922,E11.9,Type 2 diabetes mellitus without complications,2011-10-17
+p-49a9c922,F32.9,"Depressive episode, unspecified",1995-11-12
+p-53aaff07,I10,Essential (primary) hypertension,2003-12-24
+p-53aaff07,J44.9,"Chronic obstructive pulmonary disease, unspecified",2010-06-10
+p-25a27b12,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2021-12-07
+p-eded56e0,I10,Essential (primary) hypertension,2025-08-10
+p-4640da5a,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2004-04-09
+p-37e1d36d,E66.9,"Obesity, unspecified",2023-02-13
+p-37e1d36d,I10,Essential (primary) hypertension,2022-08-27
+p-71e4d6e1,J45.9,"Asthma, unspecified",2011-12-24
+p-365bbc37,I10,Essential (primary) hypertension,1997-12-13
+p-35d8c2cb,E66.9,"Obesity, unspecified",2020-04-28
+p-35d8c2cb,C50.9,"Malignant neoplasm of breast, unspecified",2009-03-01
+p-35d8c2cb,F32.9,"Depressive episode, unspecified",1995-11-14
+p-ae289225,I10,Essential (primary) hypertension,2012-11-06
+p-ae289225,I48.0,Paroxysmal atrial fibrillation,2021-02-25
+p-ae289225,N18.3,"Chronic kidney disease, stage 3",1999-06-02
+p-c20f167d,E66.9,"Obesity, unspecified",2025-09-20
+p-2e4ddc56,E66.9,"Obesity, unspecified",1995-05-01
+p-2e4ddc56,I10,Essential (primary) hypertension,2003-04-17
+p-502e3429,I10,Essential (primary) hypertension,1995-08-09
+p-1a8727b7,F32.9,"Depressive episode, unspecified",1995-02-12
+p-1a493ab1,I10,Essential (primary) hypertension,2001-09-24
+p-89a20f5d,I10,Essential (primary) hypertension,1995-09-24
+p-4bc7d4e5,I10,Essential (primary) hypertension,2020-10-08
+p-0d3a5bbe,F32.9,"Depressive episode, unspecified",2022-02-07
+p-5c8af817,J45.9,"Asthma, unspecified",2025-08-09
+p-d932f72e,E66.9,"Obesity, unspecified",2007-08-12
+p-04e98bc4,J45.9,"Asthma, unspecified",2024-09-08
+p-c5e2ad81,E66.9,"Obesity, unspecified",2015-09-06
+p-ef7aff14,I10,Essential (primary) hypertension,2002-10-12
+p-94571d97,I10,Essential (primary) hypertension,2019-07-02
+p-02c71388,I10,Essential (primary) hypertension,2009-02-21
+p-02c71388,J45.9,"Asthma, unspecified",2008-12-04
+p-1c36439d,J44.9,"Chronic obstructive pulmonary disease, unspecified",2003-07-03
+p-ca6e24c5,E66.9,"Obesity, unspecified",2020-07-28
+p-195bd86c,E66.9,"Obesity, unspecified",2007-07-11
+p-a823b996,I10,Essential (primary) hypertension,2010-09-12
+p-a823b996,F32.9,"Depressive episode, unspecified",2000-07-31
+p-fecd7ee7,E11.9,Type 2 diabetes mellitus without complications,2004-04-18
+p-fecd7ee7,I50.9,"Heart failure, unspecified",2005-05-15
+p-d6410430,I10,Essential (primary) hypertension,1999-01-21
+p-3eb1ec60,I10,Essential (primary) hypertension,2019-10-08
+p-9eec0c86,E11.9,Type 2 diabetes mellitus without complications,2001-04-28
+p-017fb245,J45.9,"Asthma, unspecified",2006-05-24
+p-9d42fca3,E11.9,Type 2 diabetes mellitus without complications,2000-10-28
+p-12f2dc0a,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1996-07-04
+p-d2901be3,E11.9,Type 2 diabetes mellitus without complications,2024-03-20
+p-bf16ecbc,E11.9,Type 2 diabetes mellitus without complications,2009-05-24
+p-8c60c46c,E66.9,"Obesity, unspecified",2007-11-21
+p-5921292e,I10,Essential (primary) hypertension,2008-08-15
+p-5921292e,F32.9,"Depressive episode, unspecified",2023-12-12
+p-467f53be,E66.9,"Obesity, unspecified",2020-07-27
+p-af342e41,J45.9,"Asthma, unspecified",2008-03-11
+p-180ff675,E66.9,"Obesity, unspecified",2024-08-17
+p-b08aeaf6,I48.0,Paroxysmal atrial fibrillation,2000-03-24
+p-b08aeaf6,F32.9,"Depressive episode, unspecified",2009-08-17
+p-10dd42e0,F32.9,"Depressive episode, unspecified",2024-11-13
+p-5ba306b3,I10,Essential (primary) hypertension,2019-12-18
+p-d7a88de7,E66.9,"Obesity, unspecified",2025-08-11
+p-126426df,J45.9,"Asthma, unspecified",2022-05-02
+p-8f308228,J45.9,"Asthma, unspecified",2001-02-05
+p-4fc6b6d6,I10,Essential (primary) hypertension,1996-03-22
+p-4fc6b6d6,J45.9,"Asthma, unspecified",1997-07-08
+p-786f5b60,I10,Essential (primary) hypertension,2011-03-25
+p-786f5b60,E11.9,Type 2 diabetes mellitus without complications,2013-04-30
+p-0361228d,I10,Essential (primary) hypertension,1998-08-10
+p-cf3952d9,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2023-11-23
+p-cf3952d9,I48.0,Paroxysmal atrial fibrillation,2004-07-23
+p-cf3952d9,N18.3,"Chronic kidney disease, stage 3",2016-12-06
+p-67ef9a19,E66.9,"Obesity, unspecified",1997-07-11
+p-67ef9a19,I10,Essential (primary) hypertension,2016-08-13
+p-67ef9a19,E11.9,Type 2 diabetes mellitus without complications,2021-05-16
+p-e1df49df,I10,Essential (primary) hypertension,2005-11-14
+p-e1df49df,I48.0,Paroxysmal atrial fibrillation,2001-01-03
+p-e1df49df,F32.9,"Depressive episode, unspecified",2024-07-27
+p-e4fbc3fc,I10,Essential (primary) hypertension,2011-07-07
+p-408911ba,I10,Essential (primary) hypertension,2009-09-11
+p-408911ba,J45.9,"Asthma, unspecified",1999-08-09
+p-ac6b6b72,E66.9,"Obesity, unspecified",2017-08-25
+p-ac6b6b72,I10,Essential (primary) hypertension,2003-02-18
+p-ac6b6b72,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1995-06-19
+p-6da5faee,I10,Essential (primary) hypertension,2004-01-03
+p-6da5faee,N18.3,"Chronic kidney disease, stage 3",2011-08-25
+p-7f543c50,E11.9,Type 2 diabetes mellitus without complications,2013-11-14
+p-422992df,I10,Essential (primary) hypertension,2024-06-19
+p-2e2eea93,I10,Essential (primary) hypertension,2020-05-26
+p-2e2eea93,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1996-09-02
+p-b4410e61,E66.9,"Obesity, unspecified",2025-09-07
+p-0f9ae18b,I10,Essential (primary) hypertension,1995-06-14
+p-174211ba,I50.9,"Heart failure, unspecified",1999-10-21
+p-e0b9dc8a,I10,Essential (primary) hypertension,2020-12-12
+p-c8a65edc,E66.9,"Obesity, unspecified",2025-01-22
+p-75b43f00,J45.9,"Asthma, unspecified",2019-09-18
+p-4332d8b7,I10,Essential (primary) hypertension,2009-03-30
+p-59040d02,I10,Essential (primary) hypertension,2016-03-02
+p-59040d02,E11.9,Type 2 diabetes mellitus without complications,2013-02-03
+p-2cb33dc8,I10,Essential (primary) hypertension,2023-10-09
+p-b60c8987,I10,Essential (primary) hypertension,2013-05-04
+p-9f165c67,J45.9,"Asthma, unspecified",2025-05-17
+p-2aaf7925,I10,Essential (primary) hypertension,1998-02-18
+p-aa75c0b4,I10,Essential (primary) hypertension,2006-09-28
+p-aa75c0b4,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2019-03-21
+p-d8c63131,E66.9,"Obesity, unspecified",2016-06-22
+p-d2f40f72,I10,Essential (primary) hypertension,2012-06-04
+p-d2f40f72,I48.2,Chronic atrial fibrillation,2021-11-07
+p-6c2393be,E66.9,"Obesity, unspecified",2019-05-15
+p-12e2d2dd,E11.9,Type 2 diabetes mellitus without complications,2023-12-28
+p-12e2d2dd,F32.9,"Depressive episode, unspecified",2019-08-27
+p-b1cfa6e9,I10,Essential (primary) hypertension,2020-12-03
+p-b1cfa6e9,E11.9,Type 2 diabetes mellitus without complications,2007-12-03
+p-9c442c0a,I10,Essential (primary) hypertension,2003-04-14
+p-b7506878,E66.9,"Obesity, unspecified",2003-08-25
+p-d512796d,I10,Essential (primary) hypertension,2007-01-17
+p-d512796d,F32.9,"Depressive episode, unspecified",2002-02-28
+p-c2540292,E66.9,"Obesity, unspecified",2010-01-09
+p-a348a1e6,J44.9,"Chronic obstructive pulmonary disease, unspecified",1996-08-11
+p-a348a1e6,N18.3,"Chronic kidney disease, stage 3",2018-12-11
+p-c1a46496,I10,Essential (primary) hypertension,2013-05-03
+p-c1a46496,I48.2,Chronic atrial fibrillation,2020-08-24
+p-c1a46496,J44.9,"Chronic obstructive pulmonary disease, unspecified",2004-06-30
+p-5cb441c9,E66.9,"Obesity, unspecified",2010-07-08
+p-5cb441c9,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2012-03-30
+p-5cb441c9,I63.9,"Cerebral infarction, unspecified",2022-09-30
+p-af31e455,I10,Essential (primary) hypertension,2005-04-15
+p-9031f649,I10,Essential (primary) hypertension,2001-11-09
+p-ff6442fb,E66.9,"Obesity, unspecified",2006-07-06
+p-ff6442fb,I10,Essential (primary) hypertension,1995-11-05
+p-ff6442fb,E11.9,Type 2 diabetes mellitus without complications,2011-05-28
+p-d4464b0d,E66.9,"Obesity, unspecified",1999-04-24
+p-d4464b0d,N18.3,"Chronic kidney disease, stage 3",2015-11-06
+p-d4464b0d,J45.9,"Asthma, unspecified",2006-02-17
+p-e0ab4def,I10,Essential (primary) hypertension,2010-08-27
+p-e0ab4def,N18.3,"Chronic kidney disease, stage 3",2023-08-28
+p-9d0fa408,N18.3,"Chronic kidney disease, stage 3",2014-01-06
+p-13f6d375,F32.9,"Depressive episode, unspecified",2018-09-08
+p-fcba8baf,I10,Essential (primary) hypertension,2025-10-27
+p-b5c00b98,F32.9,"Depressive episode, unspecified",2025-11-29
+p-3b9cbc8b,I10,Essential (primary) hypertension,2008-04-19
+p-a7bebca5,E66.9,"Obesity, unspecified",2015-07-07
+p-a7bebca5,I10,Essential (primary) hypertension,2001-01-19
+p-a7bebca5,E11.9,Type 2 diabetes mellitus without complications,2014-03-14
+p-c8d3975a,E11.9,Type 2 diabetes mellitus without complications,2014-11-04
+p-85bd4c24,J44.9,"Chronic obstructive pulmonary disease, unspecified",2016-04-08
+p-7fc60696,E66.9,"Obesity, unspecified",2008-03-05
+p-7fc60696,F32.9,"Depressive episode, unspecified",2018-11-17
+p-97a7662a,I10,Essential (primary) hypertension,2011-04-12
+p-97a7662a,E11.9,Type 2 diabetes mellitus without complications,2005-10-26
+p-182320dc,I10,Essential (primary) hypertension,2013-11-21
+p-3a2cb509,I10,Essential (primary) hypertension,1997-12-28
+p-d5b8daff,E66.9,"Obesity, unspecified",2005-06-01
+p-d5b8daff,I10,Essential (primary) hypertension,2015-08-29
+p-0bc2fb8e,I10,Essential (primary) hypertension,2017-09-23
+p-10d974af,E11.9,Type 2 diabetes mellitus without complications,2014-05-06
+p-b5f4e228,E66.9,"Obesity, unspecified",2003-05-23
+p-b5f4e228,I10,Essential (primary) hypertension,2024-01-29
+p-b5f4e228,E11.9,Type 2 diabetes mellitus without complications,2010-08-19
+p-b02a00f7,I10,Essential (primary) hypertension,2007-11-02
+p-390c4bc1,E66.9,"Obesity, unspecified",2006-11-26
+p-390c4bc1,I10,Essential (primary) hypertension,2015-02-24
+p-c27c18e4,I10,Essential (primary) hypertension,2022-06-27
+p-67e1d658,E66.9,"Obesity, unspecified",2003-03-02
+p-67e1d658,I10,Essential (primary) hypertension,2016-08-28
+p-1eda6062,E66.9,"Obesity, unspecified",2022-01-03
+p-d86a3aab,F32.9,"Depressive episode, unspecified",2006-09-02
+p-e7e568a5,J44.9,"Chronic obstructive pulmonary disease, unspecified",2003-09-25
+p-e7e568a5,F32.9,"Depressive episode, unspecified",2023-08-10
+p-814302fe,E66.9,"Obesity, unspecified",2001-08-27
+p-814302fe,I10,Essential (primary) hypertension,2023-03-08
+p-7ec06343,F32.9,"Depressive episode, unspecified",1999-12-05
+p-c1a185e5,J45.9,"Asthma, unspecified",2015-07-18
+p-2b9b40cf,E66.9,"Obesity, unspecified",2025-06-23
+p-2b9b40cf,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2014-10-24
+p-2b9b40cf,I50.9,"Heart failure, unspecified",1996-08-25
+p-2b9b40cf,C50.9,"Malignant neoplasm of breast, unspecified",2011-02-12
+p-39aa1443,I10,Essential (primary) hypertension,2017-06-07
+p-346df2d3,E66.9,"Obesity, unspecified",2005-04-22
+p-7c1d93ce,F32.9,"Depressive episode, unspecified",2004-03-27
+p-5f1d1673,E66.9,"Obesity, unspecified",2022-06-29
+p-9d5610af,J45.9,"Asthma, unspecified",2011-03-21
+p-c6ae3149,I10,Essential (primary) hypertension,2002-05-21
+p-c6ae3149,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2019-02-24
+p-c6ae3149,N18.3,"Chronic kidney disease, stage 3",2020-08-13
+p-c6ae3149,J45.9,"Asthma, unspecified",1995-02-01
+p-955763ca,I10,Essential (primary) hypertension,2009-05-03
+p-955763ca,I50.9,"Heart failure, unspecified",2015-06-08
+p-9d95013f,I10,Essential (primary) hypertension,1998-01-10
+p-b0195a96,I10,Essential (primary) hypertension,2020-05-09
+p-b0195a96,E11.9,Type 2 diabetes mellitus without complications,2001-09-03
+p-b0195a96,F32.9,"Depressive episode, unspecified",2024-07-05
+p-ebce671c,E66.9,"Obesity, unspecified",2006-08-12
+p-4307ccdd,E66.9,"Obesity, unspecified",2017-01-17
+p-4307ccdd,F32.9,"Depressive episode, unspecified",1998-07-28
+p-ace93a47,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2001-04-24
+p-ace93a47,J44.9,"Chronic obstructive pulmonary disease, unspecified",2008-11-30
+p-5dc56449,E66.9,"Obesity, unspecified",2024-06-26
+p-733949fb,I10,Essential (primary) hypertension,2012-08-31
+p-aaeaeb1e,I10,Essential (primary) hypertension,2007-01-18
+p-8c9840ef,F32.9,"Depressive episode, unspecified",2014-05-10
+p-bf31820c,J45.9,"Asthma, unspecified",2024-12-29
+p-29eded97,I10,Essential (primary) hypertension,2004-05-10
+p-29eded97,J44.9,"Chronic obstructive pulmonary disease, unspecified",2025-03-12
+p-c24f28d1,E66.9,"Obesity, unspecified",2025-10-26
+p-11f66070,E11.9,Type 2 diabetes mellitus without complications,2001-06-14
+p-11f66070,C50.9,"Malignant neoplasm of breast, unspecified",2006-11-17
+p-6d0c83ea,J45.9,"Asthma, unspecified",2016-04-21
+p-85cf775d,I10,Essential (primary) hypertension,2012-09-18
+p-9460aba8,F32.9,"Depressive episode, unspecified",2007-12-21
+p-9460aba8,N18.3,"Chronic kidney disease, stage 3",2017-02-18
+p-d46647de,E66.9,"Obesity, unspecified",1995-07-27
+p-01fa283a,I10,Essential (primary) hypertension,2007-11-20
+p-01fa283a,E11.9,Type 2 diabetes mellitus without complications,1997-05-01
+p-01fa283a,I50.9,"Heart failure, unspecified",2020-07-22
+p-93b43c3a,I10,Essential (primary) hypertension,2022-02-22
+p-93b43c3a,F32.9,"Depressive episode, unspecified",2017-08-23
+p-4b29ff79,E66.9,"Obesity, unspecified",1996-10-14
+p-4b29ff79,I10,Essential (primary) hypertension,2021-10-01
+p-b315ea87,E66.9,"Obesity, unspecified",2020-04-18
+p-221c4371,E66.9,"Obesity, unspecified",2007-01-09
+p-d509c6f1,F32.9,"Depressive episode, unspecified",1995-10-26
+p-c3645153,F32.9,"Depressive episode, unspecified",2021-05-26
+p-0777d17a,I10,Essential (primary) hypertension,2007-10-26
+p-0777d17a,J44.9,"Chronic obstructive pulmonary disease, unspecified",2020-03-29
+p-d21782e3,E66.9,"Obesity, unspecified",2025-08-09
+p-d21782e3,E11.9,Type 2 diabetes mellitus without complications,2010-11-27
+p-d21782e3,I48.0,Paroxysmal atrial fibrillation,2015-05-17
+p-85095114,I10,Essential (primary) hypertension,2001-12-30
+p-5b59b9bd,F32.9,"Depressive episode, unspecified",2021-12-25
+p-5a2156da,E66.9,"Obesity, unspecified",2013-05-10
+p-4f272fd8,J44.9,"Chronic obstructive pulmonary disease, unspecified",2006-02-04
+p-922e3c02,F32.9,"Depressive episode, unspecified",2009-06-24
+p-922e3c02,J45.9,"Asthma, unspecified",1995-03-25
+p-277bb18a,I10,Essential (primary) hypertension,2023-12-15
+p-277bb18a,I50.9,"Heart failure, unspecified",2002-05-23
+p-d5a9f42c,I10,Essential (primary) hypertension,2012-08-31
+p-800d2e0a,N18.3,"Chronic kidney disease, stage 3",1999-05-09
+p-8969396e,J45.9,"Asthma, unspecified",2021-11-05
+p-5382e0db,I10,Essential (primary) hypertension,1999-11-19
+p-5382e0db,E11.9,Type 2 diabetes mellitus without complications,2008-10-27
+p-5382e0db,I48.2,Chronic atrial fibrillation,2018-08-02
+p-5382e0db,J44.9,"Chronic obstructive pulmonary disease, unspecified",2020-08-05
+p-9ef3af7b,I10,Essential (primary) hypertension,2022-10-04
+p-97665ea0,I10,Essential (primary) hypertension,2013-11-16
+p-1c204587,J45.9,"Asthma, unspecified",2014-07-15
+p-e074c6ff,I10,Essential (primary) hypertension,2002-04-22
+p-e074c6ff,N18.3,"Chronic kidney disease, stage 3",2002-06-20
+p-9f43941e,I10,Essential (primary) hypertension,2006-01-23
+p-9f43941e,E11.9,Type 2 diabetes mellitus without complications,2025-03-03
+p-9f43941e,J44.9,"Chronic obstructive pulmonary disease, unspecified",2020-04-27
+p-86a72ce5,I10,Essential (primary) hypertension,2021-07-29
+p-c4c899ed,I10,Essential (primary) hypertension,2008-04-06
+p-c4c899ed,J44.9,"Chronic obstructive pulmonary disease, unspecified",2025-08-01
+p-c4c899ed,F32.9,"Depressive episode, unspecified",2017-12-04
+p-2e186892,J45.9,"Asthma, unspecified",2019-06-12
+p-62b760bc,J45.9,"Asthma, unspecified",2009-07-12
+p-5f8ee633,F32.9,"Depressive episode, unspecified",2013-03-06
+p-8313d3b4,N18.3,"Chronic kidney disease, stage 3",2019-05-31
+p-8313d3b4,J45.9,"Asthma, unspecified",2004-06-29
+p-b6914a61,F32.9,"Depressive episode, unspecified",2007-12-13
+p-1354e40a,E66.9,"Obesity, unspecified",2025-10-21
+p-1a525b48,E66.9,"Obesity, unspecified",2018-06-07
+p-1a525b48,I10,Essential (primary) hypertension,2017-12-19
+p-8ca5a78c,E66.9,"Obesity, unspecified",2020-09-30
+p-8ca5a78c,F32.9,"Depressive episode, unspecified",2024-01-21
+p-b261cfcb,J45.9,"Asthma, unspecified",2006-01-31
+p-5deea8e4,E66.9,"Obesity, unspecified",2003-07-05
+p-5deea8e4,I10,Essential (primary) hypertension,1995-10-05
+p-5deea8e4,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2022-11-30
+p-1a4b98cd,F32.9,"Depressive episode, unspecified",2007-06-16
+p-80feb7d0,I10,Essential (primary) hypertension,2019-05-02
+p-78e019cb,I10,Essential (primary) hypertension,2021-05-05
+p-5db28898,I63.9,"Cerebral infarction, unspecified",2017-03-03
+p-5db28898,J45.9,"Asthma, unspecified",2003-12-04
+p-cbcc3c6b,F32.9,"Depressive episode, unspecified",2024-07-29
+p-6e25e5ed,E66.9,"Obesity, unspecified",1995-09-04
+p-6e25e5ed,F32.9,"Depressive episode, unspecified",2009-08-27
+p-b807a9b2,I10,Essential (primary) hypertension,1996-06-06
+p-f7a6a50b,E11.9,Type 2 diabetes mellitus without complications,2005-09-23
+p-f7a6a50b,F32.9,"Depressive episode, unspecified",2019-08-30
+p-73c43a80,J44.9,"Chronic obstructive pulmonary disease, unspecified",2014-07-06
+p-9ab1455f,J45.9,"Asthma, unspecified",2007-08-25
+p-4e158ba6,E66.9,"Obesity, unspecified",2024-07-26
+p-4e158ba6,F32.9,"Depressive episode, unspecified",2007-06-24
+p-7ae33bb3,I10,Essential (primary) hypertension,2015-04-26
+p-6aed3585,J45.9,"Asthma, unspecified",2022-07-22
+p-2400469c,J45.9,"Asthma, unspecified",2018-03-21
+p-4a7a2b1e,F32.9,"Depressive episode, unspecified",2024-04-09
+p-b16cad85,E66.9,"Obesity, unspecified",2008-07-23
+p-fc4e5a0b,I10,Essential (primary) hypertension,2005-08-08
+p-7aaca37d,I10,Essential (primary) hypertension,2016-10-09
+p-7aaca37d,E11.9,Type 2 diabetes mellitus without complications,1999-03-17
+p-b96c78d2,E66.9,"Obesity, unspecified",2019-07-06
+p-ff28ec55,I10,Essential (primary) hypertension,2008-03-20
+p-ff28ec55,F32.9,"Depressive episode, unspecified",2015-08-05
+p-a0f8d811,I10,Essential (primary) hypertension,2013-11-08
+p-a8b8128e,J45.9,"Asthma, unspecified",2011-12-02
+p-05626b03,I10,Essential (primary) hypertension,2001-05-26
+p-05b4448f,J45.9,"Asthma, unspecified",2008-05-11
+p-2ff79999,I10,Essential (primary) hypertension,2008-06-05
+p-721d85ea,J44.9,"Chronic obstructive pulmonary disease, unspecified",2007-04-13
+p-684b38cd,J45.9,"Asthma, unspecified",2011-07-19
+p-facbeccf,E66.9,"Obesity, unspecified",2017-11-08
+p-c0ef5995,I10,Essential (primary) hypertension,2023-09-27
+p-c0ef5995,N18.3,"Chronic kidney disease, stage 3",2024-10-08
+p-6c0bb2b1,J44.9,"Chronic obstructive pulmonary disease, unspecified",2013-02-08
+p-31535221,I10,Essential (primary) hypertension,2019-11-15
+p-13fa3974,I10,Essential (primary) hypertension,2013-12-28
+p-13fa3974,F32.9,"Depressive episode, unspecified",2024-11-28
+p-80ddf532,I10,Essential (primary) hypertension,2020-06-24
+p-8183cff1,E66.9,"Obesity, unspecified",2023-04-10
+p-443f91a2,E66.9,"Obesity, unspecified",2014-05-05
+p-9048d8d3,I10,Essential (primary) hypertension,2006-05-07
+p-e2e1f226,I10,Essential (primary) hypertension,2005-02-23
+p-18b17519,E66.9,"Obesity, unspecified",2019-05-31
+p-e78cfa04,E66.9,"Obesity, unspecified",2014-12-04
+p-eece95cb,I10,Essential (primary) hypertension,1995-03-24
+p-eece95cb,I50.9,"Heart failure, unspecified",2002-04-27
+p-eece95cb,J45.9,"Asthma, unspecified",2017-09-18
+p-74fee437,E66.9,"Obesity, unspecified",2025-01-04
+p-74fee437,J45.9,"Asthma, unspecified",2014-01-02
+p-891d253f,F32.9,"Depressive episode, unspecified",2021-06-04
+p-f746a30f,I10,Essential (primary) hypertension,1998-03-09
+p-dcdac407,I10,Essential (primary) hypertension,2000-04-06
+p-dcdac407,E11.65,Type 2 diabetes mellitus with hyperglycaemia,1996-09-01
+p-4d9d7c7f,E66.9,"Obesity, unspecified",2025-09-07
+p-4d9d7c7f,J45.9,"Asthma, unspecified",2015-06-12
+p-8a220db8,I10,Essential (primary) hypertension,2002-08-21
+p-8a220db8,N18.3,"Chronic kidney disease, stage 3",1999-04-16
+p-dc72ce3a,F32.9,"Depressive episode, unspecified",2016-08-18
+p-20861823,E66.9,"Obesity, unspecified",2025-03-18
+p-20861823,I10,Essential (primary) hypertension,2020-11-03
+p-d4cca62c,I10,Essential (primary) hypertension,2001-08-13
+p-f74a6dfa,E66.9,"Obesity, unspecified",2023-06-02
+p-b51465ac,I10,Essential (primary) hypertension,2017-04-03
+p-900fd1fc,I10,Essential (primary) hypertension,2009-11-20
+p-2af702ca,I10,Essential (primary) hypertension,2015-05-09
+p-29408a25,I10,Essential (primary) hypertension,1997-11-22
+p-25f56426,F32.9,"Depressive episode, unspecified",2020-10-22
+p-182a4378,E66.9,"Obesity, unspecified",2023-11-08
+p-2b4fd4e1,I10,Essential (primary) hypertension,2020-05-23
+p-2b4fd4e1,J45.9,"Asthma, unspecified",2008-09-07
+p-e3684902,I10,Essential (primary) hypertension,2002-01-15
+p-e3684902,I63.9,"Cerebral infarction, unspecified",2006-07-18
+p-e3684902,F32.9,"Depressive episode, unspecified",2024-06-25
+p-2c2f0136,F32.9,"Depressive episode, unspecified",2002-12-16
+p-aaef3327,E11.9,Type 2 diabetes mellitus without complications,2002-10-23
+p-aaef3327,J45.9,"Asthma, unspecified",2024-06-17
+p-394e3d24,I10,Essential (primary) hypertension,2006-06-15
+p-46747000,E66.9,"Obesity, unspecified",2011-05-29
+p-e99925a0,I10,Essential (primary) hypertension,2025-08-22
+p-af7b32b0,I10,Essential (primary) hypertension,2003-03-30
+p-af7b32b0,F32.9,"Depressive episode, unspecified",2008-03-15
+p-c47ac43d,J45.9,"Asthma, unspecified",2022-09-24
+p-58e4736f,I10,Essential (primary) hypertension,2003-11-22
+p-58e4736f,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2006-08-19
+p-a3b3504b,I10,Essential (primary) hypertension,1995-06-01
+p-ea3bd1be,J45.9,"Asthma, unspecified",2004-01-26
+p-98ce1e70,F32.9,"Depressive episode, unspecified",2025-11-14
+p-a59afb70,E11.9,Type 2 diabetes mellitus without complications,2011-01-06
+p-a1e24ae6,J45.9,"Asthma, unspecified",2024-08-31
+p-32136647,E66.9,"Obesity, unspecified",2024-11-19
+p-96f098b0,I10,Essential (primary) hypertension,2022-07-04
+p-ccacd005,I10,Essential (primary) hypertension,2023-05-10
+p-ca641ea2,J45.9,"Asthma, unspecified",2024-10-06
+p-740630fa,I10,Essential (primary) hypertension,2020-11-20
+p-4362add0,I10,Essential (primary) hypertension,2024-04-30
+p-4362add0,N18.3,"Chronic kidney disease, stage 3",2009-12-23
+p-4362add0,J45.9,"Asthma, unspecified",2005-01-17
+p-53a25d25,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2016-02-13
+p-53a25d25,J45.9,"Asthma, unspecified",2005-01-08
+p-02e3ec12,J44.9,"Chronic obstructive pulmonary disease, unspecified",2022-09-02
+p-24914246,J45.9,"Asthma, unspecified",2023-05-22
+p-821967fe,E66.9,"Obesity, unspecified",2023-03-23
+p-821967fe,I10,Essential (primary) hypertension,2006-10-14
+p-c790abb0,I10,Essential (primary) hypertension,2003-12-25
+p-c790abb0,N18.3,"Chronic kidney disease, stage 3",2016-02-08
+p-7944e862,J45.9,"Asthma, unspecified",2013-12-15
+p-ce9082d2,E66.9,"Obesity, unspecified",2014-06-17
+p-74fb97cc,I10,Essential (primary) hypertension,2008-01-24
+p-18fef31d,J45.9,"Asthma, unspecified",2008-09-12
+p-036633fe,I10,Essential (primary) hypertension,2004-07-19
+p-0131afb2,E66.9,"Obesity, unspecified",1998-05-12
+p-0131afb2,I10,Essential (primary) hypertension,2022-05-30
+p-3ef0f513,E66.9,"Obesity, unspecified",2013-02-21
+p-3ef0f513,F32.9,"Depressive episode, unspecified",2015-07-06
+p-3ef0f513,J45.9,"Asthma, unspecified",2004-12-28
+p-9c6502eb,I10,Essential (primary) hypertension,2013-06-27
+p-2b87e9da,I48.2,Chronic atrial fibrillation,1999-01-27
+p-ca078896,E66.9,"Obesity, unspecified",2020-02-13
+p-ca078896,J45.9,"Asthma, unspecified",2016-03-01
+p-a79d629a,I10,Essential (primary) hypertension,2001-05-29
+p-ec465247,E11.9,Type 2 diabetes mellitus without complications,2008-08-01
+p-ec465247,N18.3,"Chronic kidney disease, stage 3",2002-10-28
+p-0004f346,E66.9,"Obesity, unspecified",2015-11-05
+p-6453c762,I10,Essential (primary) hypertension,2019-04-17
+p-6453c762,I50.9,"Heart failure, unspecified",2006-01-10
+p-db2cd4c5,F32.9,"Depressive episode, unspecified",2024-08-13
+p-204987ae,F32.9,"Depressive episode, unspecified",2006-09-19
+p-204987ae,J45.9,"Asthma, unspecified",2013-01-21
+p-fdaeeb28,F32.9,"Depressive episode, unspecified",2013-02-18
+p-5436c9bf,I10,Essential (primary) hypertension,2023-01-17
+p-5436c9bf,J45.9,"Asthma, unspecified",2016-12-28
+p-096e1a6d,I10,Essential (primary) hypertension,2020-10-04
+p-2ab3d54d,E66.9,"Obesity, unspecified",2024-05-10
+p-10731928,J45.9,"Asthma, unspecified",2007-08-25
+p-3b55082b,I10,Essential (primary) hypertension,2017-06-06
+p-ca362ab4,J45.9,"Asthma, unspecified",2022-04-10
+p-9edd68bf,J45.9,"Asthma, unspecified",2024-07-29
+p-d5a0976f,I10,Essential (primary) hypertension,2016-04-18
+p-d5a0976f,J44.9,"Chronic obstructive pulmonary disease, unspecified",1995-08-31
+p-689c8fe4,E66.9,"Obesity, unspecified",2018-05-05
+p-4b72f0d1,E66.9,"Obesity, unspecified",1999-01-29
+p-4b72f0d1,I10,Essential (primary) hypertension,2024-11-12
+p-74118f48,I50.9,"Heart failure, unspecified",2018-06-27
+p-8505b1ed,F32.9,"Depressive episode, unspecified",2011-07-12
+p-2e7cec84,E66.9,"Obesity, unspecified",2015-08-26
+p-2e7cec84,I10,Essential (primary) hypertension,2019-11-04
+p-2e7cec84,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2022-11-10
+p-2e7cec84,N18.3,"Chronic kidney disease, stage 3",2015-11-14
+p-ebe0c86e,E66.9,"Obesity, unspecified",2022-10-28
+p-031b97e6,E66.9,"Obesity, unspecified",2015-11-05
+p-031b97e6,I10,Essential (primary) hypertension,2023-06-25
+p-0dd9ebaf,I10,Essential (primary) hypertension,2011-07-26
+p-0dd9ebaf,E11.9,Type 2 diabetes mellitus without complications,2019-01-21
+p-0dd9ebaf,J45.9,"Asthma, unspecified",2006-12-04
+p-ba8aec39,E66.9,"Obesity, unspecified",2025-07-01
+p-1c95c5e6,I10,Essential (primary) hypertension,2021-02-14
+p-840773f0,E66.9,"Obesity, unspecified",2014-05-27
+p-7954abe1,I10,Essential (primary) hypertension,2022-11-04
+p-7db4d8bc,J45.9,"Asthma, unspecified",2003-05-18
+p-e7bb1f0f,I50.9,"Heart failure, unspecified",2022-04-06
+p-b8d47b6b,I50.9,"Heart failure, unspecified",2005-05-21
+p-b4851cb3,E66.9,"Obesity, unspecified",2011-11-03
+p-b4851cb3,E11.9,Type 2 diabetes mellitus without complications,2015-03-27
+p-25252b6e,E66.9,"Obesity, unspecified",2016-05-20
+p-94871d4b,I10,Essential (primary) hypertension,2021-08-15
+p-27858176,E66.9,"Obesity, unspecified",2012-12-11
+p-79336e35,E66.9,"Obesity, unspecified",2020-11-26
+p-79336e35,I10,Essential (primary) hypertension,2024-02-26
+p-2a353e61,E11.9,Type 2 diabetes mellitus without complications,2002-06-06
+p-aa0009db,E66.9,"Obesity, unspecified",2013-10-29
+p-cebeff68,I10,Essential (primary) hypertension,2021-07-24
+p-cebeff68,J44.9,"Chronic obstructive pulmonary disease, unspecified",2015-02-28
+p-19431c6a,I10,Essential (primary) hypertension,2012-11-02
+p-19431c6a,E11.9,Type 2 diabetes mellitus without complications,2022-03-06
+p-62710134,I10,Essential (primary) hypertension,1996-07-06
+p-9d42c938,E66.9,"Obesity, unspecified",2016-03-28
+p-9d42c938,I10,Essential (primary) hypertension,2025-03-20
+p-d61a39ae,E66.9,"Obesity, unspecified",2021-11-13
+p-d61a39ae,I10,Essential (primary) hypertension,2022-09-06
+p-8136d366,I10,Essential (primary) hypertension,2004-06-19
+p-4302a1fd,I10,Essential (primary) hypertension,2022-08-30
+p-d87b2f11,I10,Essential (primary) hypertension,2000-10-12
+p-d87b2f11,E11.9,Type 2 diabetes mellitus without complications,2012-02-16
+p-d87b2f11,F32.9,"Depressive episode, unspecified",2016-12-07
+p-0a7e85f5,E66.9,"Obesity, unspecified",2005-08-18
+p-1e186f82,E66.9,"Obesity, unspecified",2002-04-29
+p-e7110c9b,E66.9,"Obesity, unspecified",2005-04-27
+p-c331e067,E66.9,"Obesity, unspecified",2019-09-01
+p-b5a0daa1,I10,Essential (primary) hypertension,2005-02-17
+p-f14cea26,I10,Essential (primary) hypertension,2024-10-16
+p-f14cea26,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2025-10-06
+p-f14cea26,J45.9,"Asthma, unspecified",2006-03-08
+p-c5b0c94e,F32.9,"Depressive episode, unspecified",2022-02-01
+p-580ab081,I10,Essential (primary) hypertension,2000-01-27
+p-580ab081,E11.9,Type 2 diabetes mellitus without complications,1995-11-25
+p-580ab081,F32.9,"Depressive episode, unspecified",1996-08-19
+p-580ab081,N18.3,"Chronic kidney disease, stage 3",2004-12-23
+p-4148d059,I10,Essential (primary) hypertension,2000-09-15
+p-1e1f1bff,I10,Essential (primary) hypertension,2000-11-10
+p-f18aaef8,E66.9,"Obesity, unspecified",2012-01-24
+p-1528e366,E66.9,"Obesity, unspecified",2011-03-22
+p-1528e366,J45.9,"Asthma, unspecified",2001-02-19
+p-b7255e0b,I10,Essential (primary) hypertension,2008-01-04
+p-b7255e0b,F32.9,"Depressive episode, unspecified",2020-08-09
+p-0e7462b6,F32.9,"Depressive episode, unspecified",2013-08-24
+p-7a504861,I10,Essential (primary) hypertension,2021-05-01
+p-fa1b01e4,F32.9,"Depressive episode, unspecified",2001-07-01
+p-501b117b,E66.9,"Obesity, unspecified",1999-02-19
+p-501b117b,E11.9,Type 2 diabetes mellitus without complications,2015-01-13
+p-20034a72,E66.9,"Obesity, unspecified",2019-02-09
+p-75ce73b0,I10,Essential (primary) hypertension,2024-08-22
+p-75ce73b0,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2008-01-16
+p-c0b9a3ca,E66.9,"Obesity, unspecified",2005-10-07
+p-008216c9,I10,Essential (primary) hypertension,2010-10-18
+p-008216c9,E11.9,Type 2 diabetes mellitus without complications,2019-11-08
+p-457e6748,E66.9,"Obesity, unspecified",2015-08-09
+p-86580e18,I10,Essential (primary) hypertension,2012-08-08
+p-86580e18,E11.9,Type 2 diabetes mellitus without complications,2017-12-20
+p-06ad4ca1,I10,Essential (primary) hypertension,1997-09-09
+p-789fa1ac,I10,Essential (primary) hypertension,1996-04-26
+p-7d25c792,I10,Essential (primary) hypertension,2012-11-21
+p-bf35c9a2,I10,Essential (primary) hypertension,2019-07-08
+p-bf35c9a2,I48.2,Chronic atrial fibrillation,1997-04-05
+p-bf35c9a2,F32.9,"Depressive episode, unspecified",2015-07-10
+p-55bb15ba,I10,Essential (primary) hypertension,2007-11-09
+p-55bb15ba,I48.2,Chronic atrial fibrillation,2014-03-28
+p-55bb15ba,F32.9,"Depressive episode, unspecified",2010-11-16
+p-55bb15ba,J45.9,"Asthma, unspecified",2006-10-17
+p-421ada57,J45.9,"Asthma, unspecified",2007-08-11
+p-55f521ba,E66.9,"Obesity, unspecified",2016-05-01
+p-55f521ba,I10,Essential (primary) hypertension,1999-12-17
+p-7fc8f0f1,E66.9,"Obesity, unspecified",2023-09-02
+p-7fc8f0f1,I10,Essential (primary) hypertension,2001-10-22
+p-e137af3b,I10,Essential (primary) hypertension,2001-09-02
+p-e137af3b,E11.9,Type 2 diabetes mellitus without complications,2010-05-09
+p-e137af3b,F32.9,"Depressive episode, unspecified",2011-09-10
+p-0e46cde7,I10,Essential (primary) hypertension,2002-01-30
+p-d5366461,I10,Essential (primary) hypertension,2023-09-08
+p-d5366461,F32.9,"Depressive episode, unspecified",2003-03-18
+p-aa532f6f,E66.9,"Obesity, unspecified",2019-10-11
+p-a5709e28,J45.9,"Asthma, unspecified",2019-07-25
+p-1044e9d2,F32.9,"Depressive episode, unspecified",2007-02-14
+p-b0b95875,E11.9,Type 2 diabetes mellitus without complications,2000-02-26
+p-b0b95875,N18.3,"Chronic kidney disease, stage 3",2013-09-24
+p-01e732d8,J45.9,"Asthma, unspecified",1999-02-10
+p-ba258aaf,C50.9,"Malignant neoplasm of breast, unspecified",2023-04-23
+p-355dcc79,I10,Essential (primary) hypertension,2005-02-25
+p-355dcc79,F32.9,"Depressive episode, unspecified",2023-09-18
+p-d75bab9a,J45.9,"Asthma, unspecified",2020-06-22
+p-48801300,C50.9,"Malignant neoplasm of breast, unspecified",2007-10-15
+p-48801300,J45.9,"Asthma, unspecified",2004-06-09
+p-628801e9,J45.9,"Asthma, unspecified",2014-08-29
+p-3801304e,E66.9,"Obesity, unspecified",2003-08-31
+p-3801304e,I10,Essential (primary) hypertension,1998-02-03
+p-3801304e,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2018-12-06
+p-48e818d4,E66.9,"Obesity, unspecified",2025-07-17
+p-48e818d4,I10,Essential (primary) hypertension,2013-08-30
+p-461019ec,E66.9,"Obesity, unspecified",2023-07-29
+p-8ddf03ad,E66.9,"Obesity, unspecified",2001-06-06
+p-c925e550,E66.9,"Obesity, unspecified",2022-06-18
+p-c925e550,I10,Essential (primary) hypertension,2017-07-25
+p-7bfbdda0,I10,Essential (primary) hypertension,2003-08-29
+p-da16b56a,E11.9,Type 2 diabetes mellitus without complications,2018-06-26
+p-da16b56a,I50.9,"Heart failure, unspecified",2024-10-15
+p-d14bd9b4,E66.9,"Obesity, unspecified",2017-06-09
+p-a2ce19d8,E66.9,"Obesity, unspecified",2018-06-18
+p-a2ce19d8,I10,Essential (primary) hypertension,1997-04-12
+p-a2ce19d8,C50.9,"Malignant neoplasm of breast, unspecified",2004-01-07
+p-73d9beb7,I10,Essential (primary) hypertension,2019-02-24
+p-73d9beb7,E11.9,Type 2 diabetes mellitus without complications,2018-04-25
+p-73d9beb7,N18.3,"Chronic kidney disease, stage 3",1999-03-20
+p-fed16561,E66.9,"Obesity, unspecified",2019-07-02
+p-fed16561,J45.9,"Asthma, unspecified",2020-01-05
+p-89f4cecc,I10,Essential (primary) hypertension,2015-05-06
+p-5aa0e00f,E66.9,"Obesity, unspecified",2022-04-23
+p-1305725e,I10,Essential (primary) hypertension,2002-07-27
+p-7c79475e,E66.9,"Obesity, unspecified",2009-09-13
+p-7c79475e,I10,Essential (primary) hypertension,2017-07-11
+p-7c79475e,E11.9,Type 2 diabetes mellitus without complications,2022-07-31
+p-f4edbb94,J44.9,"Chronic obstructive pulmonary disease, unspecified",2001-02-18
+p-5969bc1c,I10,Essential (primary) hypertension,2006-09-07
+p-49b12a8d,E66.9,"Obesity, unspecified",1996-02-17
+p-49b12a8d,I10,Essential (primary) hypertension,2017-07-23
+p-49b12a8d,N18.3,"Chronic kidney disease, stage 3",2018-05-13
+p-c6740cf2,E11.9,Type 2 diabetes mellitus without complications,1999-03-25
+p-3680622d,I10,Essential (primary) hypertension,2024-08-18
+p-61efb1ac,N18.3,"Chronic kidney disease, stage 3",2017-04-02
+p-da5c3e69,E66.9,"Obesity, unspecified",2023-12-20
+p-da5c3e69,I10,Essential (primary) hypertension,2001-03-16
+p-da5c3e69,J44.9,"Chronic obstructive pulmonary disease, unspecified",2006-12-09
+p-a4763cb7,I10,Essential (primary) hypertension,2019-05-03
+p-a4763cb7,E11.9,Type 2 diabetes mellitus without complications,1998-02-18
+p-a4763cb7,J45.9,"Asthma, unspecified",2000-08-03
+p-c1caec77,E66.9,"Obesity, unspecified",2016-12-29
+p-c7b2eacd,E11.9,Type 2 diabetes mellitus without complications,2013-09-27
+p-b389f966,I10,Essential (primary) hypertension,2013-02-05
+p-bb5b10d9,E66.9,"Obesity, unspecified",2003-12-18
+p-ef937363,E66.9,"Obesity, unspecified",2017-07-20
+p-ef937363,J45.9,"Asthma, unspecified",2010-07-17
+p-aadb37fa,I10,Essential (primary) hypertension,2019-01-22
+p-444032b5,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2018-09-26
+p-396e3cab,I10,Essential (primary) hypertension,2025-04-14
+p-2e5873fa,F32.9,"Depressive episode, unspecified",2020-12-05
+p-89fb1ff8,I10,Essential (primary) hypertension,2005-06-14
+p-89fb1ff8,F32.9,"Depressive episode, unspecified",1999-05-04
+p-89fb1ff8,N18.3,"Chronic kidney disease, stage 3",2020-12-17
+p-fa4a6e21,F32.9,"Depressive episode, unspecified",2016-06-15
+p-936aa9e5,E66.9,"Obesity, unspecified",2025-03-19
+p-4da64d15,I10,Essential (primary) hypertension,2012-09-07
+p-4da64d15,I50.9,"Heart failure, unspecified",2024-12-24
+p-397593c6,I10,Essential (primary) hypertension,2012-07-31
+p-397593c6,N18.3,"Chronic kidney disease, stage 3",2015-07-04
+p-3a890802,I10,Essential (primary) hypertension,2002-12-28
+p-01d7460d,I50.9,"Heart failure, unspecified",2007-02-13
+p-fd7ba45e,E66.9,"Obesity, unspecified",2017-03-26
+p-fd7ba45e,I10,Essential (primary) hypertension,2006-10-30
+p-0c859ffb,I10,Essential (primary) hypertension,1998-04-26
+p-0c859ffb,I50.9,"Heart failure, unspecified",2010-09-04
+p-0c859ffb,F32.9,"Depressive episode, unspecified",2020-04-15
+p-00ec27f0,I10,Essential (primary) hypertension,2016-10-14
+p-00ec27f0,N18.3,"Chronic kidney disease, stage 3",2005-08-07
+p-00ec27f0,J45.9,"Asthma, unspecified",2016-08-06
+p-8789b670,E66.9,"Obesity, unspecified",2025-10-23
+p-8789b670,I10,Essential (primary) hypertension,2005-02-04
+p-2355b6a8,J45.9,"Asthma, unspecified",2013-02-19
+p-983c0cf7,I10,Essential (primary) hypertension,2020-12-22
+p-26d766e8,I50.9,"Heart failure, unspecified",1996-10-14
+p-26d766e8,F32.9,"Depressive episode, unspecified",2009-04-26
+p-1b2546e5,J45.9,"Asthma, unspecified",2024-10-30
+p-ac6c5237,I10,Essential (primary) hypertension,1996-04-27
+p-ac6c5237,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2009-11-10
+p-800563aa,I10,Essential (primary) hypertension,2020-10-28
+p-96a09c13,E66.9,"Obesity, unspecified",2019-12-13
+p-96a09c13,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2025-05-29
+p-0d38a5bc,E66.9,"Obesity, unspecified",2019-06-15
+p-8e900f67,I10,Essential (primary) hypertension,2019-11-01
+p-f7252b56,I10,Essential (primary) hypertension,2002-07-30
+p-7493cf76,J44.9,"Chronic obstructive pulmonary disease, unspecified",2020-09-09
+p-182b043f,I10,Essential (primary) hypertension,2025-05-08
+p-3330185d,I48.2,Chronic atrial fibrillation,2023-08-17
+p-3330185d,I63.9,"Cerebral infarction, unspecified",1995-10-06
+p-36bbd64d,J45.9,"Asthma, unspecified",1996-12-01
+p-be993a18,I10,Essential (primary) hypertension,2025-11-29
+p-cacb314f,I10,Essential (primary) hypertension,2006-05-10
+p-cacb314f,E11.9,Type 2 diabetes mellitus without complications,2016-03-07
+p-d77bcfd1,J45.9,"Asthma, unspecified",2024-07-13
+p-5a754d3b,E66.9,"Obesity, unspecified",2020-03-12
+p-5a754d3b,I10,Essential (primary) hypertension,2000-04-15
+p-5a754d3b,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2006-04-29
+p-5a754d3b,I48.0,Paroxysmal atrial fibrillation,2000-09-28
+p-5a754d3b,N18.3,"Chronic kidney disease, stage 3",2009-12-25
+p-b327c9b9,E66.9,"Obesity, unspecified",2025-11-27
+p-d13adcc5,I10,Essential (primary) hypertension,2005-02-20
+p-720afff8,E66.9,"Obesity, unspecified",2010-04-23
+p-4dbbdb5d,I10,Essential (primary) hypertension,2002-12-11
+p-4dbbdb5d,J45.9,"Asthma, unspecified",1998-07-25
+p-7d481c94,E66.9,"Obesity, unspecified",2023-12-22
+p-b55c43b2,E66.9,"Obesity, unspecified",2010-04-18
+p-7f273f5b,E11.9,Type 2 diabetes mellitus without complications,2006-08-20
+p-40b2fcca,I10,Essential (primary) hypertension,1997-11-12
+p-40b2fcca,J45.9,"Asthma, unspecified",2018-09-26
+p-be7d4554,I10,Essential (primary) hypertension,2001-03-26
+p-2e6a64e0,J45.9,"Asthma, unspecified",2024-11-15
+p-372d0332,E66.9,"Obesity, unspecified",2015-11-24
+p-7fe2bc65,E11.9,Type 2 diabetes mellitus without complications,2009-09-09
+p-0c14d1fd,I10,Essential (primary) hypertension,2021-01-20
+p-0c14d1fd,E11.9,Type 2 diabetes mellitus without complications,2000-10-21
+p-8947f564,E66.9,"Obesity, unspecified",2013-02-09
+p-54571cf5,J45.9,"Asthma, unspecified",2020-07-02
+p-3d938db4,E66.9,"Obesity, unspecified",2021-01-08
+p-3d938db4,J45.9,"Asthma, unspecified",2002-05-26
+p-154c353f,I10,Essential (primary) hypertension,2006-05-01
+p-956383eb,E66.9,"Obesity, unspecified",2001-08-25
+p-956383eb,E11.9,Type 2 diabetes mellitus without complications,2015-03-04
+p-956383eb,F32.9,"Depressive episode, unspecified",2022-03-08
+p-8167b396,E66.9,"Obesity, unspecified",2023-02-23
+p-8167b396,I10,Essential (primary) hypertension,2025-05-07
+p-c1e3db06,E66.9,"Obesity, unspecified",1996-09-14
+p-c1e3db06,I10,Essential (primary) hypertension,1995-10-14
+p-77a00030,I10,Essential (primary) hypertension,2000-11-09
+p-0e38f44b,I10,Essential (primary) hypertension,2012-11-11
+p-0e38f44b,I48.2,Chronic atrial fibrillation,1996-02-29
+p-1c53048d,I10,Essential (primary) hypertension,2021-06-26
+p-5e84fd1e,E66.9,"Obesity, unspecified",2020-06-12
+p-76efa2e3,E66.9,"Obesity, unspecified",2023-06-14
+p-fbdf01c3,I10,Essential (primary) hypertension,2019-04-23
+p-de966e60,I10,Essential (primary) hypertension,2024-08-13
+p-5a507e2b,I10,Essential (primary) hypertension,2017-06-24
+p-5a507e2b,I50.9,"Heart failure, unspecified",2005-08-16
+p-f48650ef,E66.9,"Obesity, unspecified",2021-07-14
+p-f48650ef,I48.0,Paroxysmal atrial fibrillation,1998-10-19
+p-f48650ef,J45.9,"Asthma, unspecified",1996-10-06
+p-fdf7ab18,J45.9,"Asthma, unspecified",2014-10-02
+p-e15de3a8,I10,Essential (primary) hypertension,2004-10-22
+p-e15de3a8,E11.9,Type 2 diabetes mellitus without complications,2016-08-20
+p-b4525d0c,I10,Essential (primary) hypertension,1998-08-27
+p-df379f9b,E11.9,Type 2 diabetes mellitus without complications,2017-11-01
+p-6acfc7c8,J45.9,"Asthma, unspecified",2019-04-18
+p-094b6a31,I10,Essential (primary) hypertension,2005-02-14
+p-8ca336e1,J44.9,"Chronic obstructive pulmonary disease, unspecified",2014-10-04
+p-1349833c,E66.9,"Obesity, unspecified",2000-05-26
+p-5ea3788e,I10,Essential (primary) hypertension,2003-08-13
+p-cb279c3e,E66.9,"Obesity, unspecified",1995-04-05
+p-cb279c3e,I10,Essential (primary) hypertension,2006-07-11
+p-cb279c3e,I50.9,"Heart failure, unspecified",2002-02-14
+p-3a3b32a0,I10,Essential (primary) hypertension,2014-12-02
+p-3a3b32a0,F32.9,"Depressive episode, unspecified",2010-08-10
+p-b4225eb6,I10,Essential (primary) hypertension,1998-04-13
+p-e26962ea,J45.9,"Asthma, unspecified",2018-04-06
+p-08bb7132,J44.9,"Chronic obstructive pulmonary disease, unspecified",2009-04-01
+p-f55ef5af,E11.9,Type 2 diabetes mellitus without complications,2015-05-03
+p-f55ef5af,C50.9,"Malignant neoplasm of breast, unspecified",1996-05-20
+p-e5062725,I10,Essential (primary) hypertension,2015-03-01
+p-1f7af150,E66.9,"Obesity, unspecified",2018-10-15
+p-71e1abce,I10,Essential (primary) hypertension,2015-05-04
+p-71e1abce,I50.9,"Heart failure, unspecified",2019-07-17
+p-1ef0f707,I10,Essential (primary) hypertension,1996-12-21
+p-e2f2a7c3,E66.9,"Obesity, unspecified",2024-02-21
+p-7164144f,F32.9,"Depressive episode, unspecified",2022-10-12
+p-679394d8,E66.9,"Obesity, unspecified",2021-03-20
+p-4a53fbc9,E66.9,"Obesity, unspecified",2023-06-28
+p-4a53fbc9,I10,Essential (primary) hypertension,2001-10-06
+p-6acd0206,I10,Essential (primary) hypertension,2012-04-20
+p-8d84a045,I10,Essential (primary) hypertension,2017-10-27
+p-8d84a045,F32.9,"Depressive episode, unspecified",2025-07-12
+p-d4bb1a03,I10,Essential (primary) hypertension,2025-07-05
+p-d4bb1a03,E11.9,Type 2 diabetes mellitus without complications,2012-03-28
+p-af45e598,E66.9,"Obesity, unspecified",2025-11-22
+p-201e6acf,I10,Essential (primary) hypertension,2014-02-18
+p-20429084,I10,Essential (primary) hypertension,2010-04-19
+p-e3aaeb2d,E66.9,"Obesity, unspecified",2013-11-08
+p-c33540e3,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2011-01-05
+p-b499b226,E66.9,"Obesity, unspecified",2016-05-07
+p-5e964969,J45.9,"Asthma, unspecified",2011-04-07
+p-a44ec6ee,I10,Essential (primary) hypertension,2020-02-21
+p-148818a0,E66.9,"Obesity, unspecified",2019-09-12
+p-cce89464,E66.9,"Obesity, unspecified",2007-10-10
+p-cce89464,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2015-08-18
+p-135b329b,J45.9,"Asthma, unspecified",2014-07-26
+p-1918743f,J44.9,"Chronic obstructive pulmonary disease, unspecified",1997-03-23
+p-ffa5ba73,J45.9,"Asthma, unspecified",2004-03-23
+p-459aa9ec,J44.9,"Chronic obstructive pulmonary disease, unspecified",1995-07-16
+p-de1a3d5c,I10,Essential (primary) hypertension,2003-08-13
+p-de1a3d5c,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2015-06-24
+p-ff78c377,E66.9,"Obesity, unspecified",2019-08-14
+p-ff78c377,E11.9,Type 2 diabetes mellitus without complications,2014-10-29
+p-75a21475,I10,Essential (primary) hypertension,2012-10-23
+p-7db6db25,I10,Essential (primary) hypertension,1997-01-29
+p-f0bb9cf1,I10,Essential (primary) hypertension,2021-01-18
+p-9bdb452a,J45.9,"Asthma, unspecified",2001-01-23
+p-012ee74f,E66.9,"Obesity, unspecified",2025-05-20
+p-a835cb36,I10,Essential (primary) hypertension,2018-12-27
+p-b481de4a,I10,Essential (primary) hypertension,2019-03-22
+p-14e38e40,E66.9,"Obesity, unspecified",1997-10-20
+p-14e38e40,I10,Essential (primary) hypertension,2006-02-09
+p-14e38e40,I48.2,Chronic atrial fibrillation,2024-08-26
+p-14e38e40,F32.9,"Depressive episode, unspecified",2002-08-13
+p-9c019fba,E66.9,"Obesity, unspecified",2015-09-10
+p-9c019fba,I10,Essential (primary) hypertension,1996-05-18
+p-9ebfb1cd,I10,Essential (primary) hypertension,2002-11-21
+p-9ebfb1cd,J44.9,"Chronic obstructive pulmonary disease, unspecified",2022-02-27
+p-516b134e,I10,Essential (primary) hypertension,2022-08-13
+p-5ff25352,I10,Essential (primary) hypertension,1995-01-23
+p-5ff25352,F32.9,"Depressive episode, unspecified",2004-08-13
+p-3afee00b,I10,Essential (primary) hypertension,2007-12-23
+p-3afee00b,E11.9,Type 2 diabetes mellitus without complications,1997-09-30
+p-691dd9ea,I10,Essential (primary) hypertension,2018-12-31
+p-ca69b1ab,E66.9,"Obesity, unspecified",2016-01-14
+p-ca69b1ab,I10,Essential (primary) hypertension,2006-02-08
+p-ca69b1ab,E11.9,Type 2 diabetes mellitus without complications,2009-02-04
+p-ca69b1ab,N18.3,"Chronic kidney disease, stage 3",2017-09-09
+p-6ef6288c,E66.9,"Obesity, unspecified",2000-07-23
+p-26bd0b2e,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2000-09-26
+p-9eb47efc,E66.9,"Obesity, unspecified",2024-09-28
+p-7c1fa16f,I10,Essential (primary) hypertension,2023-11-14
+p-7c1fa16f,N18.3,"Chronic kidney disease, stage 3",1995-07-18
+p-4a80eda8,J45.9,"Asthma, unspecified",2000-07-16
+p-cdddcd9d,I10,Essential (primary) hypertension,2021-08-31
+p-0b847195,I10,Essential (primary) hypertension,2002-09-01
+p-0b847195,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2007-03-30
+p-5afc7785,E66.9,"Obesity, unspecified",2012-01-11
+p-5afc7785,J45.9,"Asthma, unspecified",2015-06-14
+p-32212ed3,E66.9,"Obesity, unspecified",2008-11-15
+p-32212ed3,I10,Essential (primary) hypertension,2011-02-18
+p-a6783dab,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2024-03-10
+p-ac77ec47,I10,Essential (primary) hypertension,1995-04-01
+p-57dfff5c,I10,Essential (primary) hypertension,2017-07-30
+p-57dfff5c,I63.9,"Cerebral infarction, unspecified",2023-02-14
+p-e6f02cb5,F32.9,"Depressive episode, unspecified",2010-08-28
+p-6f736db7,F32.9,"Depressive episode, unspecified",2022-12-12
+p-be83356a,E66.9,"Obesity, unspecified",2023-11-23
+p-ff6cecd2,I10,Essential (primary) hypertension,2024-01-31
+p-ff6cecd2,I48.0,Paroxysmal atrial fibrillation,2007-11-22
+p-ff6cecd2,J44.9,"Chronic obstructive pulmonary disease, unspecified",2012-01-22
+p-9f8f851c,I10,Essential (primary) hypertension,2016-04-16
+p-2cb27465,F32.9,"Depressive episode, unspecified",2005-02-27
+p-fb8e23e0,E11.65,Type 2 diabetes mellitus with hyperglycaemia,2024-03-08
+p-fb8e23e0,I48.2,Chronic atrial fibrillation,1997-03-18
+p-fb8e23e0,F32.9,"Depressive episode, unspecified",2010-10-03
+p-c6f2e31c,E66.9,"Obesity, unspecified",1996-01-24
+p-c6f2e31c,I50.9,"Heart failure, unspecified",2003-11-07
+p-68b0aa05,E66.9,"Obesity, unspecified",2003-05-01
+p-68b0aa05,I10,Essential (primary) hypertension,2022-03-18
+p-68b0aa05,E11.9,Type 2 diabetes mellitus without complications,1998-09-15
+p-0153026f,I10,Essential (primary) hypertension,2022-06-11
+p-0153026f,I48.0,Paroxysmal atrial fibrillation,1999-04-14
+p-0153026f,I50.9,"Heart failure, unspecified",2012-09-17
+p-0153026f,N18.3,"Chronic kidney disease, stage 3",2019-07-07
