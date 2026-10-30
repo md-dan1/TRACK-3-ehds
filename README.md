@@ -16,12 +16,12 @@ Track 3, European Health Data Space. Challenge text: [CHALLENGE.md](CHALLENGE.md
 
 ## What it does
 
-A request comes in as JSON, as a form or as free text. The app then works through it end to end:
+A complete Health Data Access Body in one `docker compose up`. A researcher describes what they need, in plain English, as a form or as JSON. Seconds later they have a legally grounded decision and their answer, and **no one, not the researcher, the access body or the LLM, ever sees a patient record**.
 
-1. **Decides** `REJECT`, `APPROVE_STATISTICAL` or `APPROVE_SPE` and cites the articles of Regulation (EU) 2025/327, following the order the challenge sets (Art. 54, then 53/69, then 66/68/73).
-2. **Statistics:** an LLM writes SQL from the plain-English definitions. A SQL guard checks it, the three hospitals each run it, and the access body merges the partial results and applies the small-cell rule.
-3. **Records:** the selected patients' requested record types go straight from the hospitals into a **secure processing environment** (SPE), which runs as its own container per session. The researcher can fit restricted models on the records but can never view or download them (403, audited).
-4. **Shows** the decision and the reasons to the researcher (applicant view) and to clinic staff (access body view: scores, sentence attribution, SQL, audit log, benchmark).
+1. **Legal decision in about a second.** `REJECT`, `APPROVE_STATISTICAL` or `APPROVE_SPE`, following the order the challenge sets (Art. 54, then 53/69, then 66/68/73). The verdict comes from calibrated logprob scores rather than free LLM text, and the articles of Regulation (EU) 2025/327 come from a fixed table, so citations cannot be hallucinated.
+2. **Federated statistics, no data pooling.** An LLM turns the plain-English definitions into SQL. A SQL guard checks it in the access body and **again in every hospital**. Each hospital returns only sums and counts, and the access body merges them with exact decimals. The small-cell rule is applied after the merge, followed by an independent leak check.
+3. **A private SPE for every session.** For record-level research, each click on "Open SPE" starts a **fresh, isolated container**. The hospitals push only the requested record types straight into it, and the researcher gets in through a **one-time link** that opens only that container. The container has no published port, keeps records in memory only and is gone after 2 minutes idle. Researchers can fit restricted models (logistic regression, decision tree, ridge regression) but can never view or download a record (403, audited).
+4. **Transparent for both sides.** Researchers see the decision and a plain reason. Clinic staff see the scores, sentence attribution for rejections and the generated SQL, and can override with an audited reason. They also get an append-only audit log, the hospital query logs and a one-click benchmark.
 
 ## Metrics (10 requests × 3 runs, LLM cache off)
 
@@ -81,13 +81,13 @@ flowchart TB
 | `orchestrator/` | Access body: auth and roles, intake, decision, SQL generation with a repair loop, federation, `Decimal` merge, release gate, SPE sessions, audit, dashboard, benchmark | FastAPI, httpx |
 | `core/ehds_core/` | Shared code: request schema, ICD-10/ATC/LOINC vocabulary, **SQL guard**, article table, metrics | sqlglot, pydantic |
 | `spe/` | Gateway that starts one container per session, checks ingest tokens and one-time links, proxies the browser, and removes the container after 2 min idle. Inside: statistics for groups of 10 or more, plus logistic regression, decision tree and ridge regression with limits | FastAPI, Docker SDK, scikit-learn |
-| `web/` | One app with two roles: Researcher (apply, status, SPE) and Clinic (dashboard, inbox, logs, request detail, benchmark) | React 18, Vite, TypeScript, Tailwind |
+| `web/` | One app with two roles: Researcher (New request, Old requests with status and SPE) and Clinic (Dashboard, Logs with inbox, audit log and request detail, Benchmark) | React 18, Vite, TypeScript, Tailwind |
 
 ### Pipeline
 
 | Step | How | Time |
 |---|---|---|
-| Decision | Two one-token yes/no **logprob heads** run in parallel: "prohibited under Art. 54?" (`p54`) and "does the applicant justify why statistics are not enough?" (`p_need`). Then the legal order: REJECT if `p54 ≥ 0.5`, else SPE if it is an application and `p_need ≥ 0.5`, else STAT. Articles come from a fixed table, not from the LLM | ~1 s |
+| Decision | Two one-token yes/no **logprob heads** run in parallel: "prohibited under Art. 54?" (`p54`) and "does the applicant justify why statistics are not enough?" (`p_need`). A third head picks the Art. 54 category (A to E) for staff. Then the legal order: REJECT if `p54 ≥ 0.5`, else SPE if it is an application and `p_need ≥ 0.5`, else STAT. Articles come from a fixed table, not from the LLM | ~1 s |
 | Query | The LLM writes PostgreSQL against the `v_*` views, with the full code list in the prompt. The **SQL guard** allows one SELECT on whitelisted views and functions, with only COUNT, SUM and AVG on the outside. Rejected SQL goes back to the LLM for at most 2 repairs | 1–3 s |
 | Federation | The SQL is split into additive parts (`AVG` becomes `SUM` + `COUNT`) and runs on all 3 hospitals in parallel. If any hospital fails, nothing is released | <0.1 s |
 | Release | Partials are summed per group, the small-cell rule is applied **after** the merge (`<10`, `suppressed`, half-up rounding, every group shown), then a separate leak check runs | ms |
@@ -102,7 +102,7 @@ flowchart TB
 - **SQL guard:** runs twice, in the orchestrator and in every hospital. Attack tests are in `tests/test_sqlguard.py`.
 - **Download block:** the "Download records" button and its URL return 403 and log `spe.download_blocked`, which the dashboard counts.
 - **Audit:** append-only, enforced by a DB trigger that blocks UPDATE, DELETE and TRUNCATE.
-- **Network isolation:** 6 Docker networks, of which hospitals, backend and SPE are internal only.
+- **Network isolation:** 6 Docker networks; all but `public` are internal only (hospitals, backend, SPE control, SPE ingest, SPE sessions).
 
 ## Run it
 

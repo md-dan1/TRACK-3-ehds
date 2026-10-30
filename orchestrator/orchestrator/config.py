@@ -15,7 +15,7 @@ def _read_key() -> str:
 # top_logprobs by their text.
 # OPENROUTER: OpenRouter, qwen/qwen3.8-27b; reasoning off. Scoring calls fall back to providers that
 # return logprobs.
-# LOGPROB_LLM_PROVIDER_API: any other OpenAI-format API that returns logprobs; plain requests.
+# LOGPROB_LLM_PROVIDER_API: any other OpenAI-format API that returns logprobs; reasoning off, no fallback.
 # LOCAL_LLM: the local-llm container (llama.cpp server with a GGUF from ./models), plain requests.
 # Per type: (base URL, score model, text model), used when .env leaves them empty.
 ENDPOINT_DEFAULTS = {

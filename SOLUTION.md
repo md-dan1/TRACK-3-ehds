@@ -106,28 +106,34 @@ What it shows:
 
 ```mermaid
 flowchart TB
-    browser["Browser"] --> web["web: React, nginx<br/>:8080"]
-    browser -->|"new tab,<br/>one-time link"| spe["spe: SPE gateway<br/>:8090<br/>one-time links<br/>starts, proxies, removes"]
-    web -->|"/api"| orch["orchestrator (FastAPI)<br/>sign-in, intake, decision<br/>SQL, federation<br/>release, audit"]
-    orch -->|"request text only"| llm["LLM provider with logprobs"]
-    orch --> pgo[("pg-orchestrator<br/>requests, audit log<br/>LLM cache, benchmark")]
-    orch -->|"sessions, counts,<br/>launch links"| spe
-    spe -->|"secret header,<br/>internal network"| ses["ehds-spe-&lt;id&gt;<br/>one container per session<br/>records in memory<br/>training page, restricted models"]
+    browser["Browser"] --> web["web"]
+    web --> orch["orchestrator"]
+    orch -->|"request text"| llm["LLM"]
+    orch --> pgo[("pg-orchestrator")]
 
-    subgraph hospitals["Hospital network (internal)"]
-        subgraph west["Klinikum West"]
-            nw["node-west"] --> pw[("pg-west")]
-        end
-        subgraph sued["Klinikum Süd"]
-            ns["node-sued"] --> ps[("pg-sued")]
-        end
-        subgraph nord["Klinikum Nord"]
-            nn["node-nord"] --> pn[("pg-nord")]
-        end
+    subgraph hospitals["Hospitals"]
+        nn["node-nord"] --> pn[("pg-nord")]
+        ns["node-sued"] --> ps[("pg-sued")]
+        nw["node-west"] --> pw[("pg-west")]
     end
 
-    orch <-->|"SQL / sums, counts"| nn & ns & nw
-    nn & ns & nw -->|"cohort records"| spe
+    orch <-->|"SQL ⇄ sums & counts"| hospitals
+    hospitals -->|"cohort records"| gw
+    orch --> gw["spe gateway"]
+    browser -->|"one-time link"| gw
+
+    subgraph spe1["SPE session 1"]
+        s1["container"] --> m1[("in-memory DB")]
+    end
+    subgraph spe2["SPE session 2"]
+        s2["container"] --> m2[("in-memory DB")]
+    end
+    more["· · ·"]
+
+    gw --> spe1
+    gw --> spe2
+    gw -.-> more
+    style more stroke-dasharray: 5 5
 ```
 
 Hospital services check the SQL again, run it and send the orchestrator only sums and counts.
@@ -253,6 +259,7 @@ db/               init scripts for hospital and orchestrator databases
 web/              React frontend
 eval/             metric runner and results
 tests/            unit tests (SQL guard attacks, metrics, SPE limits)
+wiki/             legal reference the prompts are based on (not loaded at runtime)
 data/ requests/   challenge data, unchanged
 ```
 

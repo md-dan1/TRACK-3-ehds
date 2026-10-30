@@ -5,7 +5,9 @@ title: EHDS secondary-use wiki – index
 
 # EHDS secondary-use wiki
 
-A knowledge base for the LLM steps of the Health Data Access Body app. It covers
+Reference material the prompts of the Health Data Access Body app were written from. The app
+does not load these pages at runtime (no RAG); the prompts are in `orchestrator/orchestrator/prompts.py`
+and the article table in `core/ehds_core/articles.py`. It covers
 Regulation (EU) 2025/327 (European Health Data Space), **Chapter IV – Secondary use**,
 reduced to what is needed to decide data requests.
 
@@ -33,9 +35,9 @@ Two kinds of pages:
 | `10-writing-reasons.md` | How to write the reason shown to applicants; article one-liners |
 | `11-worked-examples.md` | Example cases with the reasoning |
 | `12-glossary.md` | Terms used in the regulation and the app |
-| `articles.json` | Machine-readable article list and decision table for the app code |
+| `articles.json` | Machine-readable article list and decision table (the app uses `core/ehds_core/articles.py`) |
 
-## Which pages each pipeline step should load
+## Which pages each pipeline step is based on
 
 | Pipeline step | Pages |
 |---|---|
@@ -44,9 +46,6 @@ Two kinds of pages:
 | Reason text | 10 plus the result of the previous steps |
 | Staff explanation / Q&A | all |
 
-The whole wiki (without `sources/`) is about 10–12k tokens, so it can also simply be put in the
-system prompt in full. Put it in the cached part of the prompt so repeated calls are cheap and
-consistent.
 
 ## Ground rules for the LLM
 
