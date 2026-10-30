@@ -40,22 +40,34 @@ Other models: Qwen3-VL-30B (decision) with DeepSeek V4 Flash (text) via OpenRout
 
 ```mermaid
 flowchart TB
-    browser["Browser<br/>Researcher / Clinic"] --> web["web<br/>React + nginx :8080"]
-    browser -->|"one-time link"| spe["spe gateway :8090<br/>starts, proxies, removes<br/>session containers"]
-    web -->|"/api"| orch["orchestrator (FastAPI)<br/>sign-in · decision · SQL generation<br/>federation · merge · release gate · audit"]
-    orch -->|"request text only"| llm["LLM with logprobs<br/>OpenRouter / provider / local llama.cpp"]
-    orch --> pgo[("pg-orchestrator<br/>requests · append-only audit<br/>LLM cache · benchmark")]
-    orch -->|"sessions, counts"| spe
-    spe --> ses["ehds-spe-&lt;id&gt;<br/>one container per session<br/>records in memory only<br/>restricted models"]
+    browser["Browser"] --> web["web"]
+    web --> orch["orchestrator"]
+    orch -->|"request text"| llm["LLM"]
+    orch --> pgo[("pg-orchestrator")]
 
-    subgraph hospitals["Hospital network (internal, no internet)"]
+    subgraph hospitals["Hospitals"]
         nn["node-nord"] --> pn[("pg-nord")]
         ns["node-sued"] --> ps[("pg-sued")]
         nw["node-west"] --> pw[("pg-west")]
     end
 
-    orch <-->|"checked SQL ⇄ sums & counts only"| nn & ns & nw
-    nn & ns & nw -->|"cohort records, one-time token"| spe
+    orch <-->|"SQL ⇄ sums & counts"| hospitals
+    hospitals -->|"cohort records"| gw
+    orch --> gw["spe gateway"]
+    browser -->|"one-time link"| gw
+
+    subgraph spe1["SPE session 1"]
+        s1["container"] --> m1[("in-memory DB")]
+    end
+    subgraph spe2["SPE session 2"]
+        s2["container"] --> m2[("in-memory DB")]
+    end
+    more["· · ·"]
+
+    gw --> spe1
+    gw --> spe2
+    gw -.-> more
+    style more stroke-dasharray: 5 5
 ```
 
 **Key point:** patient-level data never reaches the orchestrator or the LLM. Hospitals send back only additive partial results (COUNT and SUM). SPE records go straight from the hospitals into the session container, and the orchestrator only gets the counts.
@@ -130,10 +142,3 @@ The same benchmark is in the app under Clinic → Benchmark.
 
 - [SOLUTION.md](SOLUTION.md): full design, SPE walkthrough, demo script, limits.
 - [wiki/](wiki/): legal decision procedure and article sources the prompts are based on.
-
-## Limits
-
-- New requests need the LLM endpoint. Cached requests still work without it.
-- Each patient exists in exactly one hospital. Real federation would first need pseudonym linkage across hospitals.
-- Medians and percentiles are refused, because they cannot be merged across hospitals without sharing values.
-- The SPE offers three restricted model types and no free code.
