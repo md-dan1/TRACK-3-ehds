@@ -1,80 +1,139 @@
-# Track 3: European Health Data Space
+# EHDS Health Data Access Body
 
-The European Health Data Space (EHDS) lets researchers, agencies and companies reuse health data. In each EU country, a Health Data Access Body decides every request. Approved applicants get anonymised statistics or pseudonymised records inside a secure processing environment (SPE) that they cannot download from.
+Track 3, European Health Data Space. Challenge text: [CHALLENGE.md](CHALLENGE.md).
 
-## What to build
+## Contributors
+**Team Pikachu**
 
-An app that takes a request as JSON and does the following automatically:
+| Name | GitHub |
+|---|---|
+| Jakob Kohlhas | [@kohjakob](https://github.com/kohjakob) |
+| Daniel Mader | [@md-dan1](https://github.com/md-dan1) |
+| Tobias Huber | [@thuber19](https://github.com/thuber19) |
+| Arnd Klocker | [@arnd27](https://github.com/arnd27) |
+| Sarah Thelen | [@penetsdorfersarah-dot](https://github.com/penetsdorfersarah-dot) |
+| Johannes Tober | [@jthealth](https://github.com/jthealth) |
 
-1. Decides `REJECT`, `APPROVE_STATISTICAL` or `APPROVE_SPE` and cites the articles.
-2. For statistics, computes the numbers from the data using the small-cell rule.
-3. For an SPE, copies the selected patients' requested records into it, reports the exact patient count and blocks downloads.
-4. Shows the decision and the reason to the applicant and to staff.
+## What it does
 
-Decide in this order:
+A request comes in as JSON, as a form or as free text. The app then works through it end to end:
 
-1. Prohibited purpose: `REJECT`, Art. 54.
-2. Health data request: `APPROVE_STATISTICAL`, Art. 53 and 69.
-3. Access application that explains why statistics are not enough, like R05: `APPROVE_SPE`, Art. 53, 66, 68 and 73.
-4. Any other access application, like R09: `APPROVE_STATISTICAL`, Art. 53, 66 and 69.
+1. **Decides** `REJECT`, `APPROVE_STATISTICAL` or `APPROVE_SPE` and cites the articles of Regulation (EU) 2025/327, following the order the challenge sets (Art. 54, then 53/69, then 66/68/73).
+2. **Statistics:** an LLM writes SQL from the plain-English definitions. A SQL guard checks it, the three hospitals each run it, and the access body merges the partial results and applies the small-cell rule.
+3. **Records:** the selected patients' requested record types go straight from the hospitals into a **secure processing environment** (SPE), which runs as its own container per session. The researcher can fit restricted models on the records but can never view or download them (403, audited).
+4. **Shows** the decision and the reasons to the researcher (applicant view) and to clinic staff (access body view: scores, sentence attribution, SQL, audit log, benchmark).
 
-Small-cell rule:
+## Metrics (10 requests × 3 runs, LLM cache off)
 
-- Show every requested group, even if empty.
-- Show counts below 10, including 0, as `<10`.
-- Show `suppressed` for a percentage whose numerator or denominator is below 10 and for a mean of fewer than 10 patients.
-- Round to one decimal, halves up.
-
-Also:
-
-- Generate the queries from each request's definitions. Nothing is written by hand per request.
-- The definitions name conditions, drugs and measurements in plain English. The data codes them as ICD-10, ATC and LOINC, so your app has to map one to the other.
-- Leave out opted-out patients everywhere.
-- An SPE can be a separate schema or folder. Copy in only the selected patients and the record types the request names and keep their patient IDs. Show a blocked download in your demo.
-- Patient-level data stays inside your app. You may send the request text to external services such as a cloud LLM.
-
-## What you get
-
-- `data/`: 20,000 synthetic patients from three Austrian hospitals in five CSV files: patients, conditions (ICD-10), medications (ATC), observations (LOINC) and encounters. `data/README.md` describes the columns.
-- `requests/`: 10 requests as JSON, each with an applicant, a purpose and plain-English definitions of the numbers. `requested_as` is `health data request` (statistics) or `health data access application` (records).
-- `requests/expected.json`: the expected decision, articles and numbers for each request.
-- The law: [Regulation (EU) 2025/327](https://eur-lex.europa.eu/eli/reg/2025/327/oj/eng), Chapter IV.
-
-## Metrics
-
-Measure these on the 10 requests. The jury also tests new requests on the same data. They can filter inpatient stays by main diagnosis (`primary_icd10`) or group by hospital (`data_holder`), which none of the 10 does.
-
-| Metric | How to measure | Target |
+| Metric | Result | Target |
 |---|---|---|
-| Correct decisions | Decision and articles match `expected.json`. Adding Art. 67 or 71 is fine | 10 of 10 |
-| Correct numbers | Approved requests where every expected value appears under its group. Layout does not matter | 6 of 6 |
-| Privacy leaks | Statistical answers with a patient-level record, a count below 10, an unsuppressed value or opted-out patients | 0 |
-| Consistency | Requests with the same result across 3 runs | 10 of 10 |
-| Time to answer | Slowest of the 10, from submitting to the answer | Under 60 s |
+| Correct decisions | **10 of 10** | 10 of 10 |
+| Correct numbers | **6 of 6** | 6 of 6 |
+| Privacy leaks | **0** | 0 |
+| Consistency (3 runs) | **10 of 10** | 10 of 10 |
+| Slowest answer | **40.5 s** | under 60 s |
 
-## You decide
+Model: `openai/gpt-5.6-luna` (`ENDPOINT_TYPE=LOGPROB_LLM_PROVIDER_API`). Per-request table: [eval/RESULTS_provider.md](eval/RESULTS_provider.md).
+Other models: Qwen3-VL-30B (decision) with DeepSeek V4 Flash (text) via OpenRouter also scored 10/10, 6/6, 0 leaks and 10/10, slowest 18.0 s ([eval/RESULTS_openrouter.md](eval/RESULTS_openrouter.md)). A local Qwen2.5-3B scored 5/10 and 0/6, still with 0 leaks ([eval/RESULTS_local.md](eval/RESULTS_local.md)).
 
-- Rules, an LLM or both.
-- What applicants and staff see.
-- One central database or federated queries per hospital.
-- Whether to convert the data to OMOP or FHIR.
+## Architecture
 
-## Rules
+```mermaid
+flowchart TB
+    browser["Browser<br/>Researcher / Clinic"] --> web["web<br/>React + nginx :8080"]
+    browser -->|"one-time link"| spe["spe gateway :8090<br/>starts, proxies, removes<br/>session containers"]
+    web -->|"/api"| orch["orchestrator (FastAPI)<br/>sign-in · decision · SQL generation<br/>federation · merge · release gate · audit"]
+    orch -->|"request text only"| llm["LLM with logprobs<br/>OpenRouter / provider / local llama.cpp"]
+    orch --> pgo[("pg-orchestrator<br/>requests · append-only audit<br/>LLM cache · benchmark")]
+    orch -->|"sessions, counts"| spe
+    spe --> ses["ehds-spe-&lt;id&gt;<br/>one container per session<br/>records in memory only<br/>restricted models"]
 
-Use only synthetic data.
+    subgraph hospitals["Hospital network (internal, no internet)"]
+        nn["node-nord"] --> pn[("pg-nord")]
+        ns["node-sued"] --> ps[("pg-sued")]
+        nw["node-west"] --> pw[("pg-west")]
+    end
 
-## Judging
+    orch <-->|"checked SQL ⇄ sums & counts only"| nn & ns & nw
+    nn & ns & nw -->|"cohort records, one-time token"| spe
+```
 
-| Criterion | Weight | Question |
+**Key point:** patient-level data never reaches the orchestrator or the LLM. Hospitals send back only additive partial results (COUNT and SUM). SPE records go straight from the hospitals into the session container, and the orchestrator only gets the counts.
+
+### Components
+
+| Component | Role | Built with |
 |---|---|---|
-| Clinical approach and impact | 33.3% | Would an access body use this? Can an applicant understand the decision? |
-| Technical quality and AI | 33.3% | Are decisions and numbers correct? Are the small-cell rule, opt-outs and download block enforced? If you use AI, does it help? |
-| Execution and prototype | 33.3% | Does the app work end to end, on the 10 requests and on new ones? |
+| `pg-nord`, `pg-sued`, `pg-west` | One DB per hospital, loaded from the CSVs with only that hospital's patients. Opted-out patients are removed in `v_*` views. Read-only federation role with a 10 s timeout | PostgreSQL 16 |
+| `node/` (×3) | Hospital service: checks the SQL again with the same guard, runs the checked syntax tree, returns partial sums and counts, pushes SPE records only to the configured SPE, keeps its own query log | FastAPI, psycopg 3 |
+| `orchestrator/` | Access body: auth and roles, intake, decision, SQL generation with a repair loop, federation, `Decimal` merge, release gate, SPE sessions, audit, dashboard, benchmark | FastAPI, httpx |
+| `core/ehds_core/` | Shared code: request schema, ICD-10/ATC/LOINC vocabulary, **SQL guard**, article table, metrics | sqlglot, pydantic |
+| `spe/` | Gateway that starts one container per session, checks ingest tokens and one-time links, proxies the browser, and removes the container after 2 min idle. Inside: statistics for groups of 10 or more, plus logistic regression, decision tree and ridge regression with limits | FastAPI, Docker SDK, scikit-learn |
+| `web/` | One app with two roles: Researcher (apply, status, SPE) and Clinic (dashboard, inbox, logs, request detail, benchmark) | React 18, Vite, TypeScript, Tailwind |
 
-The jury scores each criterion from 1 to 10 and takes your metric results into account.
+### Pipeline
 
-## Submission
+| Step | How | Time |
+|---|---|---|
+| Decision | Two one-token yes/no **logprob heads** run in parallel: "prohibited under Art. 54?" (`p54`) and "does the applicant justify why statistics are not enough?" (`p_need`). Then the legal order: REJECT if `p54 ≥ 0.5`, else SPE if it is an application and `p_need ≥ 0.5`, else STAT. Articles come from a fixed table, not from the LLM | ~1 s |
+| Query | The LLM writes PostgreSQL against the `v_*` views, with the full code list in the prompt. The **SQL guard** allows one SELECT on whitelisted views and functions, with only COUNT, SUM and AVG on the outside. Rejected SQL goes back to the LLM for at most 2 repairs | 1–3 s |
+| Federation | The SQL is split into additive parts (`AVG` becomes `SUM` + `COUNT`) and runs on all 3 hospitals in parallel. If any hospital fails, nothing is released | <0.1 s |
+| Release | Partials are summed per group, the small-cell rule is applied **after** the merge (`<10`, `suppressed`, half-up rounding, every group shown), then a separate leak check runs | ms |
+| SPE (instead) | Cohort SQL plus the requested record types. Each hospital pushes its rows into the session container, then the session is sealed and only the counts go back | ~1 s |
 
-1. A video of up to 2 minutes showing your demo. Say what works and what does not.
-2. A link to your public repository with instructions to run it. Its README has to explain your technical architecture: which components you built, how they work together and which models or services you use.
-3. Your metric results on the 10 requests.
+`REJECT` stops after the decision, and no hospital is contacted. Staff see the probabilities, the Art. 54 category, sentence attribution for rejections, and flags for scores in the uncertain band. They can override with a written reason, which is audited.
+
+### Privacy controls
+
+- **Opt-outs:** filtered in the hospital DB views, so no query can reach them.
+- **Small-cell rule:** enforced by code, not the LLM, and checked again by an independent leak check.
+- **SQL guard:** runs twice, in the orchestrator and in every hospital. Attack tests are in `tests/test_sqlguard.py`.
+- **Download block:** the "Download records" button and its URL return 403 and log `spe.download_blocked`, which the dashboard counts.
+- **Audit:** append-only, enforced by a DB trigger that blocks UPDATE, DELETE and TRUNCATE.
+- **Network isolation:** 6 Docker networks, of which hospitals, backend and SPE are internal only.
+
+## Run it
+
+You need Docker Desktop (Compose v2). uv is optional and only needed for tests and metrics. Full guide: [SETUP.md](SETUP.md).
+
+```bash
+cp .env.example .env        # set ENDPOINT_TYPE + LLM_API_KEY (and models, see below)
+docker compose up -d --build
+```
+
+Example `.env` for an OpenAI-format provider:
+
+```
+ENDPOINT_TYPE=LOGPROB_LLM_PROVIDER_API
+LLM_BASE_URL=<endpoint>
+LLM_API_KEY=<key>
+LLM_SCORE_MODEL=openai/gpt-5.6-luna
+LLM_TEXT_MODEL=openai/gpt-5.6-luna
+```
+
+| Open | URL | Login |
+|---|---|---|
+| App (Researcher / Clinic tab) | http://localhost:8080 | `admin` / `password` |
+| API docs | http://localhost:8000/docs | |
+
+Tests and metrics:
+
+```bash
+uv sync
+uv run pytest                    # unit tests, no Docker or LLM needed
+uv run python eval/run_eval.py   # 10 requests × 3 runs against the running app
+```
+
+The same benchmark is in the app under Clinic → Benchmark.
+
+## More
+
+- [SOLUTION.md](SOLUTION.md): full design, SPE walkthrough, demo script, limits.
+- [wiki/](wiki/): legal decision procedure and article sources the prompts are based on.
+
+## Limits
+
+- New requests need the LLM endpoint. Cached requests still work without it.
+- Each patient exists in exactly one hospital. Real federation would first need pseudonym linkage across hospitals.
+- Medians and percentiles are refused, because they cannot be merged across hospitals without sharing values.
+- The SPE offers three restricted model types and no free code.

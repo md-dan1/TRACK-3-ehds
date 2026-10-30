@@ -1,0 +1,3899 @@
+{
+ "rows": [
+  {
+   "ref": "R01",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_ok": true,
+   "numbers_ok": true,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 9.636129334001453,
+   "leaks": [],
+   "runs": 3,
+   "errors": []
+  },
+  {
+   "ref": "R02",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "decision_ok": true,
+   "numbers_ok": null,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 6.706402791998698,
+   "leaks": [],
+   "runs": 3,
+   "errors": []
+  },
+  {
+   "ref": "R03",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_ok": true,
+   "numbers_ok": true,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 22.68860483300159,
+   "leaks": [],
+   "runs": 3,
+   "errors": []
+  },
+  {
+   "ref": "R04",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "decision_ok": true,
+   "numbers_ok": null,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 12.251485666998633,
+   "leaks": [],
+   "runs": 3,
+   "errors": []
+  },
+  {
+   "ref": "R05",
+   "expected": "APPROVE_SPE",
+   "decision": "APPROVE_SPE",
+   "articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "decision_ok": true,
+   "numbers_ok": true,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 12.184345582998503,
+   "leaks": [],
+   "runs": 3,
+   "errors": []
+  },
+  {
+   "ref": "R06",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "decision_ok": true,
+   "numbers_ok": null,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 8.900859291003144,
+   "leaks": [],
+   "runs": 3,
+   "errors": []
+  },
+  {
+   "ref": "R07",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_ok": true,
+   "numbers_ok": true,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 11.814330375000281,
+   "leaks": [],
+   "runs": 3,
+   "errors": []
+  },
+  {
+   "ref": "R08",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_ok": true,
+   "numbers_ok": true,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 40.508375458000955,
+   "leaks": [],
+   "runs": 3,
+   "errors": []
+  },
+  {
+   "ref": "R09",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_ok": true,
+   "numbers_ok": true,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 40.003839916997094,
+   "leaks": [],
+   "runs": 3,
+   "errors": []
+  },
+  {
+   "ref": "R10",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "decision_ok": true,
+   "numbers_ok": null,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 7.057691499998327,
+   "leaks": [],
+   "runs": 3,
+   "errors": []
+  }
+ ],
+ "run_rows": [
+  {
+   "ref": "R01",
+   "run": 1,
+   "run_id": "147a3515",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "adults": 532,
+     "type2_diabetes": 33,
+     "prevalence_pct": 6.2
+    },
+    "Kärnten": {
+     "adults": 885,
+     "type2_diabetes": 71,
+     "prevalence_pct": 8.0
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "type2_diabetes": 227,
+     "prevalence_pct": 8.3
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "type2_diabetes": 173,
+     "prevalence_pct": 7.0
+    },
+    "Salzburg": {
+     "adults": 908,
+     "type2_diabetes": 75,
+     "prevalence_pct": 8.3
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "type2_diabetes": 164,
+     "prevalence_pct": 8.0
+    },
+    "Tirol": {
+     "adults": 1240,
+     "type2_diabetes": 110,
+     "prevalence_pct": 8.9
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "type2_diabetes": 36,
+     "prevalence_pct": 5.6
+    },
+    "Wien": {
+     "adults": 3247,
+     "type2_diabetes": 263,
+     "prevalence_pct": 8.1
+    }
+   },
+   "answer": {
+    "Wien": {
+     "adults": 3247,
+     "prevalence": 8.1,
+     "adults_with_type_2_diabetes": 263
+    },
+    "Tirol": {
+     "adults": 1240,
+     "prevalence": 8.9,
+     "adults_with_type_2_diabetes": 110
+    },
+    "Kärnten": {
+     "adults": 885,
+     "prevalence": 8.0,
+     "adults_with_type_2_diabetes": 71
+    },
+    "Salzburg": {
+     "adults": 908,
+     "prevalence": 8.3,
+     "adults_with_type_2_diabetes": 75
+    },
+    "Burgenland": {
+     "adults": 532,
+     "prevalence": 6.2,
+     "adults_with_type_2_diabetes": 33
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "prevalence": 8.0,
+     "adults_with_type_2_diabetes": 164
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "prevalence": 5.6,
+     "adults_with_type_2_diabetes": 36
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "prevalence": 7.0,
+     "adults_with_type_2_diabetes": 173
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "prevalence": 8.3,
+     "adults_with_type_2_diabetes": 227
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "adults": 532,
+      "type2_diabetes": 33,
+      "prevalence_pct": 6.2
+     },
+     "got": {
+      "adults": 532,
+      "prevalence": 6.2,
+      "adults_with_type_2_diabetes": 33
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "adults": 885,
+      "type2_diabetes": 71,
+      "prevalence_pct": 8.0
+     },
+     "got": {
+      "adults": 885,
+      "prevalence": 8.0,
+      "adults_with_type_2_diabetes": 71
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "adults": 2740,
+      "type2_diabetes": 227,
+      "prevalence_pct": 8.3
+     },
+     "got": {
+      "adults": 2740,
+      "prevalence": 8.3,
+      "adults_with_type_2_diabetes": 227
+     },
+     "ok": true
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "adults": 2473,
+      "type2_diabetes": 173,
+      "prevalence_pct": 7.0
+     },
+     "got": {
+      "adults": 2473,
+      "prevalence": 7.0,
+      "adults_with_type_2_diabetes": 173
+     },
+     "ok": true
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "adults": 908,
+      "type2_diabetes": 75,
+      "prevalence_pct": 8.3
+     },
+     "got": {
+      "adults": 908,
+      "prevalence": 8.3,
+      "adults_with_type_2_diabetes": 75
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "adults": 2052,
+      "type2_diabetes": 164,
+      "prevalence_pct": 8.0
+     },
+     "got": {
+      "adults": 2052,
+      "prevalence": 8.0,
+      "adults_with_type_2_diabetes": 164
+     },
+     "ok": true
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "adults": 1240,
+      "type2_diabetes": 110,
+      "prevalence_pct": 8.9
+     },
+     "got": {
+      "adults": 1240,
+      "prevalence": 8.9,
+      "adults_with_type_2_diabetes": 110
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "adults": 639,
+      "type2_diabetes": 36,
+      "prevalence_pct": 5.6
+     },
+     "got": {
+      "adults": 639,
+      "prevalence": 5.6,
+      "adults_with_type_2_diabetes": 36
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "adults": 3247,
+      "type2_diabetes": 263,
+      "prevalence_pct": 8.1
+     },
+     "got": {
+      "adults": 3247,
+      "prevalence": 8.1,
+      "adults_with_type_2_diabetes": 263
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 9.636129334001453,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R01",
+   "run": 2,
+   "run_id": "b925ab3c",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "adults": 532,
+     "type2_diabetes": 33,
+     "prevalence_pct": 6.2
+    },
+    "Kärnten": {
+     "adults": 885,
+     "type2_diabetes": 71,
+     "prevalence_pct": 8.0
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "type2_diabetes": 227,
+     "prevalence_pct": 8.3
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "type2_diabetes": 173,
+     "prevalence_pct": 7.0
+    },
+    "Salzburg": {
+     "adults": 908,
+     "type2_diabetes": 75,
+     "prevalence_pct": 8.3
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "type2_diabetes": 164,
+     "prevalence_pct": 8.0
+    },
+    "Tirol": {
+     "adults": 1240,
+     "type2_diabetes": 110,
+     "prevalence_pct": 8.9
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "type2_diabetes": 36,
+     "prevalence_pct": 5.6
+    },
+    "Wien": {
+     "adults": 3247,
+     "type2_diabetes": 263,
+     "prevalence_pct": 8.1
+    }
+   },
+   "answer": {
+    "Wien": {
+     "adults": 3247,
+     "prevalence": 8.1,
+     "adults_with_t2d": 263
+    },
+    "Tirol": {
+     "adults": 1240,
+     "prevalence": 8.9,
+     "adults_with_t2d": 110
+    },
+    "Kärnten": {
+     "adults": 885,
+     "prevalence": 8.0,
+     "adults_with_t2d": 71
+    },
+    "Salzburg": {
+     "adults": 908,
+     "prevalence": 8.3,
+     "adults_with_t2d": 75
+    },
+    "Burgenland": {
+     "adults": 532,
+     "prevalence": 6.2,
+     "adults_with_t2d": 33
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "prevalence": 8.0,
+     "adults_with_t2d": 164
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "prevalence": 5.6,
+     "adults_with_t2d": 36
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "prevalence": 7.0,
+     "adults_with_t2d": 173
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "prevalence": 8.3,
+     "adults_with_t2d": 227
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "adults": 532,
+      "type2_diabetes": 33,
+      "prevalence_pct": 6.2
+     },
+     "got": {
+      "adults": 532,
+      "prevalence": 6.2,
+      "adults_with_t2d": 33
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "adults": 885,
+      "type2_diabetes": 71,
+      "prevalence_pct": 8.0
+     },
+     "got": {
+      "adults": 885,
+      "prevalence": 8.0,
+      "adults_with_t2d": 71
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "adults": 2740,
+      "type2_diabetes": 227,
+      "prevalence_pct": 8.3
+     },
+     "got": {
+      "adults": 2740,
+      "prevalence": 8.3,
+      "adults_with_t2d": 227
+     },
+     "ok": true
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "adults": 2473,
+      "type2_diabetes": 173,
+      "prevalence_pct": 7.0
+     },
+     "got": {
+      "adults": 2473,
+      "prevalence": 7.0,
+      "adults_with_t2d": 173
+     },
+     "ok": true
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "adults": 908,
+      "type2_diabetes": 75,
+      "prevalence_pct": 8.3
+     },
+     "got": {
+      "adults": 908,
+      "prevalence": 8.3,
+      "adults_with_t2d": 75
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "adults": 2052,
+      "type2_diabetes": 164,
+      "prevalence_pct": 8.0
+     },
+     "got": {
+      "adults": 2052,
+      "prevalence": 8.0,
+      "adults_with_t2d": 164
+     },
+     "ok": true
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "adults": 1240,
+      "type2_diabetes": 110,
+      "prevalence_pct": 8.9
+     },
+     "got": {
+      "adults": 1240,
+      "prevalence": 8.9,
+      "adults_with_t2d": 110
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "adults": 639,
+      "type2_diabetes": 36,
+      "prevalence_pct": 5.6
+     },
+     "got": {
+      "adults": 639,
+      "prevalence": 5.6,
+      "adults_with_t2d": 36
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "adults": 3247,
+      "type2_diabetes": 263,
+      "prevalence_pct": 8.1
+     },
+     "got": {
+      "adults": 3247,
+      "prevalence": 8.1,
+      "adults_with_t2d": 263
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 8.272757124999771,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R01",
+   "run": 3,
+   "run_id": "b09ec184",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "adults": 532,
+     "type2_diabetes": 33,
+     "prevalence_pct": 6.2
+    },
+    "Kärnten": {
+     "adults": 885,
+     "type2_diabetes": 71,
+     "prevalence_pct": 8.0
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "type2_diabetes": 227,
+     "prevalence_pct": 8.3
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "type2_diabetes": 173,
+     "prevalence_pct": 7.0
+    },
+    "Salzburg": {
+     "adults": 908,
+     "type2_diabetes": 75,
+     "prevalence_pct": 8.3
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "type2_diabetes": 164,
+     "prevalence_pct": 8.0
+    },
+    "Tirol": {
+     "adults": 1240,
+     "type2_diabetes": 110,
+     "prevalence_pct": 8.9
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "type2_diabetes": 36,
+     "prevalence_pct": 5.6
+    },
+    "Wien": {
+     "adults": 3247,
+     "type2_diabetes": 263,
+     "prevalence_pct": 8.1
+    }
+   },
+   "answer": {
+    "Wien": {
+     "adults": 3247,
+     "prevalence": 8.1,
+     "adults_with_type_2_diabetes": 263
+    },
+    "Tirol": {
+     "adults": 1240,
+     "prevalence": 8.9,
+     "adults_with_type_2_diabetes": 110
+    },
+    "Kärnten": {
+     "adults": 885,
+     "prevalence": 8.0,
+     "adults_with_type_2_diabetes": 71
+    },
+    "Salzburg": {
+     "adults": 908,
+     "prevalence": 8.3,
+     "adults_with_type_2_diabetes": 75
+    },
+    "Burgenland": {
+     "adults": 532,
+     "prevalence": 6.2,
+     "adults_with_type_2_diabetes": 33
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "prevalence": 8.0,
+     "adults_with_type_2_diabetes": 164
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "prevalence": 5.6,
+     "adults_with_type_2_diabetes": 36
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "prevalence": 7.0,
+     "adults_with_type_2_diabetes": 173
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "prevalence": 8.3,
+     "adults_with_type_2_diabetes": 227
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "adults": 532,
+      "type2_diabetes": 33,
+      "prevalence_pct": 6.2
+     },
+     "got": {
+      "adults": 532,
+      "prevalence": 6.2,
+      "adults_with_type_2_diabetes": 33
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "adults": 885,
+      "type2_diabetes": 71,
+      "prevalence_pct": 8.0
+     },
+     "got": {
+      "adults": 885,
+      "prevalence": 8.0,
+      "adults_with_type_2_diabetes": 71
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "adults": 2740,
+      "type2_diabetes": 227,
+      "prevalence_pct": 8.3
+     },
+     "got": {
+      "adults": 2740,
+      "prevalence": 8.3,
+      "adults_with_type_2_diabetes": 227
+     },
+     "ok": true
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "adults": 2473,
+      "type2_diabetes": 173,
+      "prevalence_pct": 7.0
+     },
+     "got": {
+      "adults": 2473,
+      "prevalence": 7.0,
+      "adults_with_type_2_diabetes": 173
+     },
+     "ok": true
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "adults": 908,
+      "type2_diabetes": 75,
+      "prevalence_pct": 8.3
+     },
+     "got": {
+      "adults": 908,
+      "prevalence": 8.3,
+      "adults_with_type_2_diabetes": 75
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "adults": 2052,
+      "type2_diabetes": 164,
+      "prevalence_pct": 8.0
+     },
+     "got": {
+      "adults": 2052,
+      "prevalence": 8.0,
+      "adults_with_type_2_diabetes": 164
+     },
+     "ok": true
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "adults": 1240,
+      "type2_diabetes": 110,
+      "prevalence_pct": 8.9
+     },
+     "got": {
+      "adults": 1240,
+      "prevalence": 8.9,
+      "adults_with_type_2_diabetes": 110
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "adults": 639,
+      "type2_diabetes": 36,
+      "prevalence_pct": 5.6
+     },
+     "got": {
+      "adults": 639,
+      "prevalence": 5.6,
+      "adults_with_type_2_diabetes": 36
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "adults": 3247,
+      "type2_diabetes": 263,
+      "prevalence_pct": 8.1
+     },
+     "got": {
+      "adults": 3247,
+      "prevalence": 8.1,
+      "adults_with_type_2_diabetes": 263
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 8.620312250001007,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R02",
+   "run": 1,
+   "run_id": "131f5a42",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 6.706402791998698,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R02",
+   "run": 2,
+   "run_id": "8da85c7f",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 5.991451124999003,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R02",
+   "run": 3,
+   "run_id": "2e8c69e6",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 6.08493983399967,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R03",
+   "run": 1,
+   "run_id": "278fd168",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "65-74": {
+     "af_patients": 81,
+     "without_oac": 30,
+     "share_without_oac_pct": 37.0
+    },
+    "75-84": {
+     "af_patients": 154,
+     "without_oac": 37,
+     "share_without_oac_pct": 24.0
+    },
+    "85+": {
+     "af_patients": 78,
+     "without_oac": 22,
+     "share_without_oac_pct": 28.2
+    }
+   },
+   "answer": {
+    "85+": {
+     "no_active_oac": 22,
+     "patients_with_af": 78,
+     "no_active_oac_pct": 28.2
+    },
+    "65-74": {
+     "no_active_oac": 30,
+     "patients_with_af": 81,
+     "no_active_oac_pct": 37.0
+    },
+    "75-84": {
+     "no_active_oac": 37,
+     "patients_with_af": 154,
+     "no_active_oac_pct": 24.0
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "65-74",
+     "expected": {
+      "af_patients": 81,
+      "without_oac": 30,
+      "share_without_oac_pct": 37.0
+     },
+     "got": {
+      "no_active_oac": 30,
+      "patients_with_af": 81,
+      "no_active_oac_pct": 37.0
+     },
+     "ok": true
+    },
+    {
+     "group": "75-84",
+     "expected": {
+      "af_patients": 154,
+      "without_oac": 37,
+      "share_without_oac_pct": 24.0
+     },
+     "got": {
+      "no_active_oac": 37,
+      "patients_with_af": 154,
+      "no_active_oac_pct": 24.0
+     },
+     "ok": true
+    },
+    {
+     "group": "85+",
+     "expected": {
+      "af_patients": 78,
+      "without_oac": 22,
+      "share_without_oac_pct": 28.2
+     },
+     "got": {
+      "no_active_oac": 22,
+      "patients_with_af": 78,
+      "no_active_oac_pct": 28.2
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 8.473856000000524,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R03",
+   "run": 2,
+   "run_id": "1d702faf",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "65-74": {
+     "af_patients": 81,
+     "without_oac": 30,
+     "share_without_oac_pct": 37.0
+    },
+    "75-84": {
+     "af_patients": 154,
+     "without_oac": 37,
+     "share_without_oac_pct": 24.0
+    },
+    "85+": {
+     "af_patients": 78,
+     "without_oac": 22,
+     "share_without_oac_pct": 28.2
+    }
+   },
+   "answer": {
+    "85+": {
+     "no_active_oac": 22,
+     "patients_with_af": 78,
+     "no_active_oac_pct": 28.2
+    },
+    "65-74": {
+     "no_active_oac": 30,
+     "patients_with_af": 81,
+     "no_active_oac_pct": 37.0
+    },
+    "75-84": {
+     "no_active_oac": 37,
+     "patients_with_af": 154,
+     "no_active_oac_pct": 24.0
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "65-74",
+     "expected": {
+      "af_patients": 81,
+      "without_oac": 30,
+      "share_without_oac_pct": 37.0
+     },
+     "got": {
+      "no_active_oac": 30,
+      "patients_with_af": 81,
+      "no_active_oac_pct": 37.0
+     },
+     "ok": true
+    },
+    {
+     "group": "75-84",
+     "expected": {
+      "af_patients": 154,
+      "without_oac": 37,
+      "share_without_oac_pct": 24.0
+     },
+     "got": {
+      "no_active_oac": 37,
+      "patients_with_af": 154,
+      "no_active_oac_pct": 24.0
+     },
+     "ok": true
+    },
+    {
+     "group": "85+",
+     "expected": {
+      "af_patients": 78,
+      "without_oac": 22,
+      "share_without_oac_pct": 28.2
+     },
+     "got": {
+      "no_active_oac": 22,
+      "patients_with_af": 78,
+      "no_active_oac_pct": 28.2
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 10.794547749999765,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R03",
+   "run": 3,
+   "run_id": "d1774f82",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "65-74": {
+     "af_patients": 81,
+     "without_oac": 30,
+     "share_without_oac_pct": 37.0
+    },
+    "75-84": {
+     "af_patients": 154,
+     "without_oac": 37,
+     "share_without_oac_pct": 24.0
+    },
+    "85+": {
+     "af_patients": 78,
+     "without_oac": 22,
+     "share_without_oac_pct": 28.2
+    }
+   },
+   "answer": {
+    "85+": {
+     "no_active_oac": 22,
+     "patients_with_af": 78,
+     "no_active_oac_pct": 28.2
+    },
+    "65-74": {
+     "no_active_oac": 30,
+     "patients_with_af": 81,
+     "no_active_oac_pct": 37.0
+    },
+    "75-84": {
+     "no_active_oac": 37,
+     "patients_with_af": 154,
+     "no_active_oac_pct": 24.0
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "65-74",
+     "expected": {
+      "af_patients": 81,
+      "without_oac": 30,
+      "share_without_oac_pct": 37.0
+     },
+     "got": {
+      "no_active_oac": 30,
+      "patients_with_af": 81,
+      "no_active_oac_pct": 37.0
+     },
+     "ok": true
+    },
+    {
+     "group": "75-84",
+     "expected": {
+      "af_patients": 154,
+      "without_oac": 37,
+      "share_without_oac_pct": 24.0
+     },
+     "got": {
+      "no_active_oac": 37,
+      "patients_with_af": 154,
+      "no_active_oac_pct": 24.0
+     },
+     "ok": true
+    },
+    {
+     "group": "85+",
+     "expected": {
+      "af_patients": 78,
+      "without_oac": 22,
+      "share_without_oac_pct": 28.2
+     },
+     "got": {
+      "no_active_oac": 22,
+      "patients_with_af": 78,
+      "no_active_oac_pct": 28.2
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 22.68860483300159,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R04",
+   "run": 1,
+   "run_id": "8ce57b46",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 5.7442864590011595,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R04",
+   "run": 2,
+   "run_id": "152746ff",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 12.251485666998633,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R04",
+   "run": 3,
+   "run_id": "e65c1f74",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 5.365722209000523,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R05",
+   "run": 1,
+   "run_id": "660da973",
+   "expected": "APPROVE_SPE",
+   "decision": "APPROVE_SPE",
+   "expected_articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "cohort_size": 1152
+   },
+   "answer": {
+    "cohort_size": 1152
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "cohort_size",
+     "expected": 1152,
+     "got": 1152,
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 9.822791208000126,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R05",
+   "run": 2,
+   "run_id": "c78b4461",
+   "expected": "APPROVE_SPE",
+   "decision": "APPROVE_SPE",
+   "expected_articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "cohort_size": 1152
+   },
+   "answer": {
+    "cohort_size": 1152
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "cohort_size",
+     "expected": 1152,
+     "got": 1152,
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 10.680455957997765,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R05",
+   "run": 3,
+   "run_id": "eba55260",
+   "expected": "APPROVE_SPE",
+   "decision": "APPROVE_SPE",
+   "expected_articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "cohort_size": 1152
+   },
+   "answer": {
+    "cohort_size": 1152
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "cohort_size",
+     "expected": 1152,
+     "got": 1152,
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 12.184345582998503,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R06",
+   "run": 1,
+   "run_id": "bf46c41a",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 8.900859291003144,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R06",
+   "run": 2,
+   "run_id": "ce27319b",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 5.019436499998847,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R06",
+   "run": 3,
+   "run_id": "2e442384",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 5.859675083000184,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R07",
+   "run": 1,
+   "run_id": "2d7bce20",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": 28,
+    "Kärnten": 69,
+    "Niederösterreich": 187,
+    "Oberösterreich": 194,
+    "Salzburg": 69,
+    "Steiermark": 140,
+    "Tirol": 86,
+    "Vorarlberg": 61,
+    "Wien": 245
+   },
+   "answer": {
+    "Wien": {
+     "inpatient_stays": 245
+    },
+    "Tirol": {
+     "inpatient_stays": 86
+    },
+    "Kärnten": {
+     "inpatient_stays": 69
+    },
+    "Salzburg": {
+     "inpatient_stays": 69
+    },
+    "Burgenland": {
+     "inpatient_stays": 28
+    },
+    "Steiermark": {
+     "inpatient_stays": 140
+    },
+    "Vorarlberg": {
+     "inpatient_stays": 61
+    },
+    "Oberösterreich": {
+     "inpatient_stays": 194
+    },
+    "Niederösterreich": {
+     "inpatient_stays": 187
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": 28,
+     "got": {
+      "inpatient_stays": 28
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": 69,
+     "got": {
+      "inpatient_stays": 69
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": 187,
+     "got": {
+      "inpatient_stays": 187
+     },
+     "ok": true
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": 194,
+     "got": {
+      "inpatient_stays": 194
+     },
+     "ok": true
+    },
+    {
+     "group": "Salzburg",
+     "expected": 69,
+     "got": {
+      "inpatient_stays": 69
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": 140,
+     "got": {
+      "inpatient_stays": 140
+     },
+     "ok": true
+    },
+    {
+     "group": "Tirol",
+     "expected": 86,
+     "got": {
+      "inpatient_stays": 86
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": 61,
+     "got": {
+      "inpatient_stays": 61
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": 245,
+     "got": {
+      "inpatient_stays": 245
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 8.69316795800114,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R07",
+   "run": 2,
+   "run_id": "48566a95",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": 28,
+    "Kärnten": 69,
+    "Niederösterreich": 187,
+    "Oberösterreich": 194,
+    "Salzburg": 69,
+    "Steiermark": 140,
+    "Tirol": 86,
+    "Vorarlberg": 61,
+    "Wien": 245
+   },
+   "answer": {
+    "Wien": {
+     "inpatient_stays": 245
+    },
+    "Tirol": {
+     "inpatient_stays": 86
+    },
+    "Kärnten": {
+     "inpatient_stays": 69
+    },
+    "Salzburg": {
+     "inpatient_stays": 69
+    },
+    "Burgenland": {
+     "inpatient_stays": 28
+    },
+    "Steiermark": {
+     "inpatient_stays": 140
+    },
+    "Vorarlberg": {
+     "inpatient_stays": 61
+    },
+    "Oberösterreich": {
+     "inpatient_stays": 194
+    },
+    "Niederösterreich": {
+     "inpatient_stays": 187
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": 28,
+     "got": {
+      "inpatient_stays": 28
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": 69,
+     "got": {
+      "inpatient_stays": 69
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": 187,
+     "got": {
+      "inpatient_stays": 187
+     },
+     "ok": true
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": 194,
+     "got": {
+      "inpatient_stays": 194
+     },
+     "ok": true
+    },
+    {
+     "group": "Salzburg",
+     "expected": 69,
+     "got": {
+      "inpatient_stays": 69
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": 140,
+     "got": {
+      "inpatient_stays": 140
+     },
+     "ok": true
+    },
+    {
+     "group": "Tirol",
+     "expected": 86,
+     "got": {
+      "inpatient_stays": 86
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": 61,
+     "got": {
+      "inpatient_stays": 61
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": 245,
+     "got": {
+      "inpatient_stays": 245
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 9.179306166999595,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R07",
+   "run": 3,
+   "run_id": "15a0e925",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": 28,
+    "Kärnten": 69,
+    "Niederösterreich": 187,
+    "Oberösterreich": 194,
+    "Salzburg": 69,
+    "Steiermark": 140,
+    "Tirol": 86,
+    "Vorarlberg": 61,
+    "Wien": 245
+   },
+   "answer": {
+    "Wien": {
+     "inpatient_stays": 245
+    },
+    "Tirol": {
+     "inpatient_stays": 86
+    },
+    "Kärnten": {
+     "inpatient_stays": 69
+    },
+    "Salzburg": {
+     "inpatient_stays": 69
+    },
+    "Burgenland": {
+     "inpatient_stays": 28
+    },
+    "Steiermark": {
+     "inpatient_stays": 140
+    },
+    "Vorarlberg": {
+     "inpatient_stays": 61
+    },
+    "Oberösterreich": {
+     "inpatient_stays": 194
+    },
+    "Niederösterreich": {
+     "inpatient_stays": 187
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": 28,
+     "got": {
+      "inpatient_stays": 28
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": 69,
+     "got": {
+      "inpatient_stays": 69
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": 187,
+     "got": {
+      "inpatient_stays": 187
+     },
+     "ok": true
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": 194,
+     "got": {
+      "inpatient_stays": 194
+     },
+     "ok": true
+    },
+    {
+     "group": "Salzburg",
+     "expected": 69,
+     "got": {
+      "inpatient_stays": 69
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": 140,
+     "got": {
+      "inpatient_stays": 140
+     },
+     "ok": true
+    },
+    {
+     "group": "Tirol",
+     "expected": 86,
+     "got": {
+      "inpatient_stays": 86
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": 61,
+     "got": {
+      "inpatient_stays": 61
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": 245,
+     "got": {
+      "inpatient_stays": 245
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 11.814330375000281,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R08",
+   "run": 1,
+   "run_id": "5d8c59a4",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Kärnten": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Niederösterreich": {
+     "women_with_bmi": 15,
+     "mean_bmi": 27.2
+    },
+    "Oberösterreich": {
+     "women_with_bmi": 11,
+     "mean_bmi": 27.5
+    },
+    "Salzburg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Steiermark": {
+     "women_with_bmi": 13,
+     "mean_bmi": 26.3
+    },
+    "Tirol": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Vorarlberg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Wien": {
+     "women_with_bmi": 14,
+     "mean_bmi": 26.6
+    }
+   },
+   "answer": {
+    "Wien": {
+     "mean_bmi": 26.6,
+     "patients_with_bmi": 14
+    },
+    "Tirol": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "mean_bmi": 26.3,
+     "patients_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "mean_bmi": 27.5,
+     "patients_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "mean_bmi": 27.2,
+     "patients_with_bmi": 15
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "women_with_bmi": 15,
+      "mean_bmi": 27.2
+     },
+     "got": {
+      "mean_bmi": 27.2,
+      "patients_with_bmi": 15
+     },
+     "ok": true
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "women_with_bmi": 11,
+      "mean_bmi": 27.5
+     },
+     "got": {
+      "mean_bmi": 27.5,
+      "patients_with_bmi": 11
+     },
+     "ok": true
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "women_with_bmi": 13,
+      "mean_bmi": 26.3
+     },
+     "got": {
+      "mean_bmi": 26.3,
+      "patients_with_bmi": 13
+     },
+     "ok": true
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "women_with_bmi": 14,
+      "mean_bmi": 26.6
+     },
+     "got": {
+      "mean_bmi": 26.6,
+      "patients_with_bmi": 14
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 40.508375458000955,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R08",
+   "run": 2,
+   "run_id": "f622b443",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Kärnten": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Niederösterreich": {
+     "women_with_bmi": 15,
+     "mean_bmi": 27.2
+    },
+    "Oberösterreich": {
+     "women_with_bmi": 11,
+     "mean_bmi": 27.5
+    },
+    "Salzburg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Steiermark": {
+     "women_with_bmi": 13,
+     "mean_bmi": 26.3
+    },
+    "Tirol": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Vorarlberg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Wien": {
+     "women_with_bmi": 14,
+     "mean_bmi": 26.6
+    }
+   },
+   "answer": {
+    "Wien": {
+     "mean_bmi": 26.6,
+     "patients_with_bmi": 14
+    },
+    "Tirol": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "mean_bmi": 26.3,
+     "patients_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "mean_bmi": 27.5,
+     "patients_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "mean_bmi": 27.2,
+     "patients_with_bmi": 15
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "women_with_bmi": 15,
+      "mean_bmi": 27.2
+     },
+     "got": {
+      "mean_bmi": 27.2,
+      "patients_with_bmi": 15
+     },
+     "ok": true
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "women_with_bmi": 11,
+      "mean_bmi": 27.5
+     },
+     "got": {
+      "mean_bmi": 27.5,
+      "patients_with_bmi": 11
+     },
+     "ok": true
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "women_with_bmi": 13,
+      "mean_bmi": 26.3
+     },
+     "got": {
+      "mean_bmi": 26.3,
+      "patients_with_bmi": 13
+     },
+     "ok": true
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "women_with_bmi": 14,
+      "mean_bmi": 26.6
+     },
+     "got": {
+      "mean_bmi": 26.6,
+      "patients_with_bmi": 14
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 9.839525957999285,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R08",
+   "run": 3,
+   "run_id": "9b087f4a",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Kärnten": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Niederösterreich": {
+     "women_with_bmi": 15,
+     "mean_bmi": 27.2
+    },
+    "Oberösterreich": {
+     "women_with_bmi": 11,
+     "mean_bmi": 27.5
+    },
+    "Salzburg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Steiermark": {
+     "women_with_bmi": 13,
+     "mean_bmi": 26.3
+    },
+    "Tirol": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Vorarlberg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Wien": {
+     "women_with_bmi": 14,
+     "mean_bmi": 26.6
+    }
+   },
+   "answer": {
+    "Wien": {
+     "mean_bmi": 26.6,
+     "patients_with_bmi": 14
+    },
+    "Tirol": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "mean_bmi": 26.3,
+     "patients_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "mean_bmi": 27.5,
+     "patients_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "mean_bmi": 27.2,
+     "patients_with_bmi": 15
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "women_with_bmi": 15,
+      "mean_bmi": 27.2
+     },
+     "got": {
+      "mean_bmi": 27.2,
+      "patients_with_bmi": 15
+     },
+     "ok": true
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "women_with_bmi": 11,
+      "mean_bmi": 27.5
+     },
+     "got": {
+      "mean_bmi": 27.5,
+      "patients_with_bmi": 11
+     },
+     "ok": true
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "women_with_bmi": 13,
+      "mean_bmi": 26.3
+     },
+     "got": {
+      "mean_bmi": 26.3,
+      "patients_with_bmi": 13
+     },
+     "ok": true
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "mean_bmi": "suppressed",
+      "patients_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "women_with_bmi": 14,
+      "mean_bmi": 26.6
+     },
+     "got": {
+      "mean_bmi": 26.6,
+      "patients_with_bmi": 14
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 38.91100395800095,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R09",
+   "run": 1,
+   "run_id": "8ac6f620",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "18-49": {
+     "adults_with_hypertension": 359,
+     "ace_inhibitor_pct": 39.6,
+     "arb_pct": 33.4
+    },
+    "50-64": {
+     "adults_with_hypertension": 1057,
+     "ace_inhibitor_pct": 41.7,
+     "arb_pct": 32.4
+    },
+    "65+": {
+     "adults_with_hypertension": 2046,
+     "ace_inhibitor_pct": 40.2,
+     "arb_pct": 33.2
+    }
+   },
+   "answer": {
+    "65+": {
+     "pct_active_ace": 40.2,
+     "pct_active_arb": 33.2,
+     "adults_with_hypertension": 2046
+    },
+    "18-49": {
+     "pct_active_ace": 39.6,
+     "pct_active_arb": 33.4,
+     "adults_with_hypertension": 359
+    },
+    "50-64": {
+     "pct_active_ace": 41.7,
+     "pct_active_arb": 32.4,
+     "adults_with_hypertension": 1057
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "18-49",
+     "expected": {
+      "adults_with_hypertension": 359,
+      "ace_inhibitor_pct": 39.6,
+      "arb_pct": 33.4
+     },
+     "got": {
+      "pct_active_ace": 39.6,
+      "pct_active_arb": 33.4,
+      "adults_with_hypertension": 359
+     },
+     "ok": true
+    },
+    {
+     "group": "50-64",
+     "expected": {
+      "adults_with_hypertension": 1057,
+      "ace_inhibitor_pct": 41.7,
+      "arb_pct": 32.4
+     },
+     "got": {
+      "pct_active_ace": 41.7,
+      "pct_active_arb": 32.4,
+      "adults_with_hypertension": 1057
+     },
+     "ok": true
+    },
+    {
+     "group": "65+",
+     "expected": {
+      "adults_with_hypertension": 2046,
+      "ace_inhibitor_pct": 40.2,
+      "arb_pct": 33.2
+     },
+     "got": {
+      "pct_active_ace": 40.2,
+      "pct_active_arb": 33.2,
+      "adults_with_hypertension": 2046
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 9.457470332999947,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R09",
+   "run": 2,
+   "run_id": "6b39b505",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "18-49": {
+     "adults_with_hypertension": 359,
+     "ace_inhibitor_pct": 39.6,
+     "arb_pct": 33.4
+    },
+    "50-64": {
+     "adults_with_hypertension": 1057,
+     "ace_inhibitor_pct": 41.7,
+     "arb_pct": 32.4
+    },
+    "65+": {
+     "adults_with_hypertension": 2046,
+     "ace_inhibitor_pct": 40.2,
+     "arb_pct": 33.2
+    }
+   },
+   "answer": {
+    "65+": {
+     "pct_active_arb": 33.2,
+     "adults_with_hypertension": 2046,
+     "pct_active_ace_inhibitor": 40.2
+    },
+    "18-49": {
+     "pct_active_arb": 33.4,
+     "adults_with_hypertension": 359,
+     "pct_active_ace_inhibitor": 39.6
+    },
+    "50-64": {
+     "pct_active_arb": 32.4,
+     "adults_with_hypertension": 1057,
+     "pct_active_ace_inhibitor": 41.7
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "18-49",
+     "expected": {
+      "adults_with_hypertension": 359,
+      "ace_inhibitor_pct": 39.6,
+      "arb_pct": 33.4
+     },
+     "got": {
+      "pct_active_arb": 33.4,
+      "adults_with_hypertension": 359,
+      "pct_active_ace_inhibitor": 39.6
+     },
+     "ok": true
+    },
+    {
+     "group": "50-64",
+     "expected": {
+      "adults_with_hypertension": 1057,
+      "ace_inhibitor_pct": 41.7,
+      "arb_pct": 32.4
+     },
+     "got": {
+      "pct_active_arb": 32.4,
+      "adults_with_hypertension": 1057,
+      "pct_active_ace_inhibitor": 41.7
+     },
+     "ok": true
+    },
+    {
+     "group": "65+",
+     "expected": {
+      "adults_with_hypertension": 2046,
+      "ace_inhibitor_pct": 40.2,
+      "arb_pct": 33.2
+     },
+     "got": {
+      "pct_active_arb": 33.2,
+      "adults_with_hypertension": 2046,
+      "pct_active_ace_inhibitor": 40.2
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 40.003839916997094,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R09",
+   "run": 3,
+   "run_id": "e4f3b234",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "18-49": {
+     "adults_with_hypertension": 359,
+     "ace_inhibitor_pct": 39.6,
+     "arb_pct": 33.4
+    },
+    "50-64": {
+     "adults_with_hypertension": 1057,
+     "ace_inhibitor_pct": 41.7,
+     "arb_pct": 32.4
+    },
+    "65+": {
+     "adults_with_hypertension": 2046,
+     "ace_inhibitor_pct": 40.2,
+     "arb_pct": 33.2
+    }
+   },
+   "answer": {
+    "65+": {
+     "pct_active_ace": 40.2,
+     "pct_active_arb": 33.2,
+     "adults_with_hypertension": 2046
+    },
+    "18-49": {
+     "pct_active_ace": 39.6,
+     "pct_active_arb": 33.4,
+     "adults_with_hypertension": 359
+    },
+    "50-64": {
+     "pct_active_ace": 41.7,
+     "pct_active_arb": 32.4,
+     "adults_with_hypertension": 1057
+    }
+   },
+   "numbers_ok": true,
+   "missing": [],
+   "group_checks": [
+    {
+     "group": "18-49",
+     "expected": {
+      "adults_with_hypertension": 359,
+      "ace_inhibitor_pct": 39.6,
+      "arb_pct": 33.4
+     },
+     "got": {
+      "pct_active_ace": 39.6,
+      "pct_active_arb": 33.4,
+      "adults_with_hypertension": 359
+     },
+     "ok": true
+    },
+    {
+     "group": "50-64",
+     "expected": {
+      "adults_with_hypertension": 1057,
+      "ace_inhibitor_pct": 41.7,
+      "arb_pct": 32.4
+     },
+     "got": {
+      "pct_active_ace": 41.7,
+      "pct_active_arb": 32.4,
+      "adults_with_hypertension": 1057
+     },
+     "ok": true
+    },
+    {
+     "group": "65+",
+     "expected": {
+      "adults_with_hypertension": 2046,
+      "ace_inhibitor_pct": 40.2,
+      "arb_pct": 33.2
+     },
+     "got": {
+      "pct_active_ace": 40.2,
+      "pct_active_arb": 33.2,
+      "adults_with_hypertension": 2046
+     },
+     "ok": true
+    }
+   ],
+   "consistent": true,
+   "seconds": 9.199284040998464,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R10",
+   "run": 1,
+   "run_id": "dc8ae0a5",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 5.581447874999867,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R10",
+   "run": 2,
+   "run_id": "452f9458",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 7.057691499998327,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R10",
+   "run": 3,
+   "run_id": "032a3398",
+   "expected": "REJECT",
+   "decision": "REJECT",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "54"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 6.895668958997703,
+   "leaks": [],
+   "error": null
+  }
+ ],
+ "summary": {
+  "correct_decisions": "10 of 10",
+  "correct_numbers": "6 of 6",
+  "privacy_leaks": 0,
+  "consistency": "10 of 10",
+  "slowest_seconds": 40.51,
+  "runs_per_request": 3,
+  "opted_out_visible_to_federation": 0
+ },
+ "llm": {
+  "endpoint_type": "LOGPROB_LLM_PROVIDER_API",
+  "score_model": "openai/gpt-5.6-luna",
+  "text_model": "openai/gpt-5.6-luna"
+ },
+ "results": [
+  {
+   "ref": "R01",
+   "run": 1,
+   "run_id": "147a3515",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "adults": 3247,
+     "prevalence": 8.1,
+     "adults_with_type_2_diabetes": 263
+    },
+    "Tirol": {
+     "adults": 1240,
+     "prevalence": 8.9,
+     "adults_with_type_2_diabetes": 110
+    },
+    "Kärnten": {
+     "adults": 885,
+     "prevalence": 8.0,
+     "adults_with_type_2_diabetes": 71
+    },
+    "Salzburg": {
+     "adults": 908,
+     "prevalence": 8.3,
+     "adults_with_type_2_diabetes": 75
+    },
+    "Burgenland": {
+     "adults": 532,
+     "prevalence": 6.2,
+     "adults_with_type_2_diabetes": 33
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "prevalence": 8.0,
+     "adults_with_type_2_diabetes": 164
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "prevalence": 5.6,
+     "adults_with_type_2_diabetes": 36
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "prevalence": 7.0,
+     "adults_with_type_2_diabetes": 173
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "prevalence": 8.3,
+     "adults_with_type_2_diabetes": 227
+    }
+   },
+   "seconds": 9.636129334001453,
+   "leaks": []
+  },
+  {
+   "ref": "R02",
+   "run": 1,
+   "run_id": "131f5a42",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 6.706402791998698,
+   "leaks": []
+  },
+  {
+   "ref": "R03",
+   "run": 1,
+   "run_id": "278fd168",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "85+": {
+     "no_active_oac": 22,
+     "patients_with_af": 78,
+     "no_active_oac_pct": 28.2
+    },
+    "65-74": {
+     "no_active_oac": 30,
+     "patients_with_af": 81,
+     "no_active_oac_pct": 37.0
+    },
+    "75-84": {
+     "no_active_oac": 37,
+     "patients_with_af": 154,
+     "no_active_oac_pct": 24.0
+    }
+   },
+   "seconds": 8.473856000000524,
+   "leaks": []
+  },
+  {
+   "ref": "R04",
+   "run": 1,
+   "run_id": "8ce57b46",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 5.7442864590011595,
+   "leaks": []
+  },
+  {
+   "ref": "R05",
+   "run": 1,
+   "run_id": "660da973",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_SPE",
+   "articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "answer": {
+    "cohort_size": 1152
+   },
+   "seconds": 9.822791208000126,
+   "leaks": []
+  },
+  {
+   "ref": "R06",
+   "run": 1,
+   "run_id": "bf46c41a",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 8.900859291003144,
+   "leaks": []
+  },
+  {
+   "ref": "R07",
+   "run": 1,
+   "run_id": "2d7bce20",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "inpatient_stays": 245
+    },
+    "Tirol": {
+     "inpatient_stays": 86
+    },
+    "Kärnten": {
+     "inpatient_stays": 69
+    },
+    "Salzburg": {
+     "inpatient_stays": 69
+    },
+    "Burgenland": {
+     "inpatient_stays": 28
+    },
+    "Steiermark": {
+     "inpatient_stays": 140
+    },
+    "Vorarlberg": {
+     "inpatient_stays": 61
+    },
+    "Oberösterreich": {
+     "inpatient_stays": 194
+    },
+    "Niederösterreich": {
+     "inpatient_stays": 187
+    }
+   },
+   "seconds": 8.69316795800114,
+   "leaks": []
+  },
+  {
+   "ref": "R08",
+   "run": 1,
+   "run_id": "5d8c59a4",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "mean_bmi": 26.6,
+     "patients_with_bmi": 14
+    },
+    "Tirol": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "mean_bmi": 26.3,
+     "patients_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "mean_bmi": 27.5,
+     "patients_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "mean_bmi": 27.2,
+     "patients_with_bmi": 15
+    }
+   },
+   "seconds": 40.508375458000955,
+   "leaks": []
+  },
+  {
+   "ref": "R09",
+   "run": 1,
+   "run_id": "8ac6f620",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": {
+    "65+": {
+     "pct_active_ace": 40.2,
+     "pct_active_arb": 33.2,
+     "adults_with_hypertension": 2046
+    },
+    "18-49": {
+     "pct_active_ace": 39.6,
+     "pct_active_arb": 33.4,
+     "adults_with_hypertension": 359
+    },
+    "50-64": {
+     "pct_active_ace": 41.7,
+     "pct_active_arb": 32.4,
+     "adults_with_hypertension": 1057
+    }
+   },
+   "seconds": 9.457470332999947,
+   "leaks": []
+  },
+  {
+   "ref": "R10",
+   "run": 1,
+   "run_id": "dc8ae0a5",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 5.581447874999867,
+   "leaks": []
+  },
+  {
+   "ref": "R01",
+   "run": 2,
+   "run_id": "b925ab3c",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "adults": 3247,
+     "prevalence": 8.1,
+     "adults_with_t2d": 263
+    },
+    "Tirol": {
+     "adults": 1240,
+     "prevalence": 8.9,
+     "adults_with_t2d": 110
+    },
+    "Kärnten": {
+     "adults": 885,
+     "prevalence": 8.0,
+     "adults_with_t2d": 71
+    },
+    "Salzburg": {
+     "adults": 908,
+     "prevalence": 8.3,
+     "adults_with_t2d": 75
+    },
+    "Burgenland": {
+     "adults": 532,
+     "prevalence": 6.2,
+     "adults_with_t2d": 33
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "prevalence": 8.0,
+     "adults_with_t2d": 164
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "prevalence": 5.6,
+     "adults_with_t2d": 36
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "prevalence": 7.0,
+     "adults_with_t2d": 173
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "prevalence": 8.3,
+     "adults_with_t2d": 227
+    }
+   },
+   "seconds": 8.272757124999771,
+   "leaks": []
+  },
+  {
+   "ref": "R02",
+   "run": 2,
+   "run_id": "8da85c7f",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 5.991451124999003,
+   "leaks": []
+  },
+  {
+   "ref": "R03",
+   "run": 2,
+   "run_id": "1d702faf",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "85+": {
+     "no_active_oac": 22,
+     "patients_with_af": 78,
+     "no_active_oac_pct": 28.2
+    },
+    "65-74": {
+     "no_active_oac": 30,
+     "patients_with_af": 81,
+     "no_active_oac_pct": 37.0
+    },
+    "75-84": {
+     "no_active_oac": 37,
+     "patients_with_af": 154,
+     "no_active_oac_pct": 24.0
+    }
+   },
+   "seconds": 10.794547749999765,
+   "leaks": []
+  },
+  {
+   "ref": "R04",
+   "run": 2,
+   "run_id": "152746ff",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 12.251485666998633,
+   "leaks": []
+  },
+  {
+   "ref": "R05",
+   "run": 2,
+   "run_id": "c78b4461",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_SPE",
+   "articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "answer": {
+    "cohort_size": 1152
+   },
+   "seconds": 10.680455957997765,
+   "leaks": []
+  },
+  {
+   "ref": "R06",
+   "run": 2,
+   "run_id": "ce27319b",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 5.019436499998847,
+   "leaks": []
+  },
+  {
+   "ref": "R07",
+   "run": 2,
+   "run_id": "48566a95",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "inpatient_stays": 245
+    },
+    "Tirol": {
+     "inpatient_stays": 86
+    },
+    "Kärnten": {
+     "inpatient_stays": 69
+    },
+    "Salzburg": {
+     "inpatient_stays": 69
+    },
+    "Burgenland": {
+     "inpatient_stays": 28
+    },
+    "Steiermark": {
+     "inpatient_stays": 140
+    },
+    "Vorarlberg": {
+     "inpatient_stays": 61
+    },
+    "Oberösterreich": {
+     "inpatient_stays": 194
+    },
+    "Niederösterreich": {
+     "inpatient_stays": 187
+    }
+   },
+   "seconds": 9.179306166999595,
+   "leaks": []
+  },
+  {
+   "ref": "R08",
+   "run": 2,
+   "run_id": "f622b443",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "mean_bmi": 26.6,
+     "patients_with_bmi": 14
+    },
+    "Tirol": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "mean_bmi": 26.3,
+     "patients_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "mean_bmi": 27.5,
+     "patients_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "mean_bmi": 27.2,
+     "patients_with_bmi": 15
+    }
+   },
+   "seconds": 9.839525957999285,
+   "leaks": []
+  },
+  {
+   "ref": "R09",
+   "run": 2,
+   "run_id": "6b39b505",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": {
+    "65+": {
+     "pct_active_arb": 33.2,
+     "adults_with_hypertension": 2046,
+     "pct_active_ace_inhibitor": 40.2
+    },
+    "18-49": {
+     "pct_active_arb": 33.4,
+     "adults_with_hypertension": 359,
+     "pct_active_ace_inhibitor": 39.6
+    },
+    "50-64": {
+     "pct_active_arb": 32.4,
+     "adults_with_hypertension": 1057,
+     "pct_active_ace_inhibitor": 41.7
+    }
+   },
+   "seconds": 40.003839916997094,
+   "leaks": []
+  },
+  {
+   "ref": "R10",
+   "run": 2,
+   "run_id": "452f9458",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 7.057691499998327,
+   "leaks": []
+  },
+  {
+   "ref": "R01",
+   "run": 3,
+   "run_id": "b09ec184",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "adults": 3247,
+     "prevalence": 8.1,
+     "adults_with_type_2_diabetes": 263
+    },
+    "Tirol": {
+     "adults": 1240,
+     "prevalence": 8.9,
+     "adults_with_type_2_diabetes": 110
+    },
+    "Kärnten": {
+     "adults": 885,
+     "prevalence": 8.0,
+     "adults_with_type_2_diabetes": 71
+    },
+    "Salzburg": {
+     "adults": 908,
+     "prevalence": 8.3,
+     "adults_with_type_2_diabetes": 75
+    },
+    "Burgenland": {
+     "adults": 532,
+     "prevalence": 6.2,
+     "adults_with_type_2_diabetes": 33
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "prevalence": 8.0,
+     "adults_with_type_2_diabetes": 164
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "prevalence": 5.6,
+     "adults_with_type_2_diabetes": 36
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "prevalence": 7.0,
+     "adults_with_type_2_diabetes": 173
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "prevalence": 8.3,
+     "adults_with_type_2_diabetes": 227
+    }
+   },
+   "seconds": 8.620312250001007,
+   "leaks": []
+  },
+  {
+   "ref": "R02",
+   "run": 3,
+   "run_id": "2e8c69e6",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 6.08493983399967,
+   "leaks": []
+  },
+  {
+   "ref": "R03",
+   "run": 3,
+   "run_id": "d1774f82",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "85+": {
+     "no_active_oac": 22,
+     "patients_with_af": 78,
+     "no_active_oac_pct": 28.2
+    },
+    "65-74": {
+     "no_active_oac": 30,
+     "patients_with_af": 81,
+     "no_active_oac_pct": 37.0
+    },
+    "75-84": {
+     "no_active_oac": 37,
+     "patients_with_af": 154,
+     "no_active_oac_pct": 24.0
+    }
+   },
+   "seconds": 22.68860483300159,
+   "leaks": []
+  },
+  {
+   "ref": "R04",
+   "run": 3,
+   "run_id": "e65c1f74",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 5.365722209000523,
+   "leaks": []
+  },
+  {
+   "ref": "R05",
+   "run": 3,
+   "run_id": "eba55260",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_SPE",
+   "articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "answer": {
+    "cohort_size": 1152
+   },
+   "seconds": 12.184345582998503,
+   "leaks": []
+  },
+  {
+   "ref": "R06",
+   "run": 3,
+   "run_id": "2e442384",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 5.859675083000184,
+   "leaks": []
+  },
+  {
+   "ref": "R07",
+   "run": 3,
+   "run_id": "15a0e925",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "inpatient_stays": 245
+    },
+    "Tirol": {
+     "inpatient_stays": 86
+    },
+    "Kärnten": {
+     "inpatient_stays": 69
+    },
+    "Salzburg": {
+     "inpatient_stays": 69
+    },
+    "Burgenland": {
+     "inpatient_stays": 28
+    },
+    "Steiermark": {
+     "inpatient_stays": 140
+    },
+    "Vorarlberg": {
+     "inpatient_stays": 61
+    },
+    "Oberösterreich": {
+     "inpatient_stays": 194
+    },
+    "Niederösterreich": {
+     "inpatient_stays": 187
+    }
+   },
+   "seconds": 11.814330375000281,
+   "leaks": []
+  },
+  {
+   "ref": "R08",
+   "run": 3,
+   "run_id": "9b087f4a",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "mean_bmi": 26.6,
+     "patients_with_bmi": 14
+    },
+    "Tirol": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "mean_bmi": 26.3,
+     "patients_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "mean_bmi": "suppressed",
+     "patients_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "mean_bmi": 27.5,
+     "patients_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "mean_bmi": 27.2,
+     "patients_with_bmi": 15
+    }
+   },
+   "seconds": 38.91100395800095,
+   "leaks": []
+  },
+  {
+   "ref": "R09",
+   "run": 3,
+   "run_id": "e4f3b234",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": {
+    "65+": {
+     "pct_active_ace": 40.2,
+     "pct_active_arb": 33.2,
+     "adults_with_hypertension": 2046
+    },
+    "18-49": {
+     "pct_active_ace": 39.6,
+     "pct_active_arb": 33.4,
+     "adults_with_hypertension": 359
+    },
+    "50-64": {
+     "pct_active_ace": 41.7,
+     "pct_active_arb": 32.4,
+     "adults_with_hypertension": 1057
+    }
+   },
+   "seconds": 9.199284040998464,
+   "leaks": []
+  },
+  {
+   "ref": "R10",
+   "run": 3,
+   "run_id": "032a3398",
+   "status": "done",
+   "error": null,
+   "decision": "REJECT",
+   "articles": [
+    "54"
+   ],
+   "answer": null,
+   "seconds": 6.895668958997703,
+   "leaks": []
+  }
+ ]
+}

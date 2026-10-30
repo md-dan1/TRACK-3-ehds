@@ -1,46 +1,174 @@
+name: ehds
+
+x-hospital-db: &hospital-db
+  image: postgres:16-alpine
+  volumes:
+    - ./data:/seed:ro
+    - ./db/hospital:/docker-entrypoint-initdb.d:ro
+  networks: [hospital-net]
+  healthcheck:
+    test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U hospital_admin -d hospital"]
+    interval: 2s
+    timeout: 3s
+    retries: 90
+
+x-hospital-db-env: &hospital-db-env
+  POSTGRES_DB: hospital
+  POSTGRES_USER: hospital_admin
+  POSTGRES_PASSWORD: ${HOSPITAL_DB_PASSWORD:-hospital}
+  FEDERATION_PASSWORD: ${FEDERATION_PASSWORD:-federation}
+
+x-node: &node
+  build: .
+  command: uvicorn hospital_node.app:app --host 0.0.0.0 --port 8000
+  # spe-ingest: cohort records go from the hospital straight to the SPE instance
+  networks: [hospital-net, spe-ingest]
+  restart: on-failure
+
 services:
+  # ---- three hospitals: each database holds only its own patients ----
+  pg-nord:
+    <<: *hospital-db
+    environment: {<<: *hospital-db-env, HOSPITAL: "Klinikum Nord"}
+  pg-sued:
+    <<: *hospital-db
+    environment: {<<: *hospital-db-env, HOSPITAL: "Klinikum Süd"}
+  pg-west:
+    <<: *hospital-db
+    environment: {<<: *hospital-db-env, HOSPITAL: "Klinikum West"}
 
-  db_nord:
+  node-nord:
+    <<: *node
+    environment:
+      HOSPITAL: "Klinikum Nord"
+      DATABASE_URL: postgresql://federation_ro:${FEDERATION_PASSWORD:-federation}@pg-nord:5432/hospital
+      NODE_TOKEN: ${NODE_TOKEN:-dev-node-token}
+      SPE_INGEST_URL: http://spe:8000
+    depends_on: {pg-nord: {condition: service_healthy}}
+    volumes: [node-nord-log:/var/log/hospital]
+  node-sued:
+    <<: *node
+    environment:
+      HOSPITAL: "Klinikum Süd"
+      DATABASE_URL: postgresql://federation_ro:${FEDERATION_PASSWORD:-federation}@pg-sued:5432/hospital
+      NODE_TOKEN: ${NODE_TOKEN:-dev-node-token}
+      SPE_INGEST_URL: http://spe:8000
+    depends_on: {pg-sued: {condition: service_healthy}}
+    volumes: [node-sued-log:/var/log/hospital]
+  node-west:
+    <<: *node
+    environment:
+      HOSPITAL: "Klinikum West"
+      DATABASE_URL: postgresql://federation_ro:${FEDERATION_PASSWORD:-federation}@pg-west:5432/hospital
+      NODE_TOKEN: ${NODE_TOKEN:-dev-node-token}
+      SPE_INGEST_URL: http://spe:8000
+    depends_on: {pg-west: {condition: service_healthy}}
+    volumes: [node-west-log:/var/log/hospital]
+
+  # ---- access body ----
+  pg-orchestrator:
     image: postgres:16-alpine
     environment:
-      POSTGRES_DB: hospital
-      POSTGRES_USER: hospital
-      POSTGRES_PASSWORD: hospital
-      HOSPITAL_DATA_DIR: /data
-    ports:
-      - "5432:5432"
-    volumes:
-      - ./hospitals/Klinikum_Nord:/data:ro
-      - ./db/init.sh:/docker-entrypoint-initdb.d/init.sh:ro
-    tmpfs:
-      - /var/lib/postgresql/data
+      POSTGRES_DB: orchestrator
+      POSTGRES_USER: orchestrator
+      POSTGRES_PASSWORD: ${ORCHESTRATOR_DB_PASSWORD:-orchestrator}
+    volumes: [./db/orchestrator:/docker-entrypoint-initdb.d:ro]
+    networks: [backend]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U orchestrator -d orchestrator"]
+      interval: 2s
+      timeout: 3s
+      retries: 60
 
-  db_sud:
-    image: postgres:16-alpine
+  orchestrator:
+    build: .
+    command: uvicorn orchestrator.main:app --host 0.0.0.0 --port 8000
     environment:
-      POSTGRES_DB: hospital
-      POSTGRES_USER: hospital
-      POSTGRES_PASSWORD: hospital
-      HOSPITAL_DATA_DIR: /data
-    ports:
-      - "5433:5432"
-    volumes:
-      - ./hospitals/Klinikum_Sued:/data:ro
-      - ./db/init.sh:/docker-entrypoint-initdb.d/init.sh:ro
-    tmpfs:
-      - /var/lib/postgresql/data
+      ORCHESTRATOR_DB_URL: postgresql://orchestrator:${ORCHESTRATOR_DB_PASSWORD:-orchestrator}@pg-orchestrator:5432/orchestrator
+      SPE_URL: http://spe:8000
+      SPE_SERVICE_TOKEN: ${SPE_SERVICE_TOKEN:-dev-spe-token}
+      NODES: '{"Klinikum Nord": "http://node-nord:8000", "Klinikum Süd": "http://node-sued:8000", "Klinikum West": "http://node-west:8000"}'
+      NODE_TOKEN: ${NODE_TOKEN:-dev-node-token}
+      # endpoint, models: empty means the default of ENDPOINT_TYPE (orchestrator/config.py)
+      ENDPOINT_TYPE: ${ENDPOINT_TYPE:-OPENROUTER}
+      LLM_BASE_URL: ${LLM_BASE_URL:-}
+      LLM_SCORE_MODEL: ${LLM_SCORE_MODEL:-}
+      LLM_TEXT_MODEL: ${LLM_TEXT_MODEL:-}
+      LLM_API_KEY_FILE: /run/secrets/llm_api_key
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      REQUESTS_DIR: /app/requests
+      EXPECTED_FILE: /app/requests/expected.json
+      # demo accounts, one per role (change outside a demo)
+      APPLICANT_USERNAME: ${APPLICANT_USERNAME:-admin}
+      APPLICANT_PASSWORD: ${APPLICANT_PASSWORD:-password}
+      STAFF_USERNAME: ${STAFF_USERNAME:-admin}
+      STAFF_PASSWORD: ${STAFF_PASSWORD:-password}
+      APPLICANT_DISPLAY_NAME: ${APPLICANT_DISPLAY_NAME:-Researcher}
+      STAFF_DISPLAY_NAME: ${STAFF_DISPLAY_NAME:-Clinic}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+    secrets: [llm_api_key]
+    # a model server on the host (LOCAL_LLM natively, e.g. llama.cpp with Metal): http://host.docker.internal:<port>
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    volumes: [./requests:/app/requests:ro]
+    networks: [public, hospital-net, backend, spe-control]
+    ports: ["127.0.0.1:8000:8000"]
+    depends_on:
+      pg-orchestrator: {condition: service_healthy}
+      spe: {condition: service_started}
+      node-nord: {condition: service_started}
+      node-sued: {condition: service_started}
+      node-west: {condition: service_started}
+    restart: on-failure
 
-  db_west:
-    image: postgres:16-alpine
+  # ---- secure processing environment gateway: one container per session (records in memory, no published
+  # port), reached only through this gateway's one-time links; removed after two minutes without activity ----
+  spe:
+    build: ./spe
+    image: ehds-spe:latest  # the gateway starts the session containers from this same image
     environment:
-      POSTGRES_DB: hospital
-      POSTGRES_USER: hospital
-      POSTGRES_PASSWORD: hospital
-      HOSPITAL_DATA_DIR: /data
-    ports:
-      - "5434:5432"
-    volumes:
-      - ./hospitals/Klinikum_West:/data:ro
-      - ./db/init.sh:/docker-entrypoint-initdb.d/init.sh:ro
-    tmpfs:
-      - /var/lib/postgresql/data
+      SPE_SERVICE_TOKEN: ${SPE_SERVICE_TOKEN:-dev-spe-token}
+      SPE_PUBLIC_URL: ${SPE_PUBLIC_URL:-http://localhost:8090}
+      ORCHESTRATOR_URL: http://orchestrator:8000
+      SPE_IMAGE: ehds-spe:latest
+      SPE_SESSION_NETWORK: ehds-spe-sessions
+    # to start and remove the session containers (root-equivalent on the host: fine for a demo)
+    volumes: [/var/run/docker.sock:/var/run/docker.sock]
+    ports: ["8090:8000"]
+    networks: [public, spe-control, spe-ingest, spe-sessions]
+    restart: on-failure
+
+  web:
+    build: ./web
+    ports: ["8080:80"]
+    networks: [public]
+    depends_on: [orchestrator]
+
+  # ---- optional local LLM (ENDPOINT_TYPE=LOCAL_LLM, COMPOSE_PROFILES=local) ----
+  # llama.cpp server on the internal backend network: no internet, reachable only by the orchestrator.
+  # 2 slots of 8192 tokens each (the context is split across slots).
+  local-llm:
+    image: ghcr.io/ggml-org/llama.cpp:server-b11946
+    profiles: [local]
+    command: ["-m", "/models/${LOCAL_MODEL_FILE:-qwen2.5-3b-instruct-q4_k_m.gguf}", "--host", "0.0.0.0", "--port", "8080",
+              "-c", "16384", "--parallel", "2", "--jinja"]
+    volumes: [./models:/models:ro]
+    networks: [backend]
+
+volumes:
+  node-nord-log: {}
+  node-sued-log: {}
+  node-west-log: {}
+
+secrets:
+  llm_api_key:
+    # key file outside the repo; without one the key comes from LLM_API_KEY in .env
+    file: ${LLM_API_KEY_PATH:-/dev/null}
+
+networks:
+  public: {}
+  hospital-net: {internal: true}
+  backend: {internal: true}
+  spe-control: {internal: true}  # orchestrator <-> SPE gateway: sessions, counts, launch links, audit events
+  spe-ingest: {internal: true}   # hospitals -> SPE gateway: cohort records
+  # SPE gateway -> session containers; fixed name so the gateway can attach the containers it starts
+  spe-sessions: {internal: true, name: ehds-spe-sessions}

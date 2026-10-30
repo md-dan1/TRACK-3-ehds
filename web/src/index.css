@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  /* No rubber-band bounce: the fixed header stays put on overscroll. */
+  html,
+  body {
+    overscroll-behavior: none;
+  }
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+  /* Consistent visible focus for elements without their own focus style */
+  a:focus-visible,
+  summary:focus-visible,
+  [tabindex]:focus-visible {
+    @apply outline-none ring-2 ring-brand-600 ring-offset-1;
+  }
+  input,
+  textarea,
+  select {
+    @apply rounded-md border border-slate-300 bg-white text-sm text-slate-900 placeholder:text-slate-500 focus:border-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-600/30;
+  }
+  /* Own chevron so every dropdown has the same space between the arrow and the right edge. */
+  select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1rem 1rem;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    @apply accent-brand-700;
+  }
+}
+
+/* Thin, unobtrusive scrollbar for scrolling table cells (overlay scrollbars on macOS only show while scrolling). */
+.thin-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+.thin-scrollbar::-webkit-scrollbar {
+  height: 6px;
+}
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+/* Room for the chevron; outside the layers so px-* utilities on a select cannot override it. */
+select {
+  padding-right: 2.5rem !important;
+}
+
+/* Right sidebar on wide screens: sticks below the fixed header and never grows taller than the viewport. */
+@media (min-width: 1024px) {
+  .sidebar-sticky {
+    position: sticky;
+    top: calc(var(--header-h, 6rem) + 1.5rem);
+    max-height: calc(100vh - var(--header-h, 6rem) - 3rem);
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-spin {
+    animation-duration: 2.5s;
+  }
+}

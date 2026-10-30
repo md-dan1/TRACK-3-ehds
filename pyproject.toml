@@ -1,0 +1,24 @@
+[project]
+name = "ehds"
+version = "0.1.0"
+description = "EHDS Health Data Access Body: decisions, federated statistics, secure processing environment"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "httpx>=0.27",
+    "psycopg[binary]>=3.2",
+    "psycopg-pool>=3.2",
+    "sqlglot==30.25.0",
+    "pydantic>=2.8",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "duckdb>=1.1", "numpy", "scikit-learn"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["core", "orchestrator", "node", "spe"]
+testpaths = ["tests"]

@@ -1,0 +1,3136 @@
+{
+ "rows": [
+  {
+   "ref": "R01",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_ok": true,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "consistent": true,
+   "max_seconds": 10.057655124997837,
+   "leaks": [],
+   "runs": 3,
+   "errors": [
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+   ]
+  },
+  {
+   "ref": "R02",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_ok": false,
+   "numbers_ok": null,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 33.63952020800207,
+   "leaks": [],
+   "runs": 3,
+   "errors": [
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+   ]
+  },
+  {
+   "ref": "R03",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_ok": true,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "consistent": true,
+   "max_seconds": 38.420710084003076,
+   "leaks": [],
+   "runs": 3,
+   "errors": [
+    "QueryGenError: no valid SQL after repair attempts",
+    "QueryGenError: no valid SQL after repair attempts",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+   ]
+  },
+  {
+   "ref": "R04",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_ok": false,
+   "numbers_ok": null,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 7.670031417001155,
+   "leaks": [],
+   "runs": 3,
+   "errors": [
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+   ]
+  },
+  {
+   "ref": "R05",
+   "expected": "APPROVE_SPE",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_ok": false,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "consistent": true,
+   "max_seconds": 10.48580800000127,
+   "leaks": [],
+   "runs": 3,
+   "errors": [
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+   ]
+  },
+  {
+   "ref": "R06",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_ok": false,
+   "numbers_ok": null,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 22.422751416997926,
+   "leaks": [],
+   "runs": 3,
+   "errors": [
+    "QueryGenError: no valid SQL after repair attempts",
+    "QueryGenError: no valid SQL after repair attempts",
+    "QueryGenError: no valid SQL after repair attempts"
+   ]
+  },
+  {
+   "ref": "R07",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_ok": true,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "consistent": true,
+   "max_seconds": 6.433350833001896,
+   "leaks": [],
+   "runs": 3,
+   "errors": [
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+   ]
+  },
+  {
+   "ref": "R08",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_ok": true,
+   "numbers_ok": false,
+   "missing": [
+    "Niederösterreich: 27.2 not found in [100.0, 15]",
+    "Oberösterreich: 27.5 not found in [100.0, 11]",
+    "Steiermark: 26.3 not found in [100.0, 13]",
+    "Wien: 26.6 not found in [100.0, 14]"
+   ],
+   "consistent": true,
+   "max_seconds": 11.24486474999867,
+   "leaks": [],
+   "runs": 3,
+   "errors": []
+  },
+  {
+   "ref": "R09",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_ok": true,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "consistent": true,
+   "max_seconds": 40.449193083000864,
+   "leaks": [],
+   "runs": 3,
+   "errors": [
+    "QueryGenError: no valid SQL after repair attempts",
+    "QueryGenError: no valid SQL after repair attempts",
+    "QueryGenError: no valid SQL after repair attempts"
+   ]
+  },
+  {
+   "ref": "R10",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_ok": false,
+   "numbers_ok": null,
+   "missing": [],
+   "consistent": true,
+   "max_seconds": 14.797532249998767,
+   "leaks": [],
+   "runs": 3,
+   "errors": [
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+    "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+   ]
+  }
+ ],
+ "run_rows": [
+  {
+   "ref": "R01",
+   "run": 1,
+   "run_id": "ef137462",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "adults": 532,
+     "type2_diabetes": 33,
+     "prevalence_pct": 6.2
+    },
+    "Kärnten": {
+     "adults": 885,
+     "type2_diabetes": 71,
+     "prevalence_pct": 8.0
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "type2_diabetes": 227,
+     "prevalence_pct": 8.3
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "type2_diabetes": 173,
+     "prevalence_pct": 7.0
+    },
+    "Salzburg": {
+     "adults": 908,
+     "type2_diabetes": 75,
+     "prevalence_pct": 8.3
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "type2_diabetes": 164,
+     "prevalence_pct": 8.0
+    },
+    "Tirol": {
+     "adults": 1240,
+     "type2_diabetes": 110,
+     "prevalence_pct": 8.9
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "type2_diabetes": 36,
+     "prevalence_pct": 5.6
+    },
+    "Wien": {
+     "adults": 3247,
+     "type2_diabetes": 263,
+     "prevalence_pct": 8.1
+    }
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "adults": 532,
+      "type2_diabetes": 33,
+      "prevalence_pct": 6.2
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "adults": 885,
+      "type2_diabetes": 71,
+      "prevalence_pct": 8.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "adults": 2740,
+      "type2_diabetes": 227,
+      "prevalence_pct": 8.3
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "adults": 2473,
+      "type2_diabetes": 173,
+      "prevalence_pct": 7.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "adults": 908,
+      "type2_diabetes": 75,
+      "prevalence_pct": 8.3
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "adults": 2052,
+      "type2_diabetes": 164,
+      "prevalence_pct": 8.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "adults": 1240,
+      "type2_diabetes": 110,
+      "prevalence_pct": 8.9
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "adults": 639,
+      "type2_diabetes": 36,
+      "prevalence_pct": 5.6
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "adults": 3247,
+      "type2_diabetes": 263,
+      "prevalence_pct": 8.1
+     },
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 10.057655124997837,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R01",
+   "run": 2,
+   "run_id": "18065f53",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "adults": 532,
+     "type2_diabetes": 33,
+     "prevalence_pct": 6.2
+    },
+    "Kärnten": {
+     "adults": 885,
+     "type2_diabetes": 71,
+     "prevalence_pct": 8.0
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "type2_diabetes": 227,
+     "prevalence_pct": 8.3
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "type2_diabetes": 173,
+     "prevalence_pct": 7.0
+    },
+    "Salzburg": {
+     "adults": 908,
+     "type2_diabetes": 75,
+     "prevalence_pct": 8.3
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "type2_diabetes": 164,
+     "prevalence_pct": 8.0
+    },
+    "Tirol": {
+     "adults": 1240,
+     "type2_diabetes": 110,
+     "prevalence_pct": 8.9
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "type2_diabetes": 36,
+     "prevalence_pct": 5.6
+    },
+    "Wien": {
+     "adults": 3247,
+     "type2_diabetes": 263,
+     "prevalence_pct": 8.1
+    }
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "adults": 532,
+      "type2_diabetes": 33,
+      "prevalence_pct": 6.2
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "adults": 885,
+      "type2_diabetes": 71,
+      "prevalence_pct": 8.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "adults": 2740,
+      "type2_diabetes": 227,
+      "prevalence_pct": 8.3
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "adults": 2473,
+      "type2_diabetes": 173,
+      "prevalence_pct": 7.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "adults": 908,
+      "type2_diabetes": 75,
+      "prevalence_pct": 8.3
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "adults": 2052,
+      "type2_diabetes": 164,
+      "prevalence_pct": 8.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "adults": 1240,
+      "type2_diabetes": 110,
+      "prevalence_pct": 8.9
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "adults": 639,
+      "type2_diabetes": 36,
+      "prevalence_pct": 5.6
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "adults": 3247,
+      "type2_diabetes": 263,
+      "prevalence_pct": 8.1
+     },
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 5.6277392500014685,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R01",
+   "run": 3,
+   "run_id": "397200e8",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "adults": 532,
+     "type2_diabetes": 33,
+     "prevalence_pct": 6.2
+    },
+    "Kärnten": {
+     "adults": 885,
+     "type2_diabetes": 71,
+     "prevalence_pct": 8.0
+    },
+    "Niederösterreich": {
+     "adults": 2740,
+     "type2_diabetes": 227,
+     "prevalence_pct": 8.3
+    },
+    "Oberösterreich": {
+     "adults": 2473,
+     "type2_diabetes": 173,
+     "prevalence_pct": 7.0
+    },
+    "Salzburg": {
+     "adults": 908,
+     "type2_diabetes": 75,
+     "prevalence_pct": 8.3
+    },
+    "Steiermark": {
+     "adults": 2052,
+     "type2_diabetes": 164,
+     "prevalence_pct": 8.0
+    },
+    "Tirol": {
+     "adults": 1240,
+     "type2_diabetes": 110,
+     "prevalence_pct": 8.9
+    },
+    "Vorarlberg": {
+     "adults": 639,
+     "type2_diabetes": 36,
+     "prevalence_pct": 5.6
+    },
+    "Wien": {
+     "adults": 3247,
+     "type2_diabetes": 263,
+     "prevalence_pct": 8.1
+    }
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "adults": 532,
+      "type2_diabetes": 33,
+      "prevalence_pct": 6.2
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "adults": 885,
+      "type2_diabetes": 71,
+      "prevalence_pct": 8.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "adults": 2740,
+      "type2_diabetes": 227,
+      "prevalence_pct": 8.3
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "adults": 2473,
+      "type2_diabetes": 173,
+      "prevalence_pct": 7.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "adults": 908,
+      "type2_diabetes": 75,
+      "prevalence_pct": 8.3
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "adults": 2052,
+      "type2_diabetes": 164,
+      "prevalence_pct": 8.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "adults": 1240,
+      "type2_diabetes": 110,
+      "prevalence_pct": 8.9
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "adults": 639,
+      "type2_diabetes": 36,
+      "prevalence_pct": 5.6
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "adults": 3247,
+      "type2_diabetes": 263,
+      "prevalence_pct": 8.1
+     },
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 5.4125475410000945,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R02",
+   "run": 1,
+   "run_id": "153b6138",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 25.372469666999677,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R02",
+   "run": 2,
+   "run_id": "065806a7",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 23.999218166998617,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R02",
+   "run": 3,
+   "run_id": "ece1ccf1",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 33.63952020800207,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R03",
+   "run": 1,
+   "run_id": "b19b409a",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "65-74": {
+     "af_patients": 81,
+     "without_oac": 30,
+     "share_without_oac_pct": 37.0
+    },
+    "75-84": {
+     "af_patients": 154,
+     "without_oac": 37,
+     "share_without_oac_pct": 24.0
+    },
+    "85+": {
+     "af_patients": 78,
+     "without_oac": 22,
+     "share_without_oac_pct": 28.2
+    }
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "65-74",
+     "expected": {
+      "af_patients": 81,
+      "without_oac": 30,
+      "share_without_oac_pct": 37.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "75-84",
+     "expected": {
+      "af_patients": 154,
+      "without_oac": 37,
+      "share_without_oac_pct": 24.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "85+",
+     "expected": {
+      "af_patients": 78,
+      "without_oac": 22,
+      "share_without_oac_pct": 28.2
+     },
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 38.29977775000225,
+   "leaks": [],
+   "error": "QueryGenError: no valid SQL after repair attempts"
+  },
+  {
+   "ref": "R03",
+   "run": 2,
+   "run_id": "f3ff526d",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "65-74": {
+     "af_patients": 81,
+     "without_oac": 30,
+     "share_without_oac_pct": 37.0
+    },
+    "75-84": {
+     "af_patients": 154,
+     "without_oac": 37,
+     "share_without_oac_pct": 24.0
+    },
+    "85+": {
+     "af_patients": 78,
+     "without_oac": 22,
+     "share_without_oac_pct": 28.2
+    }
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "65-74",
+     "expected": {
+      "af_patients": 81,
+      "without_oac": 30,
+      "share_without_oac_pct": 37.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "75-84",
+     "expected": {
+      "af_patients": 154,
+      "without_oac": 37,
+      "share_without_oac_pct": 24.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "85+",
+     "expected": {
+      "af_patients": 78,
+      "without_oac": 22,
+      "share_without_oac_pct": 28.2
+     },
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 38.420710084003076,
+   "leaks": [],
+   "error": "QueryGenError: no valid SQL after repair attempts"
+  },
+  {
+   "ref": "R03",
+   "run": 3,
+   "run_id": "e4a46779",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "65-74": {
+     "af_patients": 81,
+     "without_oac": 30,
+     "share_without_oac_pct": 37.0
+    },
+    "75-84": {
+     "af_patients": 154,
+     "without_oac": 37,
+     "share_without_oac_pct": 24.0
+    },
+    "85+": {
+     "af_patients": 78,
+     "without_oac": 22,
+     "share_without_oac_pct": 28.2
+    }
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "65-74",
+     "expected": {
+      "af_patients": 81,
+      "without_oac": 30,
+      "share_without_oac_pct": 37.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "75-84",
+     "expected": {
+      "af_patients": 154,
+      "without_oac": 37,
+      "share_without_oac_pct": 24.0
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "85+",
+     "expected": {
+      "af_patients": 78,
+      "without_oac": 22,
+      "share_without_oac_pct": 28.2
+     },
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 23.559450749999087,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R04",
+   "run": 1,
+   "run_id": "c65e7274",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 4.743810500000109,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R04",
+   "run": 2,
+   "run_id": "35942f5c",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 5.115483708999818,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R04",
+   "run": 3,
+   "run_id": "f10368d7",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 7.670031417001155,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R05",
+   "run": 1,
+   "run_id": "18c8ee79",
+   "expected": "APPROVE_SPE",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": {
+    "cohort_size": 1152
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "cohort_size",
+     "expected": 1152,
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 6.552204167001037,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R05",
+   "run": 2,
+   "run_id": "955cd9e0",
+   "expected": "APPROVE_SPE",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": {
+    "cohort_size": 1152
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "cohort_size",
+     "expected": 1152,
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 6.401421875001688,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R05",
+   "run": 3,
+   "run_id": "84527c48",
+   "expected": "APPROVE_SPE",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "66",
+    "68",
+    "73"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": {
+    "cohort_size": 1152
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "cohort_size",
+     "expected": 1152,
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 10.48580800000127,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R06",
+   "run": 1,
+   "run_id": "5a1d5bc4",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 13.73951545899763,
+   "leaks": [],
+   "error": "QueryGenError: no valid SQL after repair attempts"
+  },
+  {
+   "ref": "R06",
+   "run": 2,
+   "run_id": "558d8940",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 13.410827542000334,
+   "leaks": [],
+   "error": "QueryGenError: no valid SQL after repair attempts"
+  },
+  {
+   "ref": "R06",
+   "run": 3,
+   "run_id": "a99ee2dd",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 22.422751416997926,
+   "leaks": [],
+   "error": "QueryGenError: no valid SQL after repair attempts"
+  },
+  {
+   "ref": "R07",
+   "run": 1,
+   "run_id": "0ba065cb",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": 28,
+    "Kärnten": 69,
+    "Niederösterreich": 187,
+    "Oberösterreich": 194,
+    "Salzburg": 69,
+    "Steiermark": 140,
+    "Tirol": 86,
+    "Vorarlberg": 61,
+    "Wien": 245
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": 28,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Kärnten",
+     "expected": 69,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": 187,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": 194,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Salzburg",
+     "expected": 69,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Steiermark",
+     "expected": 140,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Tirol",
+     "expected": 86,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": 61,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Wien",
+     "expected": 245,
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 4.189083708999533,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R07",
+   "run": 2,
+   "run_id": "b9bc717a",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": 28,
+    "Kärnten": 69,
+    "Niederösterreich": 187,
+    "Oberösterreich": 194,
+    "Salzburg": 69,
+    "Steiermark": 140,
+    "Tirol": 86,
+    "Vorarlberg": 61,
+    "Wien": 245
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": 28,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Kärnten",
+     "expected": 69,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": 187,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": 194,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Salzburg",
+     "expected": 69,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Steiermark",
+     "expected": 140,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Tirol",
+     "expected": 86,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": 61,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Wien",
+     "expected": 245,
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 4.004267625001376,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R07",
+   "run": 3,
+   "run_id": "554228e6",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": 28,
+    "Kärnten": 69,
+    "Niederösterreich": 187,
+    "Oberösterreich": 194,
+    "Salzburg": 69,
+    "Steiermark": 140,
+    "Tirol": 86,
+    "Vorarlberg": 61,
+    "Wien": 245
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": 28,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Kärnten",
+     "expected": 69,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": 187,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": 194,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Salzburg",
+     "expected": 69,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Steiermark",
+     "expected": 140,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Tirol",
+     "expected": 86,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": 61,
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "Wien",
+     "expected": 245,
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 6.433350833001896,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R08",
+   "run": 1,
+   "run_id": "c7fa8235",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Kärnten": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Niederösterreich": {
+     "women_with_bmi": 15,
+     "mean_bmi": 27.2
+    },
+    "Oberösterreich": {
+     "women_with_bmi": 11,
+     "mean_bmi": 27.5
+    },
+    "Salzburg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Steiermark": {
+     "women_with_bmi": 13,
+     "mean_bmi": 26.3
+    },
+    "Tirol": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Vorarlberg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Wien": {
+     "women_with_bmi": 14,
+     "mean_bmi": 26.6
+    }
+   },
+   "answer": {
+    "Wien": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 14
+    },
+    "Tirol": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 15
+    }
+   },
+   "numbers_ok": false,
+   "missing": [
+    "Niederösterreich: 27.2 not found in [100.0, 15]",
+    "Oberösterreich: 27.5 not found in [100.0, 11]",
+    "Steiermark: 26.3 not found in [100.0, 13]",
+    "Wien: 26.6 not found in [100.0, 14]"
+   ],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "women_with_bmi": 15,
+      "mean_bmi": 27.2
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 15
+     },
+     "ok": false
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "women_with_bmi": 11,
+      "mean_bmi": 27.5
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 11
+     },
+     "ok": false
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "women_with_bmi": 13,
+      "mean_bmi": 26.3
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 13
+     },
+     "ok": false
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "women_with_bmi": 14,
+      "mean_bmi": 26.6
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 14
+     },
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 6.669938209000975,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R08",
+   "run": 2,
+   "run_id": "0e75bc42",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Kärnten": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Niederösterreich": {
+     "women_with_bmi": 15,
+     "mean_bmi": 27.2
+    },
+    "Oberösterreich": {
+     "women_with_bmi": 11,
+     "mean_bmi": 27.5
+    },
+    "Salzburg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Steiermark": {
+     "women_with_bmi": 13,
+     "mean_bmi": 26.3
+    },
+    "Tirol": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Vorarlberg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Wien": {
+     "women_with_bmi": 14,
+     "mean_bmi": 26.6
+    }
+   },
+   "answer": {
+    "Wien": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 14
+    },
+    "Tirol": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 15
+    }
+   },
+   "numbers_ok": false,
+   "missing": [
+    "Niederösterreich: 27.2 not found in [100.0, 15]",
+    "Oberösterreich: 27.5 not found in [100.0, 11]",
+    "Steiermark: 26.3 not found in [100.0, 13]",
+    "Wien: 26.6 not found in [100.0, 14]"
+   ],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "women_with_bmi": 15,
+      "mean_bmi": 27.2
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 15
+     },
+     "ok": false
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "women_with_bmi": 11,
+      "mean_bmi": 27.5
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 11
+     },
+     "ok": false
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "women_with_bmi": 13,
+      "mean_bmi": 26.3
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 13
+     },
+     "ok": false
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "women_with_bmi": 14,
+      "mean_bmi": 26.6
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 14
+     },
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 6.768694541999139,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R08",
+   "run": 3,
+   "run_id": "d2eb5d31",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "Burgenland": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Kärnten": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Niederösterreich": {
+     "women_with_bmi": 15,
+     "mean_bmi": 27.2
+    },
+    "Oberösterreich": {
+     "women_with_bmi": 11,
+     "mean_bmi": 27.5
+    },
+    "Salzburg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Steiermark": {
+     "women_with_bmi": 13,
+     "mean_bmi": 26.3
+    },
+    "Tirol": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Vorarlberg": {
+     "women_with_bmi": "<10",
+     "mean_bmi": "suppressed"
+    },
+    "Wien": {
+     "women_with_bmi": 14,
+     "mean_bmi": 26.6
+    }
+   },
+   "answer": {
+    "Wien": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 14
+    },
+    "Tirol": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 15
+    }
+   },
+   "numbers_ok": false,
+   "missing": [
+    "Niederösterreich: 27.2 not found in [100.0, 15]",
+    "Oberösterreich: 27.5 not found in [100.0, 11]",
+    "Steiermark: 26.3 not found in [100.0, 13]",
+    "Wien: 26.6 not found in [100.0, 14]"
+   ],
+   "group_checks": [
+    {
+     "group": "Burgenland",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Kärnten",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Niederösterreich",
+     "expected": {
+      "women_with_bmi": 15,
+      "mean_bmi": 27.2
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 15
+     },
+     "ok": false
+    },
+    {
+     "group": "Oberösterreich",
+     "expected": {
+      "women_with_bmi": 11,
+      "mean_bmi": 27.5
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 11
+     },
+     "ok": false
+    },
+    {
+     "group": "Salzburg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Steiermark",
+     "expected": {
+      "women_with_bmi": 13,
+      "mean_bmi": 26.3
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 13
+     },
+     "ok": false
+    },
+    {
+     "group": "Tirol",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Vorarlberg",
+     "expected": {
+      "women_with_bmi": "<10",
+      "mean_bmi": "suppressed"
+     },
+     "got": {
+      "bmi_mean": "suppressed",
+      "women_with_bmi": "<10"
+     },
+     "ok": true
+    },
+    {
+     "group": "Wien",
+     "expected": {
+      "women_with_bmi": 14,
+      "mean_bmi": 26.6
+     },
+     "got": {
+      "bmi_mean": 100.0,
+      "women_with_bmi": 14
+     },
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 11.24486474999867,
+   "leaks": [],
+   "error": null
+  },
+  {
+   "ref": "R09",
+   "run": 1,
+   "run_id": "2b4b6053",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "18-49": {
+     "adults_with_hypertension": 359,
+     "ace_inhibitor_pct": 39.6,
+     "arb_pct": 33.4
+    },
+    "50-64": {
+     "adults_with_hypertension": 1057,
+     "ace_inhibitor_pct": 41.7,
+     "arb_pct": 32.4
+    },
+    "65+": {
+     "adults_with_hypertension": 2046,
+     "ace_inhibitor_pct": 40.2,
+     "arb_pct": 33.2
+    }
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "18-49",
+     "expected": {
+      "adults_with_hypertension": 359,
+      "ace_inhibitor_pct": 39.6,
+      "arb_pct": 33.4
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "50-64",
+     "expected": {
+      "adults_with_hypertension": 1057,
+      "ace_inhibitor_pct": 41.7,
+      "arb_pct": 32.4
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "65+",
+     "expected": {
+      "adults_with_hypertension": 2046,
+      "ace_inhibitor_pct": 40.2,
+      "arb_pct": 33.2
+     },
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 22.61288204199809,
+   "leaks": [],
+   "error": "QueryGenError: no valid SQL after repair attempts"
+  },
+  {
+   "ref": "R09",
+   "run": 2,
+   "run_id": "b9c3711e",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "18-49": {
+     "adults_with_hypertension": 359,
+     "ace_inhibitor_pct": 39.6,
+     "arb_pct": 33.4
+    },
+    "50-64": {
+     "adults_with_hypertension": 1057,
+     "ace_inhibitor_pct": 41.7,
+     "arb_pct": 32.4
+    },
+    "65+": {
+     "adults_with_hypertension": 2046,
+     "ace_inhibitor_pct": 40.2,
+     "arb_pct": 33.2
+    }
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "18-49",
+     "expected": {
+      "adults_with_hypertension": 359,
+      "ace_inhibitor_pct": 39.6,
+      "arb_pct": 33.4
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "50-64",
+     "expected": {
+      "adults_with_hypertension": 1057,
+      "ace_inhibitor_pct": 41.7,
+      "arb_pct": 32.4
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "65+",
+     "expected": {
+      "adults_with_hypertension": 2046,
+      "ace_inhibitor_pct": 40.2,
+      "arb_pct": 33.2
+     },
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 21.91683279100107,
+   "leaks": [],
+   "error": "QueryGenError: no valid SQL after repair attempts"
+  },
+  {
+   "ref": "R09",
+   "run": 3,
+   "run_id": "b412b8ac",
+   "expected": "APPROVE_STATISTICAL",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "decision_match": true,
+   "articles_ok": true,
+   "decision_ok": true,
+   "expected_answer": {
+    "18-49": {
+     "adults_with_hypertension": 359,
+     "ace_inhibitor_pct": 39.6,
+     "arb_pct": 33.4
+    },
+    "50-64": {
+     "adults_with_hypertension": 1057,
+     "ace_inhibitor_pct": 41.7,
+     "arb_pct": 32.4
+    },
+    "65+": {
+     "adults_with_hypertension": 2046,
+     "ace_inhibitor_pct": 40.2,
+     "arb_pct": 33.2
+    }
+   },
+   "answer": null,
+   "numbers_ok": false,
+   "missing": [
+    "no answer"
+   ],
+   "group_checks": [
+    {
+     "group": "18-49",
+     "expected": {
+      "adults_with_hypertension": 359,
+      "ace_inhibitor_pct": 39.6,
+      "arb_pct": 33.4
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "50-64",
+     "expected": {
+      "adults_with_hypertension": 1057,
+      "ace_inhibitor_pct": 41.7,
+      "arb_pct": 32.4
+     },
+     "got": null,
+     "ok": false
+    },
+    {
+     "group": "65+",
+     "expected": {
+      "adults_with_hypertension": 2046,
+      "ace_inhibitor_pct": 40.2,
+      "arb_pct": 33.2
+     },
+     "got": null,
+     "ok": false
+    }
+   ],
+   "consistent": true,
+   "seconds": 40.449193083000864,
+   "leaks": [],
+   "error": "QueryGenError: no valid SQL after repair attempts"
+  },
+  {
+   "ref": "R10",
+   "run": 1,
+   "run_id": "b729f2d6",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 8.526109333000932,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R10",
+   "run": 2,
+   "run_id": "6d2734df",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 8.250434166999185,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  },
+  {
+   "ref": "R10",
+   "run": 3,
+   "run_id": "fa48fedd",
+   "expected": "REJECT",
+   "decision": "APPROVE_STATISTICAL",
+   "expected_articles": [
+    "54"
+   ],
+   "articles": [
+    "53",
+    "69"
+   ],
+   "decision_match": false,
+   "articles_ok": false,
+   "decision_ok": false,
+   "expected_answer": null,
+   "answer": null,
+   "numbers_ok": null,
+   "missing": [],
+   "group_checks": [],
+   "consistent": true,
+   "seconds": 14.797532249998767,
+   "leaks": [],
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error"
+  }
+ ],
+ "summary": {
+  "correct_decisions": "5 of 10",
+  "correct_numbers": "0 of 6",
+  "privacy_leaks": 0,
+  "consistency": "10 of 10",
+  "slowest_seconds": 40.45,
+  "runs_per_request": 3,
+  "opted_out_visible_to_federation": 0
+ },
+ "results": [
+  {
+   "ref": "R01",
+   "run": 1,
+   "run_id": "ef137462",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 10.057655124997837,
+   "leaks": []
+  },
+  {
+   "ref": "R02",
+   "run": 1,
+   "run_id": "153b6138",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 25.372469666999677,
+   "leaks": []
+  },
+  {
+   "ref": "R03",
+   "run": 1,
+   "run_id": "b19b409a",
+   "status": "error",
+   "error": "QueryGenError: no valid SQL after repair attempts",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 38.29977775000225,
+   "leaks": []
+  },
+  {
+   "ref": "R04",
+   "run": 1,
+   "run_id": "c65e7274",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 4.743810500000109,
+   "leaks": []
+  },
+  {
+   "ref": "R05",
+   "run": 1,
+   "run_id": "18c8ee79",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 6.552204167001037,
+   "leaks": []
+  },
+  {
+   "ref": "R06",
+   "run": 1,
+   "run_id": "5a1d5bc4",
+   "status": "error",
+   "error": "QueryGenError: no valid SQL after repair attempts",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 13.73951545899763,
+   "leaks": []
+  },
+  {
+   "ref": "R07",
+   "run": 1,
+   "run_id": "0ba065cb",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 4.189083708999533,
+   "leaks": []
+  },
+  {
+   "ref": "R08",
+   "run": 1,
+   "run_id": "c7fa8235",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 14
+    },
+    "Tirol": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 15
+    }
+   },
+   "seconds": 6.669938209000975,
+   "leaks": []
+  },
+  {
+   "ref": "R09",
+   "run": 1,
+   "run_id": "2b4b6053",
+   "status": "error",
+   "error": "QueryGenError: no valid SQL after repair attempts",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 22.61288204199809,
+   "leaks": []
+  },
+  {
+   "ref": "R10",
+   "run": 1,
+   "run_id": "b729f2d6",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 8.526109333000932,
+   "leaks": []
+  },
+  {
+   "ref": "R01",
+   "run": 2,
+   "run_id": "18065f53",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 5.6277392500014685,
+   "leaks": []
+  },
+  {
+   "ref": "R02",
+   "run": 2,
+   "run_id": "065806a7",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 23.999218166998617,
+   "leaks": []
+  },
+  {
+   "ref": "R03",
+   "run": 2,
+   "run_id": "f3ff526d",
+   "status": "error",
+   "error": "QueryGenError: no valid SQL after repair attempts",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 38.420710084003076,
+   "leaks": []
+  },
+  {
+   "ref": "R04",
+   "run": 2,
+   "run_id": "35942f5c",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 5.115483708999818,
+   "leaks": []
+  },
+  {
+   "ref": "R05",
+   "run": 2,
+   "run_id": "955cd9e0",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 6.401421875001688,
+   "leaks": []
+  },
+  {
+   "ref": "R06",
+   "run": 2,
+   "run_id": "558d8940",
+   "status": "error",
+   "error": "QueryGenError: no valid SQL after repair attempts",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 13.410827542000334,
+   "leaks": []
+  },
+  {
+   "ref": "R07",
+   "run": 2,
+   "run_id": "b9bc717a",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 4.004267625001376,
+   "leaks": []
+  },
+  {
+   "ref": "R08",
+   "run": 2,
+   "run_id": "0e75bc42",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 14
+    },
+    "Tirol": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 15
+    }
+   },
+   "seconds": 6.768694541999139,
+   "leaks": []
+  },
+  {
+   "ref": "R09",
+   "run": 2,
+   "run_id": "b9c3711e",
+   "status": "error",
+   "error": "QueryGenError: no valid SQL after repair attempts",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 21.91683279100107,
+   "leaks": []
+  },
+  {
+   "ref": "R10",
+   "run": 2,
+   "run_id": "6d2734df",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 8.250434166999185,
+   "leaks": []
+  },
+  {
+   "ref": "R01",
+   "run": 3,
+   "run_id": "397200e8",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 5.4125475410000945,
+   "leaks": []
+  },
+  {
+   "ref": "R02",
+   "run": 3,
+   "run_id": "ece1ccf1",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 33.63952020800207,
+   "leaks": []
+  },
+  {
+   "ref": "R03",
+   "run": 3,
+   "run_id": "e4a46779",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 23.559450749999087,
+   "leaks": []
+  },
+  {
+   "ref": "R04",
+   "run": 3,
+   "run_id": "f10368d7",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 7.670031417001155,
+   "leaks": []
+  },
+  {
+   "ref": "R05",
+   "run": 3,
+   "run_id": "84527c48",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 10.48580800000127,
+   "leaks": []
+  },
+  {
+   "ref": "R06",
+   "run": 3,
+   "run_id": "a99ee2dd",
+   "status": "error",
+   "error": "QueryGenError: no valid SQL after repair attempts",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 22.422751416997926,
+   "leaks": []
+  },
+  {
+   "ref": "R07",
+   "run": 3,
+   "run_id": "554228e6",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 6.433350833001896,
+   "leaks": []
+  },
+  {
+   "ref": "R08",
+   "run": 3,
+   "run_id": "d2eb5d31",
+   "status": "done",
+   "error": null,
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": {
+    "Wien": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 14
+    },
+    "Tirol": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Kärnten": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Salzburg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Burgenland": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Steiermark": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 13
+    },
+    "Vorarlberg": {
+     "bmi_mean": "suppressed",
+     "women_with_bmi": "<10"
+    },
+    "Oberösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 11
+    },
+    "Niederösterreich": {
+     "bmi_mean": 100.0,
+     "women_with_bmi": 15
+    }
+   },
+   "seconds": 11.24486474999867,
+   "leaks": []
+  },
+  {
+   "ref": "R09",
+   "run": 3,
+   "run_id": "b412b8ac",
+   "status": "error",
+   "error": "QueryGenError: no valid SQL after repair attempts",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "66",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 40.449193083000864,
+   "leaks": []
+  },
+  {
+   "ref": "R10",
+   "run": 3,
+   "run_id": "fa48fedd",
+   "status": "error",
+   "error": "FederationError: Klinikum Nord: HTTP 500 Internal Server Error; Klinikum Süd: HTTP 500 Internal Server Error; Klinikum West: HTTP 500 Internal Server Error",
+   "decision": "APPROVE_STATISTICAL",
+   "articles": [
+    "53",
+    "69"
+   ],
+   "answer": null,
+   "seconds": 14.797532249998767,
+   "leaks": []
+  }
+ ]
+}

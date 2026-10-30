@@ -1,0 +1,10 @@
+.git
+.venv
+web
+data
+requests
+eval
+tests
+**/__pycache__
+.env
+secrets

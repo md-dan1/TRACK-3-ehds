@@ -1,0 +1,7 @@
+# SPE gateway and session containers: web service, Docker control, restricted models
+fastapi
+uvicorn[standard]
+httpx
+docker
+numpy
+scikit-learn

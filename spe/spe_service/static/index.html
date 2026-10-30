@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Secure processing environment</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="/static/spe.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <div class="brand"><span class="logo" aria-hidden="true">&gt;_</span> Secure processing environment</div>
+      <div class="permit" id="permit">Loading…</div>
+    </div>
+  </header>
+
+  <main class="page">
+    <p class="note">
+      <strong>The records stay inside this environment.</strong>
+      You cannot view, query or download them. You can fit one of the models below on them and run the
+      fitted model on values you type in or download its weights; only aggregate results and model weights
+      leave. Every fit, run and download is logged.
+    </p>
+
+    <section class="card" aria-labelledby="stats-title">
+      <header><h2 id="stats-title">Statistics</h2><span class="muted">Groups under 10 are not shown</span></header>
+      <div class="card-body" id="stats" aria-live="polite"><p class="muted">Loading…</p></div>
+    </section>
+
+    <section class="card" aria-labelledby="fit-title">
+      <header><h2 id="fit-title">Fit a model</h2></header>
+      <div class="card-body">
+        <form id="fit-form" class="form">
+          <div class="row">
+            <div class="field">
+              <span class="label-row">
+                <label for="model">Model</label>
+                <span class="help" tabindex="0" role="button" aria-label="About the models" aria-describedby="model-help">?
+                  <span class="tip" role="tooltip" id="model-help">
+                    <span>Logistic regression: yes/no target.</span>
+                    <span>Decision tree: yes/no target, at most 3 levels deep, at least 20 patients per leaf.</span>
+                    <span>Ridge regression: numeric target.</span>
+                    <span>All models: at least 50 patients, trained on 80%, tested on 20%, 100 runs per fitted model.</span>
+                  </span>
+                </span>
+              </span>
+              <select id="model" required></select>
+            </div>
+            <label>Target (y)
+              <select id="y" required></select>
+            </label>
+          </div>
+          <fieldset>
+            <legend>Input variables (x)</legend>
+            <div id="x" class="choices"></div>
+          </fieldset>
+          <button type="submit" id="fit-btn">Fit model</button>
+        </form>
+        <div class="out" id="fit-out" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- download and run: shown once a model is fitted -->
+    <section class="card" id="download-section" aria-labelledby="download-title" hidden>
+      <header><h2 id="download-title">Download fitted model</h2></header>
+      <div class="card-body">
+        <div class="out" id="model-summary" aria-live="polite"></div>
+        <div class="download-row">
+          <p class="muted">The file holds the model's weights, its input variables and its target. No records.</p>
+          <div class="downloads" id="downloads"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="run-section" aria-labelledby="run-title" hidden>
+      <header><h2 id="run-title">Run fitted model</h2><span class="muted" id="runs-left"></span></header>
+      <div class="card-body">
+        <form id="run-form" class="form">
+          <div class="run-row">
+            <section class="segment inputs-segment" aria-labelledby="run-in-title">
+              <h3 class="segment-title" id="run-in-title">Inputs</h3>
+              <div id="run-inputs" class="inputs"></div>
+            </section>
+            <section class="segment" aria-labelledby="run-out-title">
+              <h3 class="segment-title" id="run-out-title">Output</h3>
+              <div id="run-out" aria-live="polite"></div>
+            </section>
+          </div>
+          <button type="submit" id="run-btn">Run model</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/spe.js"></script>
+</body>
+</html>

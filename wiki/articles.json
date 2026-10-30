@@ -1,0 +1,24 @@
+{
+  "source": "Regulation (EU) 2025/327, Chapter IV, ELI http://data.europa.eu/eli/reg/2025/327/oj",
+  "decision_table": [
+    {"step": 1, "if": "prohibited (Art. 54)", "decision": "REJECT", "articles": ["54"]},
+    {"step": 2, "if": "requested_as == 'health data request'", "decision": "APPROVE_STATISTICAL", "articles": ["53", "69"]},
+    {"step": 3, "if": "access application AND justifies_patient_level", "decision": "APPROVE_SPE", "articles": ["53", "66", "68", "73"]},
+    {"step": 4, "if": "any other access application", "decision": "APPROVE_STATISTICAL", "articles": ["53", "66", "69"]},
+    {"step": "extension", "if": "not prohibited AND no Art. 53(1) purpose fits", "decision": "REJECT", "articles": ["53"], "needs_staff_review": true}
+  ],
+  "optional_articles_on_approval": ["67", "71"],
+  "articles": {
+    "53": {"title": "Purposes for secondary use", "one_liner": "Health data may be used only for listed purposes such as research, public health, policy, official statistics, teaching and better care.", "source": "sources/art53.md",
+           "purposes": {"a": "public or occupational health (public bodies only)", "b": "policymaking and regulation (public bodies only)", "c": "official statistics (public bodies only)", "d": "education and teaching in health or care", "e": "scientific research incl. product development and algorithm training", "f": "improving care delivery and treatment"}},
+    "54": {"title": "Prohibited secondary use", "one_liner": "Some uses are banned: decisions against people, insurance and employment decisions, advertising, harmful products.", "source": "sources/art54.md",
+           "categories": {"detrimental_decisions": "54(a)", "discriminatory_terms_insurance_credit_employment": "54(b)", "advertising_marketing": "54(c)", "harmful_products": "54(d)", "national_ethics": "54(e)", "reidentification": "Art. 61(3), cited as 54"}},
+    "61": {"title": "Duties of health data users", "one_liner": "Users must not re-identify people or share data with third parties.", "source": "sources/art61.md"},
+    "66": {"title": "Data minimisation and purpose limitation", "one_liner": "Only the data needed are given, anonymised by default, pseudonymised only if anonymised data cannot work.", "source": "sources/art66.md"},
+    "67": {"title": "Health data access applications", "one_liner": "What an application for access to data must contain.", "source": "sources/art67.md"},
+    "68": {"title": "Data permit", "one_liner": "When a data permit is issued, and what it contains.", "source": "sources/art68.md"},
+    "69": {"title": "Health data request", "one_liner": "A health data request is answered only with anonymised statistics.", "source": "sources/art69.md"},
+    "71": {"title": "Right to opt out", "one_liner": "People can opt out; their data are then not used.", "source": "sources/art71.md"},
+    "73": {"title": "Secure processing environment", "one_liner": "Permitted data are accessed only in a secure processing environment; records cannot be downloaded.", "source": "sources/art73.md"}
+  }
+}

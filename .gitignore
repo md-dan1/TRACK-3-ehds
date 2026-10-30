@@ -1,2 +1,17 @@
 .DS_Store
 __pycache__/
+
+# secrets: never commit (repo is public)
+.env
+secrets/
+*api_key*
+
+# local build output and environments
+.venv/
+node_modules/
+web/dist/
+.pytest_cache/
+# downloaded local LLM weights (LOCAL_LLM)
+models/
+
+CLAUDE.md
